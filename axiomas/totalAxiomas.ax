@@ -1,0 +1,2865 @@
+<!-- CavidadeNasalESeiosParanasais_EC_III( C30_0 C31_0 C31_1 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C30_0"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C30_0"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C30_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C30_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_0"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_0"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_1"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_1"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- CavidadeNasalESeiosParanasais_EC_IV( C30_0 C31_0 C31_1 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C30_0"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C30_0"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C30_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C30_0"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C30_0"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C30_0"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_0"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_0"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_0"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_0"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_0"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_1"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_1"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_1"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_1"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;CavidadeNasalESeiosParanasais_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C31_1"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- ColonEReto_EC_III( C18 C20 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;ColonEReto_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C18"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;ColonEReto_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C18"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;ColonEReto_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C18"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;ColonEReto_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C18"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;ColonEReto_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C18"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;ColonEReto_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C20"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;ColonEReto_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C20"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;ColonEReto_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C20"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;ColonEReto_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C20"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;ColonEReto_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C20"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- ColonEReto_EC_IV( C18 C20 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;ColonEReto_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C18"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;ColonEReto_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C20"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Estomago_EC_III( C16 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Estomago_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C16"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Estomago_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C16"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Estomago_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C16"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Estomago_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C16"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Estomago_EC_IV( C16 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Estomago_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C16"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Estomago_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C16"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Estomago_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C16"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Estomago_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C16"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Estomago_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C16"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Estomago_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C16"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Estomago_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C16"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Faringe_EC_III( C11 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C11"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C11"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C11"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C11"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C11"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Faringe_EC_IV( C11 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C11"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C11"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C11"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C11"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C11"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Faringe_EC_III( C01 C05_1 C05_2 C09_0 C09_1 C09_9 C10_0 C10_2 C10_3 C12 C13 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C01"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C01"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C01"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C01"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_1"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_1"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_2"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_2"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_2"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_2"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_0"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_0"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_1"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_1"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_9"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_9"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_9"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_9"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_0"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_0"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_2"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_2"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_2"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_2"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_3"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_3"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_3"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_3"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C12"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C12"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C12"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C12"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C13"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C13"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C13"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C13"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Faringe_EC_IV( C01 C05_1 C05_2 C09_0 C09_1 C09_9 C10_0 C10_2 C10_3 C12 C13 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C01"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C01"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C01"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C01"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C01"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C01"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_1"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_1"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_1"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_1"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_1"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_2"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_2"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_2"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_2"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_2"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05_2"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_0"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_0"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_0"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_0"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_0"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_1"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_1"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_1"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_1"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_1"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_9"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_9"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_9"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_9"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_9"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C09_9"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_0"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_0"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_0"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_0"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_0"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_2"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_2"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_2"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_2"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_2"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_2"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_3"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_3"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_3"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_3"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_3"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_3"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C12"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C12"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C12"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C12"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C12"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C12"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C13"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C13"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C13"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C13"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C13"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Faringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C13"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- GlandulasSalivares_EC_III( C07 C08 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C07"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C07"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C07"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C07"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C08"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C08"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C08"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C08"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- GlandulasSalivares_EC_IV( C07 C08 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C07"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C07"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C07"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C07"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C07"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C07"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C08"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C08"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C08"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C08"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C08"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;GlandulasSalivares_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C08"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- LabioECavidadeOral_EC_III( C00 C02 C03 C04 C05 C06 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C00"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C00"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C00"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C00"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C02"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C02"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C02"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C02"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C03"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C03"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C03"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C03"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C04"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C04"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C04"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C04"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C06"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C06"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C06"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C06"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- LabioECavidadeOral_EC_IV( C00 C02 C03 C04 C05 C06 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C00"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C00"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C00"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C00"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C00"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C00"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C02"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C02"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C02"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C02"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C02"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C02"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C03"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C03"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C03"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C03"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C03"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C03"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C04"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C04"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C04"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C04"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C04"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C04"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C05"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C06"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C06"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C06"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C06"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C06"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;LabioECavidadeOral_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C06"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Laringe_EC_III( C32_0 C32_1 C32_2 C10_1 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_0"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_0"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_1"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_1"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_2"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_2"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_2"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_2"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_1"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_1"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Laringe_EC_IV( C32_0 C32_1 C32_2 C10_1 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_0"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_0"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_0"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_0"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_0"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_0"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_1"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_1"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_1"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_1"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_1"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_2"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_2"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_2"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_2"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_2"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C32_2"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_1"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_1"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_1"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_1"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_1"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Laringe_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C10_1"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- TumoresDeMama_EC_III( C50 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;TumoresDeMama_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C50"/>
+            <rdf:Description rdf:about="&recruit;T0"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;TumoresDeMama_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C50"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;TumoresDeMama_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C50"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;TumoresDeMama_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C50"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;TumoresDeMama_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C50"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;TumoresDeMama_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C50"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;TumoresDeMama_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C50"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;TumoresDeMama_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C50"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;TumoresDeMama_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C50"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- TumoresDeMama_EC_IV( C50 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;TumoresDeMama_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C50"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Ovario_EC_III( C56 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Ovario_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C56"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Ovario_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C56"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Ovario_EC_IV( C56 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Ovario_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C56"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Pancreas_EC_III( C25 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Pancreas_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C25"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Pancreas_EC_IV( C25 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Pancreas_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C25"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Prostata_EC_III( C61 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Prostata_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C61"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Prostata_EC_IV( C61 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Prostata_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C61"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Prostata_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C61"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Prostata_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C61"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Pulmao_EC_III( C34 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Pulmao_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C34"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Pulmao_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C34"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Pulmao_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C34"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Pulmao_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C34"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Pulmao_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C34"/>
+            <rdf:Description rdf:about="&recruit;N3"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Pulmao_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C34"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Pulmao_EC_IV( C34 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Pulmao_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C34"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Rim_EC_III( C64 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Rim_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C64"/>
+            <rdf:Description rdf:about="&recruit;T1"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Rim_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C64"/>
+            <rdf:Description rdf:about="&recruit;T2"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Rim_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C64"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Rim_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C64"/>
+            <rdf:Description rdf:about="&recruit;T3"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
+<!-- Rim_EC_IV( C64 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Rim_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C64"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N0"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Rim_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C64"/>
+            <rdf:Description rdf:about="&recruit;T4"/>
+            <rdf:Description rdf:about="&recruit;N1"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Rim_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C64"/>
+            <rdf:Description rdf:about="&recruit;N2"/>
+            <rdf:Description rdf:about="&recruit;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&recruit;Rim_EC_IV"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+	<rdf:Description rdf:about="&recruit;C64"/>
+            <rdf:Description rdf:about="&recruit;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+
