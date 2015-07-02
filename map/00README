@@ -1,3 +1,0 @@
-
-# Entre no diretório TNM_EC e rode a seguinte linha de comando:
-j=0; ls map/*.map | while read file; do echo $file; ./criar_axiomas_AND.py $file >> axiomas/totalAxiomas.ax ; ((j=j+1)); done;
