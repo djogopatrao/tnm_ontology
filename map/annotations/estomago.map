@@ -1,0 +1,17 @@
+cid10:C16
+classNameBase:Estomago
+mappingLanguage:pt
+page:70
+mappings:
+Tis: Carcinoma In Situ: tumor intra-epitelial sem invasão da lâmina própria
+T1: Tumor que invade a lâmina própria ou a submucosa
+T2: Tumor que invade a muscular própria ou a subserosa
+T2a: Tumor que invade a muscular própria
+T2b: Tumor que invade a subserosa
+T3: Tumor que penetra a serosa (peritônio visceral) sem invadir as estruturas adjacentes
+T4: Tumor que invade as estruturas adjacetes
+N1: Metástase em 1 a 6 linfonodos regionais
+N2: Metástase em 7 a 15 linfonodos regionais
+N3: Metástase em mais de 15 linfonodos regionais
+
+
