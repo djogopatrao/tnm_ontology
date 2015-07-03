@@ -1,0 +1,16 @@
+cid10:C12,C13
+classNameBase:Hipofaringe
+mappingLanguage:pt
+page:29
+mappings:
+T1: Tumor limitado a uma sub-localização anatômica da hipofaringe (Ver página 30) e com 2 cm ou menos em sua maior dimensão
+T2: Tumor que invade mais de uma sub-localização anatômica da hipofaringe, ou uma localização anatômica adjacente, ou mede mais de 2 cm, porém não mais de 4 cm em sua maior dimensão, sem fixação da hemilaringe
+T3: Tumor com mais de 4 cm em sua maior dimensão, ou com fixação da hemilaringe
+T4a: Tumor que invade qualquer uma das seguintes estruturas: cartilagem tireóide/cricóide, osso hióide, glândula tireóide, esôfago, compartimento central de partes moles*
+T4b: Tumor que invade fáscia pré-vertebral, envolve artéria carótida ou invade estruturas mediastinais
+N1: Metástase em um único linfonodo homolateral, com 3 cm ou menos em sua maior dimensão
+N2: Metástase em um único linfonodo homolateral, com mais de 3 cm, porém não mais de 6 cm em sua maior dimensão, ou em linfonodos homolaterais múltiplos, nenhum deles com mais de 6 cm em sua maior dimensão, ou em linfonodos bilaterais ou contralaterais, nenhum deles com mais de 6 cm em sua maior dimensão
+N2a: Metástase em um único linfonodo homolateral, com mais de 3 cm até 6 cm em sua maior dimensão
+N2b: Metástase em linfonodos homolaterais múltiplos, nenhum deles com mais de 6 cm em sua maior dimensão
+N2c: Metástase em linfonodos bilaterais ou contralaterais, nenhum deles com mais de 6 cm em sua maior dimensão
+N3: Metástase em linfonodo com mais de 6 cm em sua maior dimensão

@@ -1,0 +1,16 @@
+cid10:C11
+classNameBase:Nasofaringe
+mappingLanguage:pt
+page:29
+mappings:
+T1: Tumor confinado à nasofaringe
+T2: Tumor que se estende às partes moles
+T2a: Tumor que se estende à orofaringe e/ou cavidade nasal sem extensão parafaríngea*
+T2b: Tumor com extensão parafaríngea*
+T3: Tumor que invade estruturas ósseas e/ou seios paranasais
+T4: Tumor com extensão intracraniana e/ou envolvimento de nervos cranianos, fossa infratemporal, hipofaringe, órbita ou espaço mastigador
+N1: Metástase unilateral em linfonodo(s), com 6 cm ou menos em sua maior dimensão, acima da fossa supra-clavicular
+N2: Metástases bilateral em linfonodo(s) com 6 cm ou menos em sua maior dimensão acima da fossa supra-clavicular
+N3: Metástase em linfonodo(s) com mais de 6 cm em sua maior dimensão ou em fossa supra-clavicular
+N3a: Metástase em linfonodo(s) com mais de 6 cm em sua maior dimensão
+N3b: Metástase em linfonodo(s) na fossa supra-clavicular
