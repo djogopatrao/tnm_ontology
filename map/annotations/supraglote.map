@@ -1,0 +1,16 @@
+cid10:C32.1,C10.1
+classNameBase:Supraglote
+mappingLanguage:pt
+page:38
+mappings:
+T1: Tumor limitado a uma sub-localização anatômica da supraglote, com mobilidade normal da corda vocal
+T2: Tumor que invade a mucosa de mais de uma sublocalização anatômica adjacente da supraglote ou a glote ou região externa à supraglote (p. ex., a mucosa da base da língua, a valécula, a parede medial do seio piriforme), sem fixação da laringe
+T3: Tumor limitado à laringe com fixação da corda vocal e/ou invasão de qualquer uma das seguintes estruturas: área pós-cricoide, tecidos pré-epiglóticos, espaço para-glótico, e/ou com erosão mínima da cartilagem tireóide (p. ex., córtex interna)
+T4a: Tumor que invade toda a cartilagem tireóide e/ou estende-se aos tecidos além da laringe, p. ex., traquéia, partes moles do pescoço, incluindo músculos profundos/extrínsicos da língua (genioglosso, hioglosso, palatoglosso e estiloglosso), alça muscular, tireóide e esôfago
+T4b: Tumor que invade o espaço pré-vertebral, estruturas mediastinais ou adjacente a artéria carótida
+N1: Metástase em um único linfonodo homolateral, com 3 cm ou menos em sua maior dimensão
+N2: Metástase em um único linfonodo homolateral, com mais de 3 cm até 6 cm em sua maior dimensão; ou em linfonodos homolaterais múltiplos, nenhum deles com mais de 6 cm em sua maior dimensão; ou em linfonodos bilaterais ou contralaterais, nenhum deles com mais de 6 cm em sua maior dimensão
+N2a: Metástase em um único linfonodo homolateral, com mais de 3 cm até 6 cm em sua maior dimensão
+N2b: Metástase em linfonodos homolaterais múltiplos, nenhum deles com mais de 6cm em sua maior dimensão
+N2c: Metástase em linfonodos bilaterais ou contralaterais, nenhum deles com mais de 6 cm em sua maior dimensão
+N3: Metástase em linfonodo com mais de 6 cm em sua maior dimensão

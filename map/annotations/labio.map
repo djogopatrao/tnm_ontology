@@ -1,0 +1,10 @@
+cid10:C00
+classNameBase:LabioECavidadeOral
+mappingLanguage:pt
+page:24
+mappings:
+T1: Tumor com 2 cm ou menos em sua maior dimensão
+T2: Tumor com mais de 2 cm e até 4 cm em sua maior dimensão
+T3: Tumor com mais de 4 cm em sua maior dimensão
+T4a: Tumor que invade estruturas adjacentes: cortical óssea, nervo alveolar inferior, assoalho da boca, ou pele da face (queixo ou nariz)
+T4b: Tumor que invade o espaço mastigador, lâminas pterigóides ou base do crânio ou envolve artéria carótida interna
