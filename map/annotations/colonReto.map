@@ -1,0 +1,14 @@
+cid10:C18,C19,C20
+classNameBase:ColonEReto
+mappingLanguage:pt
+page:78-79
+mappings:
+Tis: Carcinoma In Situ: tumor intra-epitelial sem invasão da lâmina própria
+T1: Tumor que invade a submucosa
+T2: Tumor que invade a muscular própria
+T3: Tumor que invade além da muscular própria, alcançando a subserosa ou os tecidos peri-cólicos ou peri-retais, não peritonizados
+T4: Tumor que invade diretamente outros órgãos ou estruturas, e/ou que perfura o peritônio visceral
+N1: Metástase em 1 a 3 linfonodos regionais
+N2: Metástase em 4 ou mais linfonodos regionais
+
+
