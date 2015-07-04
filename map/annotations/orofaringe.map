@@ -1,0 +1,16 @@
+cid10:C01,C05.1,C05.2,C09.0,C09.1,C09.9,C10.0,C10.2,C10.3
+classNameBase:Orofaringe
+mappingLanguage:pt
+page:29
+mappings:
+T1: Tumor com 2cm ou menos em sua maior dimensão
+T2: Tumor com mais de 2cm até 4cm em sua maior dimensão
+T3: Tumor com mais de 4cm em sua maior dimensão
+T4a: Tumor que invade qualquer das seguintes estruturas: laringe, músculos profundos/extrínsicos da língua (genioglosso, hioglosso, palatoglosso e estiloglosso), pterigóide medial, palato duro e mandíbula
+T4b: Tumor que invade qualquer das seguintes estruturas: músculo pterigóide lateral, lâminas pterigóides, nasofaringe lateral, base do crânio ou adjacentes a artéria carótida
+N1: Metástase em um único linfonodo homolateral, com 3 cm ou menos em sua maior dimensão
+N2: Metástase em um único linfonodo homolateral, com mais de 3 cm, porém não mais de 6 cm em sua maior dimensão, ou em linfonodos homolaterais múltiplos, nenhum deles com mais de 6 cm em sua maior dimensão, ou em linfonodos bilaterais ou contralaterais, nenhum deles com mais de 6 cm em sua maior dimensão
+N2a: Metástase em um único linfonodo homolateral, com mais de 3 cm até 6 cm em sua maior dimensão
+N2b: Metástase em linfonodos homolaterais múltiplos, nenhum deles com mais de 6 cm em sua maior dimensão
+N2c: Metástase em linfonodos bilaterais ou contralaterais, nenhum deles com mais de 6 cm em sua maior dimensão
+N3: Metástase em linfonodo com mais de 6 cm em sua maior dimensão

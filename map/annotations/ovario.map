@@ -1,0 +1,19 @@
+cid10:C56
+classNameBase:Ovario
+mappingLanguage:pt
+page:172
+mappings:
+T1: Tumor limitado aos ovários
+T1a: Tumor limitado a um ovário; cápsula intacta, sem tumor na superfície ovariana; sem células malignas em líquido ascítico ou em lavados peritoneais
+T1b: Tumor limitado a ambos os ovários; cápsulas intactas, sem tumor nas superfícies ovarianas; sem células malignas em líquido ascítico ou em lavados peritoneais
+T1c: Tumor limitado a um ou ambos os ovários, com qualquer um dos seguintes achados: cápsula rompida, tumor na superfície ovariana, células malignas em líquido ascítico ou em lavados peritoneais
+T2: Tumor que envolve um ou ambos os ovários, com extensão pélvica
+T2a: Extensão e/ou implantes no útero e/ou trompa(s); sem células malignas em líquido ascítico ou em lavados peritoneais
+T2b: Extensão para outros tecidos pélvicos; sem células malignas em líquido ascítico ou em lavados peritoneais
+T2c: Extensão pélvica (2a ou 2b), com células malignas em líquido ascítico ou em lavados peritoneais
+T3: Tumor que envolve um ou ambos os ovários com metástase peritoneal fora da pélvis, confirmada microscopicamente
+T3a: Metástase peritoneal microscópica, além da pélvis
+T3b: Metástase peritoneal macroscópica, além da pélvis, com 2 cm ou menos em sua maior dimensão
+T3c: Metástase peritoneal, além da pélvis, com mais de 2 cm em sua maior dimensão
+N1: Metástase em linfonodo regional
+M1: Metástase à distância (exclui metástase peritoneal)

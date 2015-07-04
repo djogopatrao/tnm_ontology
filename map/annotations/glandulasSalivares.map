@@ -1,0 +1,13 @@
+cid10:C07,C08
+classNameBase:GlandulasSalivares
+mappingLanguage:pt
+page:51
+mappings:
+T1:Tumor com 2 cm ou menos em sua maior dimensão, sem extensão extra-parenquimatosa.*
+T2: Tumor com mais de 2 cm até 4 cm em sua maior dimensão, sem extensão extra-parenquimatosa*
+T3: Tumor com mais de 4 cm e/ou tumor com extensão extraparenquimatosa*
+T4a: Tumor que invade pele, mandíbula, canal auditivo ou nervo facial
+T4b: Tumor que invade base do crânio, lâminas pterigóides ou adjacente à artéria carótida
+N1: Metástase em um único linfonodo homolateral, com 3 cm ou menos em sua maior dimensão
+N2: Metástase em um único linfonodo homolateral, com mais de 3 cm até 6 cm em sua maior dimensão, ou em linfonodos homolaterais múltiplos, nenhum deles com mais de 6 cm em sua maior dimensão, ou em linfonodos bilaterais ou contralaterais, nenhum deles com mais de 6 cm em sua maior dimensão
+

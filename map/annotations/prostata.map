@@ -1,0 +1,21 @@
+cid10:C61
+classNameBase:Prostata
+mappingLanguage:pt
+page:190
+mappings:
+T1: Tumor não diagnosticado clinicamente, não palpável ou visível por meio de exame de imagem
+T1a: Achado histológico incidental em 5% ou menos de tecido ressecado
+T1b: Achado histológico incidental em mais de 5% de tecido ressecado
+T1c: Tumor identificado por biópsia por agulha (p. ex., devido a PSA* elevado)
+T2: Tumor confinado à próstata1
+T2a: Tumor que envolve uma metade de um dos lobos ou menos
+T2b: Tumor que envolve mais da metade de um dos lobos, mas não ambos os lobos
+T2c: Tumor que envolve ambos os lobos
+T3: Tumor que se estende através da cápsula prostática2
+T3a: Extensão extracapsular (uni- ou bilateral)
+T3b: Tumor que invade vesícula(s) seminal(ais)
+T4: Tumor está fixo ou invade outras estruturas adjacentes, que não as vesículas seminais: colo vesical, esfíncter externo, reto, músculos elevadores do ânus, ou parede pélvica
+M1: Metástase à distância
+M1a: Metástase em linfonodo(s) não regional(ais)
+M1b: Metástase em Osso(s)
+M1c: Metástase em Outra(s) localização(ões)

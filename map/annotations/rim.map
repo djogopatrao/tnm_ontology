@@ -1,0 +1,17 @@
+cid10:C64
+classNameBase:Rim
+mappingLanguage:pt
+page:200
+mappings:
+T1: Tumor com 7 cm ou menos em sua maior dimensão, limitado ao rim
+T1a: Tumor com 4 cm ou menos
+T1b: Tumor com mais de 4 cm até 7 cm
+T2: Tumor com mais de 7 cm em sua maior dimensão, limitado ao rim
+T3: Tumor que se estende às grandes veias ou que invade diretamente a supra-renal ou os tecidos peri-renais, porém aquém da fáscia de Gerota
+T3a: Tumor que invade diretamente a supra-renal ou os tecidos peri-renais1, porém aquém da fáscia de Gerota
+T3b: Extensão macroscópica do tumor à(s) veia(s)2 renal(is) ou à veia cava, ou à sua parede, abaixo do diafragma
+T3c: Extensão macroscópica do tumor à veia cava, ou à sua parede, acima do diafragma
+T4: Tumor que invade diretamente além da fáscia de Gerota
+N1: Metástase em um único linfonodo regional
+N2: Metástase em mais de um linfonodo regional
+

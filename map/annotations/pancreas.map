@@ -1,0 +1,9 @@
+cid10:C25
+classNameBase:Pancreas
+mappingLanguage:pt
+page:99
+mappings:
+T1: Tumor limitado ao pâncreas, com 2 cm ou menos em sua maior dimensão
+T2: Tumor limitado ao pâncreas, com mais de 2 cm em sua maior dimensão  mesentérica superior
+T3: Tumor que se estende além do pâncreas, mas sem envolvimento do plexo celíaco ou artéria
+T4: Tumor que envolve o plexo celíaco ou artéria mesentérica superior

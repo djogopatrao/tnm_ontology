@@ -1,0 +1,18 @@
+cid10:C32.0
+classNameBase:Glote
+mappingLanguage:pt
+page:38
+mappings:
+T1: Tumor limitado à(s) corda(s) vocal(ais) (pode envolver a comissura anterior ou posterior), com mobilidade normal da(s) corda(s)
+T1a: Tumor limitado a uma corda vocal
+T1b: Tumor que envolve ambas as cordas vocais
+T2: Tumor que se estende à supraglote e/ou subglote, e/ ou com mobilidade diminuída da corda vocal
+T3: Tumor limitado à laringe, com fixação da corda vocal e/ou que invade o espaço para-glótico, e/ou com erosão mínima da cartilagem tireóide (p.ex., córtex interna)
+T4a: Tumor que invade completamente a cartilagem tireóide, ou estende-se aos tecidos além da laringe, p.ex., traquéia, partes moles do pescoço, incluindo músculos os profundos/extrínsecos da língua (genioglosso, hioglosso, palatoglosso e estiloglosso), alça muscular, tireóide e esôfago
+T4b: Tumor que invade o espaço pré-vertebral, estruturas mediastinais ou adjacente a artéria carótida
+N1: Metástase em um único linfonodo homolateral, com 3 cm ou menos em sua maior dimensão
+N2: Metástase em um único linfonodo homolateral, com mais de 3 cm até 6 cm em sua maior dimensão; ou em linfonodos homolaterais múltiplos, nenhum deles com mais de 6 cm em sua maior dimensão; ou em linfonodos bilaterais ou contralaterais, nenhum deles com mais de 6 cm em sua maior dimensão
+N2a: Metástase em um único linfonodo homolateral, com mais de 3 cm até 6 cm em sua maior dimensão
+N2b: Metástase em linfonodos homolaterais múltiplos, nenhum deles com mais de 6cm em sua maior dimensão
+N2c: Metástase em linfonodos bilaterais ou contralaterais, nenhum deles com mais de 6 cm em sua maior dimensão
+N3: Metástase em linfonodo com mais de 6 cm em sua maior dimensão
