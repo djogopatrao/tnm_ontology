@@ -1,0 +1,1226 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY recruit "http://cipe.accamargo.org.br/ontologias/recruit.owl#" >
+    <!ENTITY recruit_cid10 "http://cipe.accamargo.org.br/ontologias/recruit_cid10.owl#" >
+    <!ENTITY tnm "http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#"
+     xml:base="http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl"
+     xmlns:recruit_cid10="http://cipe.accamargo.org.br/ontologias/recruit_cid10.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:recruit="http://cipe.accamargo.org.br/ontologias/recruit.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:tnm="http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#">
+    <owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#autocompleteCategory -->
+
+    <owl:AnnotationProperty rdf:about="&tnm;autocompleteCategory"/>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#autocompleteValue -->
+
+    <owl:AnnotationProperty rdf:about="&tnm;autocompleteValue"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="&skos;prefLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/recruit_cid10.owl#autocompleteCategory -->
+
+    <owl:DatatypeProperty rdf:about="&recruit_cid10;autocompleteCategory"/>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/recruit_cid10.owl#autocompleteValue -->
+
+    <owl:DatatypeProperty rdf:about="&recruit_cid10;autocompleteValue"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_0 -->
+
+    <owl:Class rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_0">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_I -->
+
+    <owl:Class rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_I">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_III -->
+
+    <owl:Class rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Cavidade Nasal E Seios Paranasais EC III</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_IV -->
+
+    <owl:Class rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Cavidade Nasal e Seios Paranasais EC IV</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_0 -->
+
+    <owl:Class rdf:about="&tnm;ColonEReto_EC_0">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_I -->
+
+    <owl:Class rdf:about="&tnm;ColonEReto_EC_I">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_III -->
+
+    <owl:Class rdf:about="&tnm;ColonEReto_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Cólon e Reto EC III</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_IV -->
+
+    <owl:Class rdf:about="&tnm;ColonEReto_EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Cólon e Reto EC IV</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC -->
+
+    <owl:Class rdf:about="&tnm;EC">
+        <rdfs:subClassOf rdf:resource="&tnm;TNM_6a_edicao"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Estadio Clínico</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_0 -->
+
+    <owl:Class rdf:about="&tnm;EC_0">
+        <rdfs:subClassOf rdf:resource="&tnm;EC"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Estadio Clínico 0</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_I -->
+
+    <owl:Class rdf:about="&tnm;EC_I">
+        <rdfs:subClassOf rdf:resource="&tnm;EC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IA -->
+
+    <owl:Class rdf:about="&tnm;EC_IA">
+        <rdfs:subClassOf rdf:resource="&tnm;EC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IB -->
+
+    <owl:Class rdf:about="&tnm;EC_IB">
+        <rdfs:subClassOf rdf:resource="&tnm;EC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IC -->
+
+    <owl:Class rdf:about="&tnm;EC_IC">
+        <rdfs:subClassOf rdf:resource="&tnm;EC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_III -->
+
+    <owl:Class rdf:about="&tnm;EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Estadio Clínico III</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IV -->
+
+    <owl:Class rdf:about="&tnm;EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Estadio Clínico IV</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_0 -->
+
+    <owl:Class rdf:about="&tnm;Estomago_EC_0">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_IA -->
+
+    <owl:Class rdf:about="&tnm;Estomago_EC_IA">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_IB -->
+
+    <owl:Class rdf:about="&tnm;Estomago_EC_IB">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_III -->
+
+    <owl:Class rdf:about="&tnm;Estomago_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Estômago EC III</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_IV -->
+
+    <owl:Class rdf:about="&tnm;Estomago_EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Estômago EC IV</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeNasofaringe_EC_0 -->
+
+    <owl:Class rdf:about="&tnm;FaringeNasofaringe_EC_0">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeNasofaringe_EC_I -->
+
+    <owl:Class rdf:about="&tnm;FaringeNasofaringe_EC_I">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeOrofaringeHipofaringe_EC_0 -->
+
+    <owl:Class rdf:about="&tnm;FaringeOrofaringeHipofaringe_EC_0">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeOrofaringeHipofaringe_EC_I -->
+
+    <owl:Class rdf:about="&tnm;FaringeOrofaringeHipofaringe_EC_I">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeOrofaringeHipofaringe_EC_III -->
+
+    <owl:Class rdf:about="&tnm;FaringeOrofaringeHipofaringe_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Faringe_EC_III -->
+
+    <owl:Class rdf:about="&tnm;Faringe_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Faringe EC III</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Faringe_EC_IV -->
+
+    <owl:Class rdf:about="&tnm;Faringe_EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Faringe EC IV</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulaTireoide_EC_III -->
+
+    <owl:Class rdf:about="&tnm;GlandulaTireoide_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Glândula Tireóide EC III</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulaTireoide_EC_IV -->
+
+    <owl:Class rdf:about="&tnm;GlandulaTireoide_EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Glândula Tireóide EC IV</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulasSalivares_EC_I -->
+
+    <owl:Class rdf:about="&tnm;GlandulasSalivares_EC_I">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulasSalivares_EC_III -->
+
+    <owl:Class rdf:about="&tnm;GlandulasSalivares_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Glândulas Salivares EC III</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulasSalivares_EC_IV -->
+
+    <owl:Class rdf:about="&tnm;GlandulasSalivares_EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Glândulas Salivares EC IV</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_0 -->
+
+    <owl:Class rdf:about="&tnm;LabioECavidadeOral_EC_0">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_I -->
+
+    <owl:Class rdf:about="&tnm;LabioECavidadeOral_EC_I">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_III -->
+
+    <owl:Class rdf:about="&tnm;LabioECavidadeOral_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Lábio e Cavidade Oral EC III</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_IV -->
+
+    <owl:Class rdf:about="&tnm;LabioECavidadeOral_EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Lábio e Cavidade Oral EC IV</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_0 -->
+
+    <owl:Class rdf:about="&tnm;Laringe_EC_0">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_I -->
+
+    <owl:Class rdf:about="&tnm;Laringe_EC_I">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_III -->
+
+    <owl:Class rdf:about="&tnm;Laringe_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Laringe EC III</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_IV -->
+
+    <owl:Class rdf:about="&tnm;Laringe_EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Laringe EC IV</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M -->
+
+    <owl:Class rdf:about="&tnm;M">
+        <rdfs:subClassOf rdf:resource="&tnm;TNM_6a_edicao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M0 -->
+
+    <owl:Class rdf:about="&tnm;M0">
+        <rdfs:subClassOf rdf:resource="&tnm;M"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">M0</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M1 -->
+
+    <owl:Class rdf:about="&tnm;M1">
+        <rdfs:subClassOf rdf:resource="&tnm;M"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">M1</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#MX -->
+
+    <owl:Class rdf:about="&tnm;MX">
+        <rdfs:subClassOf rdf:resource="&tnm;M"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">MX</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N -->
+
+    <owl:Class rdf:about="&tnm;N">
+        <rdfs:subClassOf rdf:resource="&tnm;TNM_6a_edicao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N0 -->
+
+    <owl:Class rdf:about="&tnm;N0">
+        <rdfs:subClassOf rdf:resource="&tnm;N"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">N0</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N1 -->
+
+    <owl:Class rdf:about="&tnm;N1">
+        <rdfs:subClassOf rdf:resource="&tnm;N"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">N1</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N2 -->
+
+    <owl:Class rdf:about="&tnm;N2">
+        <rdfs:subClassOf rdf:resource="&tnm;N"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">N2</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N3 -->
+
+    <owl:Class rdf:about="&tnm;N3">
+        <rdfs:subClassOf rdf:resource="&tnm;N"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">N3</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IA -->
+
+    <owl:Class rdf:about="&tnm;Ovario_EC_IA">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IB -->
+
+    <owl:Class rdf:about="&tnm;Ovario_EC_IB">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IC -->
+
+    <owl:Class rdf:about="&tnm;Ovario_EC_IC">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_III -->
+
+    <owl:Class rdf:about="&tnm;Ovario_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Ovário EC III</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IV -->
+
+    <owl:Class rdf:about="&tnm;Ovario_EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Ovário EC IV</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_0 -->
+
+    <owl:Class rdf:about="&tnm;Pancreas_EC_0">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_IA -->
+
+    <owl:Class rdf:about="&tnm;Pancreas_EC_IA">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_IB -->
+
+    <owl:Class rdf:about="&tnm;Pancreas_EC_IB">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_III -->
+
+    <owl:Class rdf:about="&tnm;Pancreas_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Pâncreas EC III</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_IV -->
+
+    <owl:Class rdf:about="&tnm;Pancreas_EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Pâncreas EC IV</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Prostata_EC_I -->
+
+    <owl:Class rdf:about="&tnm;Prostata_EC_I">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Prostata_EC_III -->
+
+    <owl:Class rdf:about="&tnm;Prostata_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Próstata EC III</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Prostata_EC_IV -->
+
+    <owl:Class rdf:about="&tnm;Prostata_EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Próstata EC IV</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_0 -->
+
+    <owl:Class rdf:about="&tnm;Pulmao_EC_0">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_IA -->
+
+    <owl:Class rdf:about="&tnm;Pulmao_EC_IA">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_IB -->
+
+    <owl:Class rdf:about="&tnm;Pulmao_EC_IB">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IB"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_III -->
+
+    <owl:Class rdf:about="&tnm;Pulmao_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Pulmão EC III</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_IV -->
+
+    <owl:Class rdf:about="&tnm;Pulmao_EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Pulmão EC IV</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Rim_EC_I -->
+
+    <owl:Class rdf:about="&tnm;Rim_EC_I">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Rim_EC_III -->
+
+    <owl:Class rdf:about="&tnm;Rim_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Rim EC III</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Rim_EC_IV -->
+
+    <owl:Class rdf:about="&tnm;Rim_EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Rim EC IV</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T -->
+
+    <owl:Class rdf:about="&tnm;T">
+        <rdfs:subClassOf rdf:resource="&tnm;TNM_6a_edicao"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T0 -->
+
+    <owl:Class rdf:about="&tnm;T0">
+        <rdfs:subClassOf rdf:resource="&tnm;T"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">T0</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T1 -->
+
+    <owl:Class rdf:about="&tnm;T1">
+        <rdfs:subClassOf rdf:resource="&tnm;T"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">T1</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T2 -->
+
+    <owl:Class rdf:about="&tnm;T2">
+        <rdfs:subClassOf rdf:resource="&tnm;T"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">T2</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T3 -->
+
+    <owl:Class rdf:about="&tnm;T3">
+        <rdfs:subClassOf rdf:resource="&tnm;T"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">T3</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T4 -->
+
+    <owl:Class rdf:about="&tnm;T4">
+        <rdfs:subClassOf rdf:resource="&tnm;T"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">T4</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TNM_6a_edicao -->
+
+    <owl:Class rdf:about="&tnm;TNM_6a_edicao">
+        <skos:prefLabel rdf:datatype="&xsd;string">TNM 6a edicao</skos:prefLabel>
+        <autocompleteCategory rdf:datatype="&xsd;boolean">true</autocompleteCategory>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TX -->
+
+    <owl:Class rdf:about="&tnm;TX">
+        <rdfs:subClassOf rdf:resource="&tnm;T"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">TX</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Tis -->
+
+    <owl:Class rdf:about="&tnm;Tis">
+        <rdfs:subClassOf rdf:resource="&tnm;T"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Tis</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_0 -->
+
+    <owl:Class rdf:about="&tnm;TumoresDeMama_EC_0">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_I -->
+
+    <owl:Class rdf:about="&tnm;TumoresDeMama_EC_I">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_III -->
+
+    <owl:Class rdf:about="&tnm;TumoresDeMama_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Tumores de Mama EC III</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_IV -->
+
+    <owl:Class rdf:about="&tnm;TumoresDeMama_EC_IV">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
+        <skos:prefLabel rdf:datatype="&xsd;string">Tumores de Mama EC IV</skos:prefLabel>
+        <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;ColonEReto_EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;ColonEReto_EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Estomago_EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Estomago_EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Faringe_EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Faringe_EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Faringe_EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Faringe_EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulaTireoide_EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;GlandulaTireoide_EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulaTireoide_EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;GlandulaTireoide_EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulasSalivares_EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;GlandulasSalivares_EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulasSalivares_EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;GlandulasSalivares_EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;LabioECavidadeOral_EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;LabioECavidadeOral_EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Laringe_EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Laringe_EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M -->
+
+    <owl:NamedIndividual rdf:about="&tnm;M">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M0 -->
+
+    <owl:NamedIndividual rdf:about="&tnm;M0">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M1 -->
+
+    <owl:NamedIndividual rdf:about="&tnm;M1">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N -->
+
+    <owl:NamedIndividual rdf:about="&tnm;N">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N0 -->
+
+    <owl:NamedIndividual rdf:about="&tnm;N0">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N1 -->
+
+    <owl:NamedIndividual rdf:about="&tnm;N1">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N2 -->
+
+    <owl:NamedIndividual rdf:about="&tnm;N2">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N3 -->
+
+    <owl:NamedIndividual rdf:about="&tnm;N3">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Ovario_EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Ovario_EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Pancreas_EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Pancreas_EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Prostata_EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Prostata_EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Prostata_EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Prostata_EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Pulmao_EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Pulmao_EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Rim_EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Rim_EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Rim_EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;Rim_EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T -->
+
+    <owl:NamedIndividual rdf:about="&tnm;T">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T0 -->
+
+    <owl:NamedIndividual rdf:about="&tnm;T0">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T1 -->
+
+    <owl:NamedIndividual rdf:about="&tnm;T1">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T2 -->
+
+    <owl:NamedIndividual rdf:about="&tnm;T2">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T3 -->
+
+    <owl:NamedIndividual rdf:about="&tnm;T3">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T4 -->
+
+    <owl:NamedIndividual rdf:about="&tnm;T4">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TNM_6a_edicao -->
+
+    <owl:NamedIndividual rdf:about="&tnm;TNM_6a_edicao">
+        <recruit_cid10:autocompleteCategory rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteCategory>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_III -->
+
+    <owl:NamedIndividual rdf:about="&tnm;TumoresDeMama_EC_III">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_IV -->
+
+    <owl:NamedIndividual rdf:about="&tnm;TumoresDeMama_EC_IV">
+        <recruit_cid10:autocompleteValue rdf:datatype="&xsd;boolean">true</recruit_cid10:autocompleteValue>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
