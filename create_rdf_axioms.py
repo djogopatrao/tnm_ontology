@@ -28,8 +28,8 @@ print '''<?xml version="1.0"?>
 ]>
 
 
-<rdf:RDF xmlns="http://www.semanticweb.org/djogo/ontologies/2015/6/axiomas.owl#"
- 	xml:base="http://www.semanticweb.org/djogo/ontologies/2015/6/axiomas.owl"
+<rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologias/axiomas.owl#"
+ 	xml:base="http://cipe.accamargo.org.br/ontologias/axiomas.owl"
  	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  	xmlns:terms="http://purl.org/dc/terms/"
  	xmlns:owl="http://www.w3.org/2002/07/owl#"

@@ -747,6 +747,30 @@
     
 
 
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M1a -->
+
+    <owl:Class rdf:about="&tnm;M1a">
+        <rdfs:subClassOf rdf:resource="&tnm;M1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M1b -->
+
+    <owl:Class rdf:about="&tnm;M1b">
+        <rdfs:subClassOf rdf:resource="&tnm;M1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M1c -->
+
+    <owl:Class rdf:about="&tnm;M1c">
+        <rdfs:subClassOf rdf:resource="&tnm;M1"/>
+    </owl:Class>
+    
+
+
     <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#MX -->
 
     <owl:Class rdf:about="&tnm;MX">
@@ -795,12 +819,60 @@
     
 
 
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N2a -->
+
+    <owl:Class rdf:about="&tnm;N2a">
+        <rdfs:subClassOf rdf:resource="&tnm;N2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N2b -->
+
+    <owl:Class rdf:about="&tnm;N2b">
+        <rdfs:subClassOf rdf:resource="&tnm;N2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N2c -->
+
+    <owl:Class rdf:about="&tnm;N2c">
+        <rdfs:subClassOf rdf:resource="&tnm;N2"/>
+    </owl:Class>
+    
+
+
     <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N3 -->
 
     <owl:Class rdf:about="&tnm;N3">
         <rdfs:subClassOf rdf:resource="&tnm;N"/>
         <skos:prefLabel rdf:datatype="&xsd;string">N3</skos:prefLabel>
         <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N3a -->
+
+    <owl:Class rdf:about="&tnm;N3a">
+        <rdfs:subClassOf rdf:resource="&tnm;N3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N3b -->
+
+    <owl:Class rdf:about="&tnm;N3b">
+        <rdfs:subClassOf rdf:resource="&tnm;N3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N3c -->
+
+    <owl:Class rdf:about="&tnm;N3c">
+        <rdfs:subClassOf rdf:resource="&tnm;N3"/>
     </owl:Class>
     
 
@@ -1113,12 +1185,68 @@
     
 
 
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T1a -->
+
+    <owl:Class rdf:about="&tnm;T1a">
+        <rdfs:subClassOf rdf:resource="&tnm;T1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T1b -->
+
+    <owl:Class rdf:about="&tnm;T1b">
+        <rdfs:subClassOf rdf:resource="&tnm;T1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T1c -->
+
+    <owl:Class rdf:about="&tnm;T1c">
+        <rdfs:subClassOf rdf:resource="&tnm;T1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T1mic -->
+
+    <owl:Class rdf:about="&tnm;T1mic">
+        <rdfs:subClassOf rdf:resource="&tnm;T1"/>
+    </owl:Class>
+    
+
+
     <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T2 -->
 
     <owl:Class rdf:about="&tnm;T2">
         <rdfs:subClassOf rdf:resource="&tnm;T"/>
         <skos:prefLabel rdf:datatype="&xsd;string">T2</skos:prefLabel>
         <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T2a -->
+
+    <owl:Class rdf:about="&tnm;T2a">
+        <rdfs:subClassOf rdf:resource="&tnm;T2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T2b -->
+
+    <owl:Class rdf:about="&tnm;T2b">
+        <rdfs:subClassOf rdf:resource="&tnm;T2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T2c -->
+
+    <owl:Class rdf:about="&tnm;T2c">
+        <rdfs:subClassOf rdf:resource="&tnm;T2"/>
     </owl:Class>
     
 
@@ -1133,12 +1261,68 @@
     
 
 
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T3a -->
+
+    <owl:Class rdf:about="&tnm;T3a">
+        <rdfs:subClassOf rdf:resource="&tnm;T3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T3b -->
+
+    <owl:Class rdf:about="&tnm;T3b">
+        <rdfs:subClassOf rdf:resource="&tnm;T3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T3c -->
+
+    <owl:Class rdf:about="&tnm;T3c">
+        <rdfs:subClassOf rdf:resource="&tnm;T3"/>
+    </owl:Class>
+    
+
+
     <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T4 -->
 
     <owl:Class rdf:about="&tnm;T4">
         <rdfs:subClassOf rdf:resource="&tnm;T"/>
         <skos:prefLabel rdf:datatype="&xsd;string">T4</skos:prefLabel>
         <autocompleteValue rdf:datatype="&xsd;boolean">true</autocompleteValue>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T4a -->
+
+    <owl:Class rdf:about="&tnm;T4a">
+        <rdfs:subClassOf rdf:resource="&tnm;T4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T4b -->
+
+    <owl:Class rdf:about="&tnm;T4b">
+        <rdfs:subClassOf rdf:resource="&tnm;T4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T4c -->
+
+    <owl:Class rdf:about="&tnm;T4c">
+        <rdfs:subClassOf rdf:resource="&tnm;T4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T4d -->
+
+    <owl:Class rdf:about="&tnm;T4d">
+        <rdfs:subClassOf rdf:resource="&tnm;T4"/>
     </owl:Class>
     
 

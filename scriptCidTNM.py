@@ -42,8 +42,8 @@ print '''<?xml version="1.0"?>
 ]>
 
 
-<rdf:RDF xmlns="http://www.semanticweb.org/djogo/ontologies/2015/6/untitled-ontology-190#"
- 	xml:base="http://www.semanticweb.org/djogo/ontologies/2015/6/untitled-ontology-190"
+<rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologias/annotations#"
+ 	xml:base="http://cipe.accamargo.org.br/ontologias/annotations"
  	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  	xmlns:terms="http://purl.org/dc/terms/"
  	xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -51,9 +51,7 @@ print '''<?xml version="1.0"?>
  	xmlns:%s="%s#"
  	xmlns:%s="%s#"
  	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-	<owl:Ontology rdf:about="http://www.semanticweb.org/djogo/ontologies/2015/6/untitled-ontology-190">
-    	<owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
-	</owl:Ontology>
+	<owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologias/annotations"/>
 	
 ''' % (prefixICD10,uriICD10,prefix,uri,prefixICD10,uriICD10,prefix,uri);
 
