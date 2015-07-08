@@ -23,6 +23,7 @@ print '''<?xml version="1.0"?>
     	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     	<!ENTITY recruit "http://cipe.accamargo.org.br/ontologias/recruit.owl#" >
     	<!ENTITY recruit_cid10 "http://cipe.accamargo.org.br/ontologias/recruit_cid10.owl#" >
+    	<!ENTITY icdo "http://cipe.accamargo.org.br/ontologias/tnm_6e_icdo_topographies.owl#" >
     	<!ENTITY tnm "http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#" >
 ]>
 
@@ -35,6 +36,7 @@ print '''<?xml version="1.0"?>
  	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
  	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:recruit_cid10="http://cipe.accamargo.org.br/ontologias/recruit_cid10.owl#"
+    	xmlns:icdo="http://cipe.accamargo.org.br/ontologias/tnm_6e_icdo_topographies.owl#"
      	xmlns:recruit="http://cipe.accamargo.org.br/ontologias/recruit.owl#"
      	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      	xmlns:tnm="http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#">
@@ -68,7 +70,7 @@ for file in sorted(os.listdir("./map")):
                 print '''     <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;%s"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&tnm;%s"/>''' % (ClassName,cid)
+            <rdf:Description rdf:about="&icdo;%s"/>''' % (ClassName,cid)
                 x = axioma.split(" ");
                 for tnm in x:
                         print '            <rdf:Description rdf:about="&tnm;%s"/>' % (tnm)
