@@ -1,2 +1,2 @@
-# Run this command in the same folder of this python script.
-./scriptAxioms.py > axiomas/totalAxiomas.ax
+# Run this command in order to create the aximos.
+./create_rdf_axioms.py > axiomas/totalAxiomas.rdf
