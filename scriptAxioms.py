@@ -25,12 +25,12 @@ for file in sorted(os.listdir("./map")):
 	for cid in cids:
             for axioma in seq[2:(len(seq)-1)]:
                 print '''     <owl:Class>
-        <rdfs:subClassOf rdf:resource="&recruit;%s"/>
+        <rdfs:subClassOf rdf:resource="&tnm;%s"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&recruit;%s"/>''' % (ClassName,cid)
+            <rdf:Description rdf:about="&tnm;%s"/>''' % (ClassName,cid)
                 x = axioma.split(" ");
                 for tnm in x:
-                        print '            <rdf:Description rdf:about="&recruit;%s"/>' % (tnm)
+                        print '            <rdf:Description rdf:about="&tnm;%s"/>' % (tnm)
 
                 print '''        </owl:intersectionOf>
      </owl:Class>'''
