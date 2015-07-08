@@ -5,15 +5,26 @@ import os
 import sys
 import getopt
 
-options, remainder = getopt.getopt(sys.argv[1:], 'p:', ['prefix='])
+options, remainder = getopt.getopt(sys.argv[1:], 'p:c:', ['prefix=prefixICD10='])
 
-if not sys.argv[1:]:sys.exit('Error. You need to pass the prefix. For example, run \"./scriptCidTNM.py -p prefix\" ');
+errmsg = 'Error. You need to pass the URI parameters. For example, run \"./scriptCidTNM.py -p http://TNMURI/ -c http://prefixICD10/\" ';
+
+if not sys.argv[2:]:sys.exit(errmsg);
+
+prefix = 0;
+prefixICD10 = 0;
 
 for opt, arg in options:
-    if opt in ('-p', '--prefix'):
-       prefix = arg;
-    else:
-       sys.exit('Error. You need to pass the prefix. For example, run \"./scriptCidTNM.py -p prefix\" ');
+    if opt in ('-p', '--prefixTNM'):
+       prefix = 'tnm';
+       uri = arg;
+    if opt in ('-c', '--prefixICD10'):
+       uriICD10 = arg;
+       prefixICD10 = 'icd10';
+
+
+if not prefix or not prefixICD10:
+    sys.exit(errmsg);
 
 
 # print header RDF
@@ -26,6 +37,8 @@ print '''<?xml version="1.0"?>
 	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
 	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
 	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+	<!ENTITY %s "%s#" >
+	<!ENTITY %s "%s#" >
 ]>
 
 
@@ -35,12 +48,14 @@ print '''<?xml version="1.0"?>
  	xmlns:terms="http://purl.org/dc/terms/"
  	xmlns:owl="http://www.w3.org/2002/07/owl#"
  	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ 	xmlns:%s="%s#"
+ 	xmlns:%s="%s#"
  	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<owl:Ontology rdf:about="http://www.semanticweb.org/djogo/ontologies/2015/6/untitled-ontology-190">
     	<owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
 	</owl:Ontology>
 	
-'''
+''' % (prefixICD10,uriICD10,prefix,uri,prefixICD10,uriICD10,prefix,uri);
 
 for file in sorted(os.listdir("./map/annotations")):
     if file.endswith(".map"):
@@ -89,7 +104,7 @@ for file in sorted(os.listdir("./map/annotations")):
                             prefix, j, 
                             hashMap['mappingLanguage'], hashMap[j], hashMap['page'], 
                             prefix, hashMap['cid10'], j,
-                            prefix, hashMap['cid10'],
+                            prefixICD10, hashMap['cid10'],
                             prefix, j)
 
 	   else:
@@ -100,7 +115,7 @@ for file in sorted(os.listdir("./map/annotations")):
     	<owl:intersectionOf rdf:parseType="Collection">''' % (prefix, hashMap['classNameBase'], prefix, hashMap['classNameBase'])
 
 		for cid in hashMap['cid10'].split(","):
-			print '''        	<rdf:Description rdf:about="&%s;%s"/>''' % (prefix, cid.replace('.','_'))
+			print '''        	<rdf:Description rdf:about="&%s;%s"/>''' % (prefixICD10, cid.replace('.','_'))
 			
 		print '''    	</owl:intersectionOf>
 	</owl:Class>
