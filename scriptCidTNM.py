@@ -80,35 +80,40 @@ for file in sorted(os.listdir("./map/annotations")):
 
 	   print '';
 
+           tnmClassWithICD10 = "&" + prefix + ";" + hashMap['cid10'] + "_" + j;
+           tnmClass = "&" + prefix + ";" + j;
+           icd10Class = "&" + prefixICD10 + ";" + hashMap['cid10'];
+
 	   if len(hashMap['cid10'].split(",")) == 1:
 	   
-		print '''	<!-- &%s;:%s_%s -->
+		print '''	<!-- %s -->
 
-	<owl:Class rdf:about="&%s;%s_%s">
-    	<rdfs:subClassOf rdf:resource="&%s;%s"/>
-    	<rdfs:subClassOf rdf:resource="&%s;%s"/>
+	<owl:Class rdf:about="%s">
+    	<rdfs:subClassOf rdf:resource="%s"/>
+    	<rdfs:subClassOf rdf:resource="%s"/>
     	<terms:description xml:lang="%s">%s (pagina %s)</terms:description>
 	</owl:Class>
 
 	<owl:Class>
-    	<rdfs:subClassOf rdf:resource="&%s;%s_%s"/>
+    	<rdfs:subClassOf rdf:resource="%s"/>
     	<owl:intersectionOf rdf:parseType="Collection">
-        	<rdf:Description rdf:about="&%s;%s"/>
-        	<rdf:Description rdf:about="&%s;%s"/>
+        	<rdf:Description rdf:about="%s"/>
+        	<rdf:Description rdf:about="%s"/>
     	</owl:intersectionOf>
-	</owl:Class>''' % ( prefix, hashMap['cid10'], j, 
-                            prefix, hashMap['cid10'], j,
-                            prefix, hashMap['cid10'],
-                            prefix, j, 
+	</owl:Class>''' % ( tnmClassWithICD10, 
+                            tnmClassWithICD10,
+                            icd10Class,
+                            tnmClass, 
                             hashMap['mappingLanguage'], hashMap[j], hashMap['page'], 
-                            prefix, hashMap['cid10'], j,
-                            prefixICD10, hashMap['cid10'],
-                            prefix, j)
+                            tnmClassWithICD10,
+                            icd10Class,
+                            tnmClass)
 
 	   else:
 		print '''	<owl:Class rdf:about="&%s;%s"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&%s;%s"/>
     	<owl:intersectionOf rdf:parseType="Collection">''' % (prefix, hashMap['classNameBase'], prefix, hashMap['classNameBase'])
 
