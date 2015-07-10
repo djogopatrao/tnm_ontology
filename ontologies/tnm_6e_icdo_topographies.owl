@@ -11,8 +11,8 @@
 ]>
 
 
-<rdf:RDF xmlns="http://www.owl-ontologies.com/unnamed.owl#"
-     xml:base="http://www.owl-ontologies.com/unnamed.owl"
+<rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologias/tnm_6e_icdo_topographies.owl#"
+     xml:base="http://cipe.accamargo.org.br/ontologias/tnm_6e_icdo_topographies.owl"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -36,8 +36,24 @@ Changes:
 4) changed has_Description property to skos:prefLabel
 
 5) changed the ontology IRI (the previous was &quot;http://www.owl-ontologies.com/unnamed.owl#&quot;)</terms:description>
-        <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="&skos;prefLabel"/>
     
 
 
