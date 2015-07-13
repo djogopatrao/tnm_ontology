@@ -3,24 +3,28 @@ classNameBase:TumoresDeMama
 mappingLanguage:pt
 page:140-142
 mappings:
+T0: |C73341
 Tis: Carcinoma In Situ
-T1: Tumor com 2 cm ou menos em sua maior dimensão
+T1: Tumor com 2 cm ou menos em sua maior dimensão|C73342
 T1mic: Microinvasão de 0,1 cm ou menos em sua maior dimensão
 T1a: Tumor com mais de 0,1 cm, até 0,5 cm em sua maior dimensão
 T1b: Tumor com mais de 0,5 cm, até 1 cm em sua maior dimensão
 T1c: Tumor com mais de 1 cm, porém não mais de 2 cm em sua maior dimensão
-T2: Tumor com mais de 2 cm, porém não mais de 5 cm em sua maior dimensão
-T3: Tumor com mais de 5 cm em sua maior dimensão
+T2: Tumor com mais de 2 cm, porém não mais de 5 cm em sua maior dimensão|C73343
+T3: Tumor com mais de 5 cm em sua maior dimensão|C73344
 T4: Tumor de qualquer tamanho com extensão direta à parede torácica ou à pele, somente como descritos em T4a e T4d
 T4a: Extensão à parede torácica
 T4b: Edema (inclusive "pele de laranja" 'peau d’orange'), ou ulceração da pele da mama, ou nódulos cutâneos satélites confinados à mesma mama
 T4c: Ambos (T4a e T4b) acima
 T4d: Carcinoma inflamatório
-N1: Metástase em linfonodo(s) axilar(es), homolateral(ais), móvel(eis)
-N2: Metástase em linfonodo(s) axilar(es), homolateral(ais), fixo(s) ou metástase clinicamente aparente em linfonodo(s) mamário(s) interno(s) homolateral(is), na ausencia de evidência clínica de metástase em linfonodo(s) axilar(es)
-N2a: Metástase em linfonodo(s) axilar(es) fixos uns aos outros ou a outras estruturas
-N2b: Metástase clinicamente aparente em linfonodo(s) mamário(s) interno(s), na ausência de evidência clínica de metástase em linfonodo(s) auxiliar(es)
-N3: Metástase em linfonodo(s) infraclavicular(es) homolateral(ais) com ou sem envolvimento de linfonodo(s) axilar(es); ou clinicamente aparente em linfonodo(s) mamário(s) interno(s) homolateral(ais), na presença de evidência clínica de metástase em linfonodo(s) axilar(es); ou metástase em linfonodo(s) supraclavicular(es) homolateral(is) com ou sem envolvimento de linfonodo(s) axilar(es) ou mamário(s) interno(s)
-N3a: Metástase em linfonodo(s) infraclavicular(es) homolateral(ais) com ou sem envolvimento de linfonodo(s) axilar(es); ou clinicamente aparente em linfonodo(s) mamário(s) interno(s) homolateral(ais), na presença de evidência clínica de metástase em linfonodo(s) axilar(es); ou metástase em linfonodo(s) supraclavicular(es) homolateral(is) com ou sem envolvimento de linfonodo(s) axilar(es) ou mamário(s) interno(s)
-N3b: Metástase em linfonodo(s) mamário(s) interno(s) e axilares
-N3c: Metástase em linfonodo(s) supraclavicular(es)
+N0: |C73347
+N1: Metástase em linfonodo(s) axilar(es), homolateral(ais), móvel(eis)|C73348
+N2: Metástase em linfonodo(s) axilar(es), homolateral(ais), fixo(s) ou metástase clinicamente aparente em linfonodo(s) mamário(s) interno(s) homolateral(is), na ausencia de evidência clínica de metástase em linfonodo(s) axilar(es)|C73349
+N2a: Metástase em linfonodo(s) axilar(es) fixos uns aos outros ou a outras estruturas|C73350
+N2b: Metástase clinicamente aparente em linfonodo(s) mamário(s) interno(s), na ausência de evidência clínica de metástase em linfonodo(s) auxiliar(es)|C73351
+N3: Metástase em linfonodo(s) infraclavicular(es) homolateral(ais) com ou sem envolvimento de linfonodo(s) axilar(es); ou clinicamente aparente em linfonodo(s) mamário(s) interno(s) homolateral(ais), na presença de evidência clínica de metástase em linfonodo(s) axilar(es); ou metástase em linfonodo(s) supraclavicular(es) homolateral(is) com ou sem envolvimento de linfonodo(s) axilar(es) ou mamário(s) interno(s)|C73352
+N3a: Metástase em linfonodo(s) infraclavicular(es) homolateral(ais) com ou sem envolvimento de linfonodo(s) axilar(es); ou clinicamente aparente em linfonodo(s) mamário(s) interno(s) homolateral(ais), na presença de evidência clínica de metástase em linfonodo(s) axilar(es); ou metástase em linfonodo(s) supraclavicular(es) homolateral(is) com ou sem envolvimento de linfonodo(s) axilar(es) ou mamário(s) interno(s)|C73353
+N3b: Metástase em linfonodo(s) mamário(s) interno(s) e axilares|C73354
+N3c: Metástase em linfonodo(s) supraclavicular(es)|C73355
+M0: |C49008
+M1: |C49009
