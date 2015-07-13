@@ -37,6 +37,7 @@ print '''<?xml version="1.0"?>
 	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
 	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
 	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+ 	<!ENTITY ncit "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#" >
 	<!ENTITY %s "%s#" >
 	<!ENTITY %s "%s#" >
 ]>
@@ -48,6 +49,7 @@ print '''<?xml version="1.0"?>
  	xmlns:terms="http://purl.org/dc/terms/"
  	xmlns:owl="http://www.w3.org/2002/07/owl#"
  	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ 	xmlns:ncit="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
  	xmlns:%s="%s#"
  	xmlns:%s="%s#"
  	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
@@ -84,6 +86,13 @@ for file in sorted(os.listdir("./map/annotations")):
            tnmClass = "&" + prefix + ";" + j;
            icd10Class = "&" + prefixICD10 + ";" + hashMap['cid10'];
 
+           descList = hashMap[j].split("|");
+           description = descList[0];
+           nciThesaurusCode = "";
+           if len(descList)>1:
+                   nciThesaurusIRI = "&ncit;"+descList[1];
+	           nciThesaurusCode = "<owl:equivalentClass rdf:resource=\"" + nciThesaurusIRI + "\"/>";
+
 	   if len(hashMap['cid10'].split(",")) == 1:
 	   
 		print '''	<!-- %s -->
@@ -92,6 +101,7 @@ for file in sorted(os.listdir("./map/annotations")):
     	<rdfs:subClassOf rdf:resource="%s"/>
     	<rdfs:subClassOf rdf:resource="%s"/>
     	<terms:description xml:lang="%s">%s (pagina %s)</terms:description>
+	%s
 	</owl:Class>
 
 	<owl:Class>
@@ -104,7 +114,8 @@ for file in sorted(os.listdir("./map/annotations")):
                             tnmClassWithICD10,
                             icd10Class,
                             tnmClass, 
-                            hashMap['mappingLanguage'], hashMap[j], hashMap['page'], 
+                            hashMap['mappingLanguage'], description, hashMap['page'], 
+                            nciThesaurusCode,
                             tnmClassWithICD10,
                             icd10Class,
                             tnmClass)
@@ -128,6 +139,7 @@ for file in sorted(os.listdir("./map/annotations")):
 	<owl:Class rdf:about="&%s;%s_%s">
     	<rdfs:subClassOf rdf:resource="&%s;%s"/>
     	<rdfs:subClassOf rdf:resource="&%s;%s"/>
+	%s
     	<terms:description xml:lang="%s">%s (pagina %s)</terms:description>
 	</owl:Class>
 
@@ -141,7 +153,8 @@ for file in sorted(os.listdir("./map/annotations")):
                            prefix, hashMap['classNameBase'], j,
                            prefix, hashMap['classNameBase'], 
                            prefix, j, 
-                           hashMap['mappingLanguage'], hashMap[j], hashMap['page'],
+                           nciThesaurusCode,
+                           hashMap['mappingLanguage'], description, hashMap['page'],
                            prefix, hashMap['classNameBase'], j,
                            prefix, hashMap['classNameBase'], 
                            prefix, j)
