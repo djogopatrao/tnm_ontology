@@ -556,6 +556,16 @@
     
 
 
+    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GruposTopograficos -->
+
+    <owl:Class rdf:about="&tnm;GruposTopograficos">
+        <rdfs:subClassOf rdf:resource="&tnm;TNM_6a_edicao"/>
+        <skos:prefLabel xml:lang="en">Topographic groups defined in TNM 6th edition</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Grupos topográficos definidos na 6a. edição do TNM</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_0 -->
 
     <owl:Class rdf:about="&tnm;LabioECavidadeOral_EC_0">

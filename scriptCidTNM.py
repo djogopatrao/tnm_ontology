@@ -43,8 +43,8 @@ print '''<?xml version="1.0"?>
 ]>
 
 
-<rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologias/annotations#"
- 	xml:base="http://cipe.accamargo.org.br/ontologias/annotations"
+<rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologias/tnm_annotations#"
+ 	xml:base="http://cipe.accamargo.org.br/ontologias/tnm_annotations"
  	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  	xmlns:terms="http://purl.org/dc/terms/"
  	xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -53,7 +53,7 @@ print '''<?xml version="1.0"?>
  	xmlns:%s="%s#"
  	xmlns:%s="%s#"
  	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-	<owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologias/annotations"/>
+	<owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologias/tnm_annotations"/>
 	
 ''' % (prefixICD10,uriICD10,prefix,uri,prefixICD10,uriICD10,prefix,uri);
 
@@ -121,7 +121,9 @@ for file in sorted(os.listdir("./map/annotations")):
                             tnmClass)
 
 	   else:
-		print '''	<owl:Class rdf:about="&%s;%s"/>
+		print '''	<owl:Class rdf:about="&%s;%s">
+		<rdfs:subClassOf rdf:resource="&tnm;GruposTopograficos"/>
+	</owl:Class>
 
 	<owl:Class>
         <terms:description>This is an automatically generated class</terms:description>
