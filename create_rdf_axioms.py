@@ -7,6 +7,7 @@
 import math
 import os
 import sys
+import re
 
 # print header RDF
 print '''<?xml version="1.0"?>
@@ -25,6 +26,7 @@ print '''<?xml version="1.0"?>
     	<!ENTITY recruit_cid10 "http://cipe.accamargo.org.br/ontologias/recruit_cid10.owl#" >
     	<!ENTITY icdo "http://cipe.accamargo.org.br/ontologias/tnm_6e_icdo_topographies.owl#" >
     	<!ENTITY tnm "http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#" >
+ 	<!ENTITY ncit "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#" >
 ]>
 
 
@@ -39,6 +41,7 @@ print '''<?xml version="1.0"?>
     	xmlns:icdo="http://cipe.accamargo.org.br/ontologias/tnm_6e_icdo_topographies.owl#"
      	xmlns:recruit="http://cipe.accamargo.org.br/ontologias/recruit.owl#"
      	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ 	xmlns:ncit="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
      	xmlns:tnm="http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#">
     	<owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologias/axiomas.owl"/>
 
@@ -53,11 +56,21 @@ for file in sorted(os.listdir("./map")):
 	arq = open('./map/' + file);
 	seq = arq.read().split("\n");
 
+	line = 0;
 	# The first line is the Class's name
-	ClassName = seq[0];
+	ClassName = seq[line];
+	line = line + 1;
+
+	# if the second line begins with "ncit:", then that's the corresponding NCI thesaurus concept
+	ncit_equivalent_to = "";
+	m = re.compile("^ncit:\s*(.*)\s*$").match(seq[line]);
+	if m:
+		ncit_equivalent_to =  "<owl:equivalentClass rdf:resource=\"&ncit;" + m.group(1) + "\"/>";
+		line = line + 1;
 
         # The sencond line are CIDs
-	cids = seq[1].split(" ");
+	cids = seq[line].split(" ");
+	line = line + 1;
 
 	# Header
 	print '<!-- ' + ClassName + '(',
@@ -66,7 +79,9 @@ for file in sorted(os.listdir("./map")):
 	print ') -->'
 	
 	for cid in cids:
-            for axioma in seq[2:(len(seq)-1)]:
+            for axioma in seq[line:(len(seq)-1)]:
+		if ncit_equivalent_to:
+			print '<owl:Class rdf:about="&tnm;%s">%s</owl:Class> ' % ( ClassName,ncit_equivalent_to );
                 print '''     <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;%s"/>
         <owl:intersectionOf rdf:parseType="Collection">
