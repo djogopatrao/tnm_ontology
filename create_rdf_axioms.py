@@ -12,7 +12,6 @@ import re
 # print header RDF
 print '''<?xml version="1.0"?>
 
-
 <!DOCTYPE rdf:RDF [
 	<!ENTITY terms "http://purl.org/dc/terms/" >
 	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
@@ -28,7 +27,6 @@ print '''<?xml version="1.0"?>
     	<!ENTITY tnm "http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#" >
  	<!ENTITY ncit "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#" >
 ]>
-
 
 <rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologias/axiomas.owl#"
  	xml:base="http://cipe.accamargo.org.br/ontologias/axiomas.owl"
@@ -47,9 +45,6 @@ print '''<?xml version="1.0"?>
 
 	
 '''
-
-
-
 for file in sorted(os.listdir("./map")):
     if file.endswith(".map"):
 	#Opening the file and split it by \n

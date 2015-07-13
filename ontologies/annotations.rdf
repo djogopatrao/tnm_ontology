@@ -30,6 +30,7 @@
 	<owl:Class rdf:about="&tnm;CavidadeNasalESeioEtmoidal"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;CavidadeNasalESeioEtmoidal"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C30_0"/>
@@ -56,6 +57,7 @@
 	<owl:Class rdf:about="&tnm;CavidadeNasalESeioEtmoidal"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;CavidadeNasalESeioEtmoidal"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C30_0"/>
@@ -82,6 +84,7 @@
 	<owl:Class rdf:about="&tnm;CavidadeNasalESeioEtmoidal"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;CavidadeNasalESeioEtmoidal"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C30_0"/>
@@ -108,6 +111,7 @@
 	<owl:Class rdf:about="&tnm;CavidadeNasalESeioEtmoidal"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;CavidadeNasalESeioEtmoidal"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C30_0"/>
@@ -134,6 +138,7 @@
 	<owl:Class rdf:about="&tnm;CavidadeNasalESeioEtmoidal"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;CavidadeNasalESeioEtmoidal"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C30_0"/>
@@ -160,6 +165,7 @@
 	<owl:Class rdf:about="&tnm;CavidadeNasalESeioEtmoidal"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;CavidadeNasalESeioEtmoidal"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C30_0"/>
@@ -186,6 +192,7 @@
 	<owl:Class rdf:about="&tnm;CavidadeNasalESeioEtmoidal"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;CavidadeNasalESeioEtmoidal"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C30_0"/>
@@ -212,6 +219,7 @@
 	<owl:Class rdf:about="&tnm;CavidadeNasalESeioEtmoidal"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;CavidadeNasalESeioEtmoidal"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C30_0"/>
@@ -238,6 +246,7 @@
 	<owl:Class rdf:about="&tnm;CavidadeNasalESeioEtmoidal"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;CavidadeNasalESeioEtmoidal"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C30_0"/>
@@ -264,6 +273,7 @@
 	<owl:Class rdf:about="&tnm;CavidadeNasalESeioEtmoidal"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;CavidadeNasalESeioEtmoidal"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C30_0"/>
@@ -290,6 +300,7 @@
 	<owl:Class rdf:about="&tnm;CavidadeNasalESeioEtmoidal"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;CavidadeNasalESeioEtmoidal"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C30_0"/>
@@ -318,6 +329,7 @@
 	<owl:Class rdf:about="&tnm;LabioECavidadeOral"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C02"/>
@@ -347,6 +359,7 @@
 	<owl:Class rdf:about="&tnm;LabioECavidadeOral"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C02"/>
@@ -376,6 +389,7 @@
 	<owl:Class rdf:about="&tnm;LabioECavidadeOral"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C02"/>
@@ -405,6 +419,7 @@
 	<owl:Class rdf:about="&tnm;LabioECavidadeOral"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C02"/>
@@ -434,6 +449,7 @@
 	<owl:Class rdf:about="&tnm;LabioECavidadeOral"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C02"/>
@@ -465,6 +481,7 @@
 	<owl:Class rdf:about="&tnm;ColonEReto"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;ColonEReto"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C18"/>
@@ -492,6 +509,7 @@
 	<owl:Class rdf:about="&tnm;ColonEReto"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;ColonEReto"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C18"/>
@@ -519,6 +537,7 @@
 	<owl:Class rdf:about="&tnm;ColonEReto"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;ColonEReto"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C18"/>
@@ -546,6 +565,7 @@
 	<owl:Class rdf:about="&tnm;ColonEReto"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;ColonEReto"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C18"/>
@@ -573,6 +593,7 @@
 	<owl:Class rdf:about="&tnm;ColonEReto"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;ColonEReto"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C18"/>
@@ -600,6 +621,7 @@
 	<owl:Class rdf:about="&tnm;ColonEReto"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;ColonEReto"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C18"/>
@@ -627,6 +649,7 @@
 	<owl:Class rdf:about="&tnm;ColonEReto"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;ColonEReto"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C18"/>
@@ -653,10 +676,10 @@
 
 	<!-- Estomago --> 
 
-	<!-- &tnm;:C16_N3 -->
+	<!-- &tnm;C16_N3 -->
 
 	<owl:Class rdf:about="&tnm;C16_N3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C16"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C16"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N3"/>
     	<terms:description xml:lang="pt"> Metástase em mais de 15 linfonodos regionais (pagina 70)</terms:description>
 	</owl:Class>
@@ -669,10 +692,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C16_T1 -->
+	<!-- &tnm;C16_T1 -->
 
 	<owl:Class rdf:about="&tnm;C16_T1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C16"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C16"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1"/>
     	<terms:description xml:lang="pt"> Tumor que invade a lâmina própria ou a submucosa (pagina 70)</terms:description>
 	</owl:Class>
@@ -685,10 +708,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C16_T2a -->
+	<!-- &tnm;C16_T2a -->
 
 	<owl:Class rdf:about="&tnm;C16_T2a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C16"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C16"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2a"/>
     	<terms:description xml:lang="pt"> Tumor que invade a muscular própria (pagina 70)</terms:description>
 	</owl:Class>
@@ -701,10 +724,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C16_T4 -->
+	<!-- &tnm;C16_T4 -->
 
 	<owl:Class rdf:about="&tnm;C16_T4">
-    	<rdfs:subClassOf rdf:resource="&tnm;C16"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C16"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4"/>
     	<terms:description xml:lang="pt"> Tumor que invade as estruturas adjacetes (pagina 70)</terms:description>
 	</owl:Class>
@@ -717,10 +740,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C16_T2b -->
+	<!-- &tnm;C16_T2b -->
 
 	<owl:Class rdf:about="&tnm;C16_T2b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C16"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C16"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2b"/>
     	<terms:description xml:lang="pt"> Tumor que invade a subserosa (pagina 70)</terms:description>
 	</owl:Class>
@@ -733,10 +756,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C16_T2 -->
+	<!-- &tnm;C16_T2 -->
 
 	<owl:Class rdf:about="&tnm;C16_T2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C16"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C16"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2"/>
     	<terms:description xml:lang="pt"> Tumor que invade a muscular própria ou a subserosa (pagina 70)</terms:description>
 	</owl:Class>
@@ -749,10 +772,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C16_T3 -->
+	<!-- &tnm;C16_T3 -->
 
 	<owl:Class rdf:about="&tnm;C16_T3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C16"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C16"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3"/>
     	<terms:description xml:lang="pt"> Tumor que penetra a serosa (peritônio visceral) sem invadir as estruturas adjacentes (pagina 70)</terms:description>
 	</owl:Class>
@@ -765,10 +788,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C16_Tis -->
+	<!-- &tnm;C16_Tis -->
 
 	<owl:Class rdf:about="&tnm;C16_Tis">
-    	<rdfs:subClassOf rdf:resource="&tnm;C16"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C16"/>
     	<rdfs:subClassOf rdf:resource="&tnm;Tis"/>
     	<terms:description xml:lang="pt"> Carcinoma In Situ: tumor intra-epitelial sem invasão da lâmina própria (pagina 70)</terms:description>
 	</owl:Class>
@@ -781,10 +804,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C16_N1 -->
+	<!-- &tnm;C16_N1 -->
 
 	<owl:Class rdf:about="&tnm;C16_N1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C16"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C16"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N1"/>
     	<terms:description xml:lang="pt"> Metástase em 1 a 6 linfonodos regionais (pagina 70)</terms:description>
 	</owl:Class>
@@ -797,10 +820,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C16_N2 -->
+	<!-- &tnm;C16_N2 -->
 
 	<owl:Class rdf:about="&tnm;C16_N2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C16"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C16"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2"/>
     	<terms:description xml:lang="pt"> Metástase em 7 a 15 linfonodos regionais (pagina 70)</terms:description>
 	</owl:Class>
@@ -818,6 +841,7 @@
 	<owl:Class rdf:about="&tnm;GlandulasSalivares"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;GlandulasSalivares"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C07"/>
@@ -844,6 +868,7 @@
 	<owl:Class rdf:about="&tnm;GlandulasSalivares"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;GlandulasSalivares"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C07"/>
@@ -870,6 +895,7 @@
 	<owl:Class rdf:about="&tnm;GlandulasSalivares"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;GlandulasSalivares"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C07"/>
@@ -896,6 +922,7 @@
 	<owl:Class rdf:about="&tnm;GlandulasSalivares"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;GlandulasSalivares"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C07"/>
@@ -922,6 +949,7 @@
 	<owl:Class rdf:about="&tnm;GlandulasSalivares"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;GlandulasSalivares"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C07"/>
@@ -948,6 +976,7 @@
 	<owl:Class rdf:about="&tnm;GlandulasSalivares"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;GlandulasSalivares"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C07"/>
@@ -974,6 +1003,7 @@
 	<owl:Class rdf:about="&tnm;GlandulasSalivares"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;GlandulasSalivares"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C07"/>
@@ -999,10 +1029,10 @@
 
 	<!-- Glote --> 
 
-	<!-- &tnm;:C32.0_N2 -->
+	<!-- &tnm;C32.0_N2 -->
 
 	<owl:Class rdf:about="&tnm;C32.0_N2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.0"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.0"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2"/>
     	<terms:description xml:lang="pt"> Metástase em um único linfonodo homolateral, com mais de 3 cm até 6 cm em sua maior dimensão; ou em linfonodos homolaterais múltiplos, nenhum deles com mais de 6 cm em sua maior dimensão; ou em linfonodos bilaterais ou contralaterais, nenhum deles com mais de 6 cm em sua maior dimensão (pagina 38)</terms:description>
 	</owl:Class>
@@ -1015,10 +1045,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.0_N3 -->
+	<!-- &tnm;C32.0_N3 -->
 
 	<owl:Class rdf:about="&tnm;C32.0_N3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.0"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.0"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N3"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo com mais de 6 cm em sua maior dimensão (pagina 38)</terms:description>
 	</owl:Class>
@@ -1031,10 +1061,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.0_T1b -->
+	<!-- &tnm;C32.0_T1b -->
 
 	<owl:Class rdf:about="&tnm;C32.0_T1b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.0"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.0"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1b"/>
     	<terms:description xml:lang="pt"> Tumor que envolve ambas as cordas vocais (pagina 38)</terms:description>
 	</owl:Class>
@@ -1047,10 +1077,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.0_T1a -->
+	<!-- &tnm;C32.0_T1a -->
 
 	<owl:Class rdf:about="&tnm;C32.0_T1a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.0"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.0"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1a"/>
     	<terms:description xml:lang="pt"> Tumor limitado a uma corda vocal (pagina 38)</terms:description>
 	</owl:Class>
@@ -1063,10 +1093,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.0_N2b -->
+	<!-- &tnm;C32.0_N2b -->
 
 	<owl:Class rdf:about="&tnm;C32.0_N2b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.0"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.0"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2b"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodos homolaterais múltiplos, nenhum deles com mais de 6cm em sua maior dimensão (pagina 38)</terms:description>
 	</owl:Class>
@@ -1079,10 +1109,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.0_N2a -->
+	<!-- &tnm;C32.0_N2a -->
 
 	<owl:Class rdf:about="&tnm;C32.0_N2a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.0"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.0"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2a"/>
     	<terms:description xml:lang="pt"> Metástase em um único linfonodo homolateral, com mais de 3 cm até 6 cm em sua maior dimensão (pagina 38)</terms:description>
 	</owl:Class>
@@ -1095,10 +1125,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.0_T2 -->
+	<!-- &tnm;C32.0_T2 -->
 
 	<owl:Class rdf:about="&tnm;C32.0_T2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.0"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.0"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2"/>
     	<terms:description xml:lang="pt"> Tumor que se estende à supraglote e/ou subglote, e/ ou com mobilidade diminuída da corda vocal (pagina 38)</terms:description>
 	</owl:Class>
@@ -1111,10 +1141,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.0_T3 -->
+	<!-- &tnm;C32.0_T3 -->
 
 	<owl:Class rdf:about="&tnm;C32.0_T3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.0"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.0"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3"/>
     	<terms:description xml:lang="pt"> Tumor limitado à laringe, com fixação da corda vocal e/ou que invade o espaço para-glótico, e/ou com erosão mínima da cartilagem tireóide (p.ex., córtex interna) (pagina 38)</terms:description>
 	</owl:Class>
@@ -1127,10 +1157,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.0_T1 -->
+	<!-- &tnm;C32.0_T1 -->
 
 	<owl:Class rdf:about="&tnm;C32.0_T1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.0"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.0"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1"/>
     	<terms:description xml:lang="pt"> Tumor limitado à(s) corda(s) vocal(ais) (pode envolver a comissura anterior ou posterior), com mobilidade normal da(s) corda(s) (pagina 38)</terms:description>
 	</owl:Class>
@@ -1143,10 +1173,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.0_N2c -->
+	<!-- &tnm;C32.0_N2c -->
 
 	<owl:Class rdf:about="&tnm;C32.0_N2c">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.0"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.0"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2c"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodos bilaterais ou contralaterais, nenhum deles com mais de 6 cm em sua maior dimensão (pagina 38)</terms:description>
 	</owl:Class>
@@ -1159,10 +1189,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.0_N1 -->
+	<!-- &tnm;C32.0_N1 -->
 
 	<owl:Class rdf:about="&tnm;C32.0_N1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.0"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.0"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N1"/>
     	<terms:description xml:lang="pt"> Metástase em um único linfonodo homolateral, com 3 cm ou menos em sua maior dimensão (pagina 38)</terms:description>
 	</owl:Class>
@@ -1175,10 +1205,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.0_T4b -->
+	<!-- &tnm;C32.0_T4b -->
 
 	<owl:Class rdf:about="&tnm;C32.0_T4b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.0"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.0"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4b"/>
     	<terms:description xml:lang="pt"> Tumor que invade o espaço pré-vertebral, estruturas mediastinais ou adjacente a artéria carótida (pagina 38)</terms:description>
 	</owl:Class>
@@ -1191,10 +1221,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.0_T4a -->
+	<!-- &tnm;C32.0_T4a -->
 
 	<owl:Class rdf:about="&tnm;C32.0_T4a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.0"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.0"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4a"/>
     	<terms:description xml:lang="pt"> Tumor que invade completamente a cartilagem tireóide, ou estende-se aos tecidos além da laringe, p.ex., traquéia, partes moles do pescoço, incluindo músculos os profundos/extrínsecos da língua (genioglosso, hioglosso, palatoglosso e estiloglosso), alça muscular, tireóide e esôfago (pagina 38)</terms:description>
 	</owl:Class>
@@ -1212,6 +1242,7 @@
 	<owl:Class rdf:about="&tnm;Hipofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Hipofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C12"/>
@@ -1238,6 +1269,7 @@
 	<owl:Class rdf:about="&tnm;Hipofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Hipofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C12"/>
@@ -1264,6 +1296,7 @@
 	<owl:Class rdf:about="&tnm;Hipofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Hipofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C12"/>
@@ -1290,6 +1323,7 @@
 	<owl:Class rdf:about="&tnm;Hipofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Hipofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C12"/>
@@ -1316,6 +1350,7 @@
 	<owl:Class rdf:about="&tnm;Hipofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Hipofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C12"/>
@@ -1342,6 +1377,7 @@
 	<owl:Class rdf:about="&tnm;Hipofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Hipofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C12"/>
@@ -1368,6 +1404,7 @@
 	<owl:Class rdf:about="&tnm;Hipofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Hipofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C12"/>
@@ -1394,6 +1431,7 @@
 	<owl:Class rdf:about="&tnm;Hipofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Hipofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C12"/>
@@ -1420,6 +1458,7 @@
 	<owl:Class rdf:about="&tnm;Hipofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Hipofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C12"/>
@@ -1446,6 +1485,7 @@
 	<owl:Class rdf:about="&tnm;Hipofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Hipofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C12"/>
@@ -1472,6 +1512,7 @@
 	<owl:Class rdf:about="&tnm;Hipofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Hipofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C12"/>
@@ -1497,10 +1538,10 @@
 
 	<!-- LabioECavidadeOral --> 
 
-	<!-- &tnm;:C00_T2 -->
+	<!-- &tnm;C00_T2 -->
 
 	<owl:Class rdf:about="&tnm;C00_T2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C00"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C00"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2"/>
     	<terms:description xml:lang="pt"> Tumor com mais de 2 cm e até 4 cm em sua maior dimensão (pagina 24)</terms:description>
 	</owl:Class>
@@ -1513,10 +1554,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C00_T3 -->
+	<!-- &tnm;C00_T3 -->
 
 	<owl:Class rdf:about="&tnm;C00_T3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C00"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C00"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3"/>
     	<terms:description xml:lang="pt"> Tumor com mais de 4 cm em sua maior dimensão (pagina 24)</terms:description>
 	</owl:Class>
@@ -1529,10 +1570,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C00_T1 -->
+	<!-- &tnm;C00_T1 -->
 
 	<owl:Class rdf:about="&tnm;C00_T1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C00"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C00"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1"/>
     	<terms:description xml:lang="pt"> Tumor com 2 cm ou menos em sua maior dimensão (pagina 24)</terms:description>
 	</owl:Class>
@@ -1545,10 +1586,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C00_T4b -->
+	<!-- &tnm;C00_T4b -->
 
 	<owl:Class rdf:about="&tnm;C00_T4b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C00"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C00"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4b"/>
     	<terms:description xml:lang="pt"> Tumor que invade o espaço mastigador, lâminas pterigóides ou base do crânio ou envolve artéria carótida interna (pagina 24)</terms:description>
 	</owl:Class>
@@ -1561,10 +1602,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C00_T4a -->
+	<!-- &tnm;C00_T4a -->
 
 	<owl:Class rdf:about="&tnm;C00_T4a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C00"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C00"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4a"/>
     	<terms:description xml:lang="pt"> Tumor que invade estruturas adjacentes: cortical óssea, nervo alveolar inferior, assoalho da boca, ou pele da face (queixo ou nariz) (pagina 24)</terms:description>
 	</owl:Class>
@@ -1579,10 +1620,10 @@
 
 	<!-- TumoresDeMama --> 
 
-	<!-- &tnm;:C50_T1mic -->
+	<!-- &tnm;C50_T1mic -->
 
 	<owl:Class rdf:about="&tnm;C50_T1mic">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1mic"/>
     	<terms:description xml:lang="pt"> Microinvasão de 0,1 cm ou menos em sua maior dimensão (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1595,10 +1636,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_Tis -->
+	<!-- &tnm;C50_Tis -->
 
 	<owl:Class rdf:about="&tnm;C50_Tis">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;Tis"/>
     	<terms:description xml:lang="pt"> Carcinoma In Situ (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1611,10 +1652,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_N3 -->
+	<!-- &tnm;C50_N3 -->
 
 	<owl:Class rdf:about="&tnm;C50_N3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N3"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo(s) infraclavicular(es) homolateral(ais) com ou sem envolvimento de linfonodo(s) axilar(es); ou clinicamente aparente em linfonodo(s) mamário(s) interno(s) homolateral(ais), na presença de evidência clínica de metástase em linfonodo(s) axilar(es); ou metástase em linfonodo(s) supraclavicular(es) homolateral(is) com ou sem envolvimento de linfonodo(s) axilar(es) ou mamário(s) interno(s) (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1627,10 +1668,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_N3a -->
+	<!-- &tnm;C50_N3a -->
 
 	<owl:Class rdf:about="&tnm;C50_N3a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N3a"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo(s) infraclavicular(es) homolateral(ais) com ou sem envolvimento de linfonodo(s) axilar(es); ou clinicamente aparente em linfonodo(s) mamário(s) interno(s) homolateral(ais), na presença de evidência clínica de metástase em linfonodo(s) axilar(es); ou metástase em linfonodo(s) supraclavicular(es) homolateral(is) com ou sem envolvimento de linfonodo(s) axilar(es) ou mamário(s) interno(s) (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1643,10 +1684,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_N3b -->
+	<!-- &tnm;C50_N3b -->
 
 	<owl:Class rdf:about="&tnm;C50_N3b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N3b"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo(s) mamário(s) interno(s) e axilares (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1659,10 +1700,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_N3c -->
+	<!-- &tnm;C50_N3c -->
 
 	<owl:Class rdf:about="&tnm;C50_N3c">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N3c"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo(s) supraclavicular(es) (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1675,10 +1716,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_T4c -->
+	<!-- &tnm;C50_T4c -->
 
 	<owl:Class rdf:about="&tnm;C50_T4c">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4c"/>
     	<terms:description xml:lang="pt"> Ambos (T4a e T4b) acima (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1691,10 +1732,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_T4b -->
+	<!-- &tnm;C50_T4b -->
 
 	<owl:Class rdf:about="&tnm;C50_T4b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4b"/>
     	<terms:description xml:lang="pt"> Edema (inclusive "pele de laranja" 'peau d’orange'), ou ulceração da pele da mama, ou nódulos cutâneos satélites confinados à mesma mama (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1707,10 +1748,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_T4a -->
+	<!-- &tnm;C50_T4a -->
 
 	<owl:Class rdf:about="&tnm;C50_T4a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4a"/>
     	<terms:description xml:lang="pt"> Extensão à parede torácica (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1723,10 +1764,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_T4d -->
+	<!-- &tnm;C50_T4d -->
 
 	<owl:Class rdf:about="&tnm;C50_T4d">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4d"/>
     	<terms:description xml:lang="pt"> Carcinoma inflamatório (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1739,10 +1780,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_T1a -->
+	<!-- &tnm;C50_T1a -->
 
 	<owl:Class rdf:about="&tnm;C50_T1a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1a"/>
     	<terms:description xml:lang="pt"> Tumor com mais de 0,1 cm, até 0,5 cm em sua maior dimensão (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1755,10 +1796,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_T1b -->
+	<!-- &tnm;C50_T1b -->
 
 	<owl:Class rdf:about="&tnm;C50_T1b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1b"/>
     	<terms:description xml:lang="pt"> Tumor com mais de 0,5 cm, até 1 cm em sua maior dimensão (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1771,10 +1812,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_T1c -->
+	<!-- &tnm;C50_T1c -->
 
 	<owl:Class rdf:about="&tnm;C50_T1c">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1c"/>
     	<terms:description xml:lang="pt"> Tumor com mais de 1 cm, porém não mais de 2 cm em sua maior dimensão (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1787,10 +1828,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_T4 -->
+	<!-- &tnm;C50_T4 -->
 
 	<owl:Class rdf:about="&tnm;C50_T4">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4"/>
     	<terms:description xml:lang="pt"> Tumor de qualquer tamanho com extensão direta à parede torácica ou à pele, somente como descritos em T4a e T4d (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1803,10 +1844,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_T2 -->
+	<!-- &tnm;C50_T2 -->
 
 	<owl:Class rdf:about="&tnm;C50_T2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2"/>
     	<terms:description xml:lang="pt"> Tumor com mais de 2 cm, porém não mais de 5 cm em sua maior dimensão (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1819,10 +1860,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_T3 -->
+	<!-- &tnm;C50_T3 -->
 
 	<owl:Class rdf:about="&tnm;C50_T3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3"/>
     	<terms:description xml:lang="pt"> Tumor com mais de 5 cm em sua maior dimensão (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1835,10 +1876,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_T1 -->
+	<!-- &tnm;C50_T1 -->
 
 	<owl:Class rdf:about="&tnm;C50_T1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1"/>
     	<terms:description xml:lang="pt"> Tumor com 2 cm ou menos em sua maior dimensão (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1851,10 +1892,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_N1 -->
+	<!-- &tnm;C50_N1 -->
 
 	<owl:Class rdf:about="&tnm;C50_N1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N1"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo(s) axilar(es), homolateral(ais), móvel(eis) (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1867,10 +1908,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_N2 -->
+	<!-- &tnm;C50_N2 -->
 
 	<owl:Class rdf:about="&tnm;C50_N2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo(s) axilar(es), homolateral(ais), fixo(s) ou metástase clinicamente aparente em linfonodo(s) mamário(s) interno(s) homolateral(is), na ausencia de evidência clínica de metástase em linfonodo(s) axilar(es) (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1883,10 +1924,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_N2b -->
+	<!-- &tnm;C50_N2b -->
 
 	<owl:Class rdf:about="&tnm;C50_N2b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2b"/>
     	<terms:description xml:lang="pt"> Metástase clinicamente aparente em linfonodo(s) mamário(s) interno(s), na ausência de evidência clínica de metástase em linfonodo(s) auxiliar(es) (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1899,10 +1940,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C50_N2a -->
+	<!-- &tnm;C50_N2a -->
 
 	<owl:Class rdf:about="&tnm;C50_N2a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C50"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C50"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2a"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo(s) axilar(es) fixos uns aos outros ou a outras estruturas (pagina 140-142)</terms:description>
 	</owl:Class>
@@ -1917,10 +1958,10 @@
 
 	<!-- Nasofaringe --> 
 
-	<!-- &tnm;:C11_N3 -->
+	<!-- &tnm;C11_N3 -->
 
 	<owl:Class rdf:about="&tnm;C11_N3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C11"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C11"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N3"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo(s) com mais de 6 cm em sua maior dimensão ou em fossa supra-clavicular (pagina 29)</terms:description>
 	</owl:Class>
@@ -1933,10 +1974,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C11_T2a -->
+	<!-- &tnm;C11_T2a -->
 
 	<owl:Class rdf:about="&tnm;C11_T2a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C11"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C11"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2a"/>
     	<terms:description xml:lang="pt"> Tumor que se estende à orofaringe e/ou cavidade nasal sem extensão parafaríngea* (pagina 29)</terms:description>
 	</owl:Class>
@@ -1949,10 +1990,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C11_N3a -->
+	<!-- &tnm;C11_N3a -->
 
 	<owl:Class rdf:about="&tnm;C11_N3a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C11"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C11"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N3a"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo(s) com mais de 6 cm em sua maior dimensão (pagina 29)</terms:description>
 	</owl:Class>
@@ -1965,10 +2006,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C11_T4 -->
+	<!-- &tnm;C11_T4 -->
 
 	<owl:Class rdf:about="&tnm;C11_T4">
-    	<rdfs:subClassOf rdf:resource="&tnm;C11"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C11"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4"/>
     	<terms:description xml:lang="pt"> Tumor com extensão intracraniana e/ou envolvimento de nervos cranianos, fossa infratemporal, hipofaringe, órbita ou espaço mastigador (pagina 29)</terms:description>
 	</owl:Class>
@@ -1981,10 +2022,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C11_T2b -->
+	<!-- &tnm;C11_T2b -->
 
 	<owl:Class rdf:about="&tnm;C11_T2b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C11"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C11"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2b"/>
     	<terms:description xml:lang="pt"> Tumor com extensão parafaríngea* (pagina 29)</terms:description>
 	</owl:Class>
@@ -1997,10 +2038,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C11_T2 -->
+	<!-- &tnm;C11_T2 -->
 
 	<owl:Class rdf:about="&tnm;C11_T2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C11"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C11"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2"/>
     	<terms:description xml:lang="pt"> Tumor que se estende às partes moles (pagina 29)</terms:description>
 	</owl:Class>
@@ -2013,10 +2054,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C11_T3 -->
+	<!-- &tnm;C11_T3 -->
 
 	<owl:Class rdf:about="&tnm;C11_T3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C11"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C11"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3"/>
     	<terms:description xml:lang="pt"> Tumor que invade estruturas ósseas e/ou seios paranasais (pagina 29)</terms:description>
 	</owl:Class>
@@ -2029,10 +2070,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C11_T1 -->
+	<!-- &tnm;C11_T1 -->
 
 	<owl:Class rdf:about="&tnm;C11_T1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C11"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C11"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1"/>
     	<terms:description xml:lang="pt"> Tumor confinado à nasofaringe (pagina 29)</terms:description>
 	</owl:Class>
@@ -2045,10 +2086,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C11_N3b -->
+	<!-- &tnm;C11_N3b -->
 
 	<owl:Class rdf:about="&tnm;C11_N3b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C11"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C11"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N3b"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo(s) na fossa supra-clavicular (pagina 29)</terms:description>
 	</owl:Class>
@@ -2061,10 +2102,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C11_N1 -->
+	<!-- &tnm;C11_N1 -->
 
 	<owl:Class rdf:about="&tnm;C11_N1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C11"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C11"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N1"/>
     	<terms:description xml:lang="pt"> Metástase unilateral em linfonodo(s), com 6 cm ou menos em sua maior dimensão, acima da fossa supra-clavicular (pagina 29)</terms:description>
 	</owl:Class>
@@ -2077,10 +2118,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C11_N2 -->
+	<!-- &tnm;C11_N2 -->
 
 	<owl:Class rdf:about="&tnm;C11_N2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C11"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C11"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2"/>
     	<terms:description xml:lang="pt"> Metástases bilateral em linfonodo(s) com 6 cm ou menos em sua maior dimensão acima da fossa supra-clavicular (pagina 29)</terms:description>
 	</owl:Class>
@@ -2098,6 +2139,7 @@
 	<owl:Class rdf:about="&tnm;Orofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Orofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C01"/>
@@ -2131,6 +2173,7 @@
 	<owl:Class rdf:about="&tnm;Orofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Orofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C01"/>
@@ -2164,6 +2207,7 @@
 	<owl:Class rdf:about="&tnm;Orofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Orofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C01"/>
@@ -2197,6 +2241,7 @@
 	<owl:Class rdf:about="&tnm;Orofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Orofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C01"/>
@@ -2230,6 +2275,7 @@
 	<owl:Class rdf:about="&tnm;Orofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Orofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C01"/>
@@ -2263,6 +2309,7 @@
 	<owl:Class rdf:about="&tnm;Orofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Orofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C01"/>
@@ -2296,6 +2343,7 @@
 	<owl:Class rdf:about="&tnm;Orofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Orofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C01"/>
@@ -2329,6 +2377,7 @@
 	<owl:Class rdf:about="&tnm;Orofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Orofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C01"/>
@@ -2362,6 +2411,7 @@
 	<owl:Class rdf:about="&tnm;Orofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Orofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C01"/>
@@ -2395,6 +2445,7 @@
 	<owl:Class rdf:about="&tnm;Orofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Orofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C01"/>
@@ -2428,6 +2479,7 @@
 	<owl:Class rdf:about="&tnm;Orofaringe"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Orofaringe"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C01"/>
@@ -2460,10 +2512,10 @@
 
 	<!-- Ovario --> 
 
-	<!-- &tnm;:C56_T1b -->
+	<!-- &tnm;C56_T1b -->
 
 	<owl:Class rdf:about="&tnm;C56_T1b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C56"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C56"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1b"/>
     	<terms:description xml:lang="pt"> Tumor limitado a ambos os ovários; cápsulas intactas, sem tumor nas superfícies ovarianas; sem células malignas em líquido ascítico ou em lavados peritoneais (pagina 172)</terms:description>
 	</owl:Class>
@@ -2476,10 +2528,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C56_T1c -->
+	<!-- &tnm;C56_T1c -->
 
 	<owl:Class rdf:about="&tnm;C56_T1c">
-    	<rdfs:subClassOf rdf:resource="&tnm;C56"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C56"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1c"/>
     	<terms:description xml:lang="pt"> Tumor limitado a um ou ambos os ovários, com qualquer um dos seguintes achados: cápsula rompida, tumor na superfície ovariana, células malignas em líquido ascítico ou em lavados peritoneais (pagina 172)</terms:description>
 	</owl:Class>
@@ -2492,10 +2544,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C56_T1a -->
+	<!-- &tnm;C56_T1a -->
 
 	<owl:Class rdf:about="&tnm;C56_T1a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C56"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C56"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1a"/>
     	<terms:description xml:lang="pt"> Tumor limitado a um ovário; cápsula intacta, sem tumor na superfície ovariana; sem células malignas em líquido ascítico ou em lavados peritoneais (pagina 172)</terms:description>
 	</owl:Class>
@@ -2508,10 +2560,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C56_T3b -->
+	<!-- &tnm;C56_T3b -->
 
 	<owl:Class rdf:about="&tnm;C56_T3b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C56"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C56"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3b"/>
     	<terms:description xml:lang="pt"> Metástase peritoneal macroscópica, além da pélvis, com 2 cm ou menos em sua maior dimensão (pagina 172)</terms:description>
 	</owl:Class>
@@ -2524,10 +2576,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C56_T2c -->
+	<!-- &tnm;C56_T2c -->
 
 	<owl:Class rdf:about="&tnm;C56_T2c">
-    	<rdfs:subClassOf rdf:resource="&tnm;C56"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C56"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2c"/>
     	<terms:description xml:lang="pt"> Extensão pélvica (2a ou 2b), com células malignas em líquido ascítico ou em lavados peritoneais (pagina 172)</terms:description>
 	</owl:Class>
@@ -2540,10 +2592,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C56_T2b -->
+	<!-- &tnm;C56_T2b -->
 
 	<owl:Class rdf:about="&tnm;C56_T2b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C56"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C56"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2b"/>
     	<terms:description xml:lang="pt"> Extensão para outros tecidos pélvicos; sem células malignas em líquido ascítico ou em lavados peritoneais (pagina 172)</terms:description>
 	</owl:Class>
@@ -2556,10 +2608,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C56_T2 -->
+	<!-- &tnm;C56_T2 -->
 
 	<owl:Class rdf:about="&tnm;C56_T2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C56"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C56"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2"/>
     	<terms:description xml:lang="pt"> Tumor que envolve um ou ambos os ovários, com extensão pélvica (pagina 172)</terms:description>
 	</owl:Class>
@@ -2572,10 +2624,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C56_T3 -->
+	<!-- &tnm;C56_T3 -->
 
 	<owl:Class rdf:about="&tnm;C56_T3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C56"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C56"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3"/>
     	<terms:description xml:lang="pt"> Tumor que envolve um ou ambos os ovários com metástase peritoneal fora da pélvis, confirmada microscopicamente (pagina 172)</terms:description>
 	</owl:Class>
@@ -2588,10 +2640,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C56_T1 -->
+	<!-- &tnm;C56_T1 -->
 
 	<owl:Class rdf:about="&tnm;C56_T1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C56"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C56"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1"/>
     	<terms:description xml:lang="pt"> Tumor limitado aos ovários (pagina 172)</terms:description>
 	</owl:Class>
@@ -2604,10 +2656,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C56_T2a -->
+	<!-- &tnm;C56_T2a -->
 
 	<owl:Class rdf:about="&tnm;C56_T2a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C56"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C56"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2a"/>
     	<terms:description xml:lang="pt"> Extensão e/ou implantes no útero e/ou trompa(s); sem células malignas em líquido ascítico ou em lavados peritoneais (pagina 172)</terms:description>
 	</owl:Class>
@@ -2620,10 +2672,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C56_T3a -->
+	<!-- &tnm;C56_T3a -->
 
 	<owl:Class rdf:about="&tnm;C56_T3a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C56"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C56"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3a"/>
     	<terms:description xml:lang="pt"> Metástase peritoneal microscópica, além da pélvis (pagina 172)</terms:description>
 	</owl:Class>
@@ -2636,10 +2688,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C56_M1 -->
+	<!-- &tnm;C56_M1 -->
 
 	<owl:Class rdf:about="&tnm;C56_M1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C56"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C56"/>
     	<rdfs:subClassOf rdf:resource="&tnm;M1"/>
     	<terms:description xml:lang="pt"> Metástase à distância (exclui metástase peritoneal) (pagina 172)</terms:description>
 	</owl:Class>
@@ -2652,10 +2704,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C56_T3c -->
+	<!-- &tnm;C56_T3c -->
 
 	<owl:Class rdf:about="&tnm;C56_T3c">
-    	<rdfs:subClassOf rdf:resource="&tnm;C56"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C56"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3c"/>
     	<terms:description xml:lang="pt"> Metástase peritoneal, além da pélvis, com mais de 2 cm em sua maior dimensão (pagina 172)</terms:description>
 	</owl:Class>
@@ -2668,10 +2720,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C56_N1 -->
+	<!-- &tnm;C56_N1 -->
 
 	<owl:Class rdf:about="&tnm;C56_N1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C56"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C56"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N1"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo regional (pagina 172)</terms:description>
 	</owl:Class>
@@ -2686,10 +2738,10 @@
 
 	<!-- Pancreas --> 
 
-	<!-- &tnm;:C25_T4 -->
+	<!-- &tnm;C25_T4 -->
 
 	<owl:Class rdf:about="&tnm;C25_T4">
-    	<rdfs:subClassOf rdf:resource="&tnm;C25"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C25"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4"/>
     	<terms:description xml:lang="pt"> Tumor que envolve o plexo celíaco ou artéria mesentérica superior (pagina 99)</terms:description>
 	</owl:Class>
@@ -2702,10 +2754,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C25_T2 -->
+	<!-- &tnm;C25_T2 -->
 
 	<owl:Class rdf:about="&tnm;C25_T2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C25"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C25"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2"/>
     	<terms:description xml:lang="pt"> Tumor limitado ao pâncreas, com mais de 2 cm em sua maior dimensão  mesentérica superior (pagina 99)</terms:description>
 	</owl:Class>
@@ -2718,10 +2770,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C25_T3 -->
+	<!-- &tnm;C25_T3 -->
 
 	<owl:Class rdf:about="&tnm;C25_T3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C25"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C25"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3"/>
     	<terms:description xml:lang="pt"> Tumor que se estende além do pâncreas, mas sem envolvimento do plexo celíaco ou artéria (pagina 99)</terms:description>
 	</owl:Class>
@@ -2734,10 +2786,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C25_T1 -->
+	<!-- &tnm;C25_T1 -->
 
 	<owl:Class rdf:about="&tnm;C25_T1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C25"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C25"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1"/>
     	<terms:description xml:lang="pt"> Tumor limitado ao pâncreas, com 2 cm ou menos em sua maior dimensão (pagina 99)</terms:description>
 	</owl:Class>
@@ -2752,10 +2804,10 @@
 
 	<!-- Prostata --> 
 
-	<!-- &tnm;:C61_M1a -->
+	<!-- &tnm;C61_M1a -->
 
 	<owl:Class rdf:about="&tnm;C61_M1a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;M1a"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo(s) não regional(ais) (pagina 190)</terms:description>
 	</owl:Class>
@@ -2768,10 +2820,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_M1b -->
+	<!-- &tnm;C61_M1b -->
 
 	<owl:Class rdf:about="&tnm;C61_M1b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;M1b"/>
     	<terms:description xml:lang="pt"> Metástase em Osso(s) (pagina 190)</terms:description>
 	</owl:Class>
@@ -2784,10 +2836,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_T1b -->
+	<!-- &tnm;C61_T1b -->
 
 	<owl:Class rdf:about="&tnm;C61_T1b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1b"/>
     	<terms:description xml:lang="pt"> Achado histológico incidental em mais de 5% de tecido ressecado (pagina 190)</terms:description>
 	</owl:Class>
@@ -2800,10 +2852,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_T1c -->
+	<!-- &tnm;C61_T1c -->
 
 	<owl:Class rdf:about="&tnm;C61_T1c">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1c"/>
     	<terms:description xml:lang="pt"> Tumor identificado por biópsia por agulha (p. ex., devido a PSA* elevado) (pagina 190)</terms:description>
 	</owl:Class>
@@ -2816,10 +2868,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_T1a -->
+	<!-- &tnm;C61_T1a -->
 
 	<owl:Class rdf:about="&tnm;C61_T1a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1a"/>
     	<terms:description xml:lang="pt"> Achado histológico incidental em 5% ou menos de tecido ressecado (pagina 190)</terms:description>
 	</owl:Class>
@@ -2832,10 +2884,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_T3b -->
+	<!-- &tnm;C61_T3b -->
 
 	<owl:Class rdf:about="&tnm;C61_T3b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3b"/>
     	<terms:description xml:lang="pt"> Tumor que invade vesícula(s) seminal(ais) (pagina 190)</terms:description>
 	</owl:Class>
@@ -2848,10 +2900,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_T2c -->
+	<!-- &tnm;C61_T2c -->
 
 	<owl:Class rdf:about="&tnm;C61_T2c">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2c"/>
     	<terms:description xml:lang="pt"> Tumor que envolve ambos os lobos (pagina 190)</terms:description>
 	</owl:Class>
@@ -2864,10 +2916,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_T2b -->
+	<!-- &tnm;C61_T2b -->
 
 	<owl:Class rdf:about="&tnm;C61_T2b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2b"/>
     	<terms:description xml:lang="pt"> Tumor que envolve mais da metade de um dos lobos, mas não ambos os lobos (pagina 190)</terms:description>
 	</owl:Class>
@@ -2880,10 +2932,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_T2 -->
+	<!-- &tnm;C61_T2 -->
 
 	<owl:Class rdf:about="&tnm;C61_T2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2"/>
     	<terms:description xml:lang="pt"> Tumor confinado à próstata1 (pagina 190)</terms:description>
 	</owl:Class>
@@ -2896,10 +2948,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_T3 -->
+	<!-- &tnm;C61_T3 -->
 
 	<owl:Class rdf:about="&tnm;C61_T3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3"/>
     	<terms:description xml:lang="pt"> Tumor que se estende através da cápsula prostática2 (pagina 190)</terms:description>
 	</owl:Class>
@@ -2912,10 +2964,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_T1 -->
+	<!-- &tnm;C61_T1 -->
 
 	<owl:Class rdf:about="&tnm;C61_T1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1"/>
     	<terms:description xml:lang="pt"> Tumor não diagnosticado clinicamente, não palpável ou visível por meio de exame de imagem (pagina 190)</terms:description>
 	</owl:Class>
@@ -2928,10 +2980,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_T4 -->
+	<!-- &tnm;C61_T4 -->
 
 	<owl:Class rdf:about="&tnm;C61_T4">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4"/>
     	<terms:description xml:lang="pt"> Tumor está fixo ou invade outras estruturas adjacentes, que não as vesículas seminais: colo vesical, esfíncter externo, reto, músculos elevadores do ânus, ou parede pélvica (pagina 190)</terms:description>
 	</owl:Class>
@@ -2944,10 +2996,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_T2a -->
+	<!-- &tnm;C61_T2a -->
 
 	<owl:Class rdf:about="&tnm;C61_T2a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2a"/>
     	<terms:description xml:lang="pt"> Tumor que envolve uma metade de um dos lobos ou menos (pagina 190)</terms:description>
 	</owl:Class>
@@ -2960,10 +3012,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_T3a -->
+	<!-- &tnm;C61_T3a -->
 
 	<owl:Class rdf:about="&tnm;C61_T3a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3a"/>
     	<terms:description xml:lang="pt"> Extensão extracapsular (uni- ou bilateral) (pagina 190)</terms:description>
 	</owl:Class>
@@ -2976,10 +3028,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_M1 -->
+	<!-- &tnm;C61_M1 -->
 
 	<owl:Class rdf:about="&tnm;C61_M1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;M1"/>
     	<terms:description xml:lang="pt"> Metástase à distância (pagina 190)</terms:description>
 	</owl:Class>
@@ -2992,10 +3044,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C61_M1c -->
+	<!-- &tnm;C61_M1c -->
 
 	<owl:Class rdf:about="&tnm;C61_M1c">
-    	<rdfs:subClassOf rdf:resource="&tnm;C61"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
     	<rdfs:subClassOf rdf:resource="&tnm;M1c"/>
     	<terms:description xml:lang="pt"> Metástase em Outra(s) localização(ões) (pagina 190)</terms:description>
 	</owl:Class>
@@ -3010,10 +3062,10 @@
 
 	<!-- Pulmao --> 
 
-	<!-- &tnm;:C34_N3 -->
+	<!-- &tnm;C34_N3 -->
 
 	<owl:Class rdf:about="&tnm;C34_N3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C34"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C34"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N3"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo(s) mediastinal(ais) contralateral(ais), hilar(es) contralateral(ais), escaleno(s) homo- ou contralateral(ais), ou em linfonodo(s) supra-clavicular(es) (pagina 105)</terms:description>
 	</owl:Class>
@@ -3026,10 +3078,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C34_T4 -->
+	<!-- &tnm;C34_T4 -->
 
 	<owl:Class rdf:about="&tnm;C34_T4">
-    	<rdfs:subClassOf rdf:resource="&tnm;C34"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C34"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4"/>
     	<terms:description xml:lang="pt"> Tumor de qualquer tamanho que invade qualquer das seguintes estruturas: mediastino, coração, grandes vasos, traquéia, esôfago, corpo vertebral, carina; ou nódulo(s) tumoral(ais) distinto(s) no mesmo lobo; tumor com derrame pleural maligno (pagina 105)</terms:description>
 	</owl:Class>
@@ -3042,10 +3094,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C34_T2 -->
+	<!-- &tnm;C34_T2 -->
 
 	<owl:Class rdf:about="&tnm;C34_T2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C34"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C34"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2"/>
     	<terms:description xml:lang="pt"> Tumor com qualquer das seguintes características de tamanho ou extensão: Com mais de 3 cm em sua maior dimensão; Compromete o brônquio principal, com 2 cm ou mais distalmente à carina ;Invade a pleura visceral; Associado com atelectasia ou pneumonite obstrutiva que se estende até a região hilar, mas não envolve todo o pulmão (pagina 105)</terms:description>
 	</owl:Class>
@@ -3058,10 +3110,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C34_T3 -->
+	<!-- &tnm;C34_T3 -->
 
 	<owl:Class rdf:about="&tnm;C34_T3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C34"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C34"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3"/>
     	<terms:description xml:lang="pt"> Tumor de qualquer tamanho que invade diretamente qualquer uma das seguintes estruturas: parede torácica (inclusive os tumores do sulco superior), diafragma, pleura mediastinal, pericárdio parietal; ou tumor do brônquio principal com menos de 2 cm distalmente à carina1 mas sem envolvimento da mesma; ou tumor associado com atelectasia ou pneumonite obstrutiva de todo o pulmão (pagina 105)</terms:description>
 	</owl:Class>
@@ -3074,10 +3126,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C34_T1 -->
+	<!-- &tnm;C34_T1 -->
 
 	<owl:Class rdf:about="&tnm;C34_T1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C34"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C34"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1"/>
     	<terms:description xml:lang="pt"> Tumor com 3 cm ou menos em sua maior dimensão, circundado por pulmão ou pleura visceral, sem evidência broncoscópica de invasão mais proximal que o brônquio lobar (i.e., sem invasão do brônquio principal). (pagina 105)</terms:description>
 	</owl:Class>
@@ -3090,10 +3142,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C34_M1 -->
+	<!-- &tnm;C34_M1 -->
 
 	<owl:Class rdf:about="&tnm;C34_M1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C34"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C34"/>
     	<rdfs:subClassOf rdf:resource="&tnm;M1"/>
     	<terms:description xml:lang="pt"> Metástase à distância, inclusive nódulo(s) tumoral(is) distinto(s) num lobo diferente (homolateral ou contralateral) (pagina 105)</terms:description>
 	</owl:Class>
@@ -3106,10 +3158,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C34_N1 -->
+	<!-- &tnm;C34_N1 -->
 
 	<owl:Class rdf:about="&tnm;C34_N1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C34"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C34"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N1"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodos peribrônquicos e/ou hilares homolaterais e nódulos intrapulmonares, incluindo o comprometimento por extensão direta (pagina 105)</terms:description>
 	</owl:Class>
@@ -3122,10 +3174,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C34_N2 -->
+	<!-- &tnm;C34_N2 -->
 
 	<owl:Class rdf:about="&tnm;C34_N2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C34"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C34"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo(s) mediastinal(ais) homolateral(ais) e/ou em linfonodo(s) subcarinal(ais) (pagina 105)</terms:description>
 	</owl:Class>
@@ -3140,10 +3192,10 @@
 
 	<!-- Rim --> 
 
-	<!-- &tnm;:C64_T1b -->
+	<!-- &tnm;C64_T1b -->
 
 	<owl:Class rdf:about="&tnm;C64_T1b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C64"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C64"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1b"/>
     	<terms:description xml:lang="pt"> Tumor com mais de 4 cm até 7 cm (pagina 200)</terms:description>
 	</owl:Class>
@@ -3156,10 +3208,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C64_T1a -->
+	<!-- &tnm;C64_T1a -->
 
 	<owl:Class rdf:about="&tnm;C64_T1a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C64"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C64"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1a"/>
     	<terms:description xml:lang="pt"> Tumor com 4 cm ou menos (pagina 200)</terms:description>
 	</owl:Class>
@@ -3172,10 +3224,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C64_T3b -->
+	<!-- &tnm;C64_T3b -->
 
 	<owl:Class rdf:about="&tnm;C64_T3b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C64"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C64"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3b"/>
     	<terms:description xml:lang="pt"> Extensão macroscópica do tumor à(s) veia(s)2 renal(is) ou à veia cava, ou à sua parede, abaixo do diafragma (pagina 200)</terms:description>
 	</owl:Class>
@@ -3188,10 +3240,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C64_T4 -->
+	<!-- &tnm;C64_T4 -->
 
 	<owl:Class rdf:about="&tnm;C64_T4">
-    	<rdfs:subClassOf rdf:resource="&tnm;C64"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C64"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4"/>
     	<terms:description xml:lang="pt"> Tumor que invade diretamente além da fáscia de Gerota (pagina 200)</terms:description>
 	</owl:Class>
@@ -3204,10 +3256,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C64_T2 -->
+	<!-- &tnm;C64_T2 -->
 
 	<owl:Class rdf:about="&tnm;C64_T2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C64"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C64"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2"/>
     	<terms:description xml:lang="pt"> Tumor com mais de 7 cm em sua maior dimensão, limitado ao rim (pagina 200)</terms:description>
 	</owl:Class>
@@ -3220,10 +3272,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C64_T3 -->
+	<!-- &tnm;C64_T3 -->
 
 	<owl:Class rdf:about="&tnm;C64_T3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C64"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C64"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3"/>
     	<terms:description xml:lang="pt"> Tumor que se estende às grandes veias ou que invade diretamente a supra-renal ou os tecidos peri-renais, porém aquém da fáscia de Gerota (pagina 200)</terms:description>
 	</owl:Class>
@@ -3236,10 +3288,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C64_T1 -->
+	<!-- &tnm;C64_T1 -->
 
 	<owl:Class rdf:about="&tnm;C64_T1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C64"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C64"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1"/>
     	<terms:description xml:lang="pt"> Tumor com 7 cm ou menos em sua maior dimensão, limitado ao rim (pagina 200)</terms:description>
 	</owl:Class>
@@ -3252,10 +3304,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C64_T3a -->
+	<!-- &tnm;C64_T3a -->
 
 	<owl:Class rdf:about="&tnm;C64_T3a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C64"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C64"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3a"/>
     	<terms:description xml:lang="pt"> Tumor que invade diretamente a supra-renal ou os tecidos peri-renais1, porém aquém da fáscia de Gerota (pagina 200)</terms:description>
 	</owl:Class>
@@ -3268,10 +3320,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C64_T3c -->
+	<!-- &tnm;C64_T3c -->
 
 	<owl:Class rdf:about="&tnm;C64_T3c">
-    	<rdfs:subClassOf rdf:resource="&tnm;C64"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C64"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3c"/>
     	<terms:description xml:lang="pt"> Extensão macroscópica do tumor à veia cava, ou à sua parede, acima do diafragma (pagina 200)</terms:description>
 	</owl:Class>
@@ -3284,10 +3336,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C64_N1 -->
+	<!-- &tnm;C64_N1 -->
 
 	<owl:Class rdf:about="&tnm;C64_N1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C64"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C64"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N1"/>
     	<terms:description xml:lang="pt"> Metástase em um único linfonodo regional (pagina 200)</terms:description>
 	</owl:Class>
@@ -3300,10 +3352,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C64_N2 -->
+	<!-- &tnm;C64_N2 -->
 
 	<owl:Class rdf:about="&tnm;C64_N2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C64"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C64"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2"/>
     	<terms:description xml:lang="pt"> Metástase em mais de um linfonodo regional (pagina 200)</terms:description>
 	</owl:Class>
@@ -3318,10 +3370,10 @@
 
 	<!-- Subglote --> 
 
-	<!-- &tnm;:C32.2_N2 -->
+	<!-- &tnm;C32.2_N2 -->
 
 	<owl:Class rdf:about="&tnm;C32.2_N2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.2"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.2"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2"/>
     	<terms:description xml:lang="pt"> Metástase em um único linfonodo homolateral, com mais de 3 cm até 6 cm em sua maior dimensão; ou em linfonodos homolaterais múltiplos, nenhum deles com mais de 6 cm em sua maior dimensão; ou em linfonodos bilaterais ou contralaterais, nenhum deles com mais de 6 cm em sua maior dimensão (pagina 38)</terms:description>
 	</owl:Class>
@@ -3334,10 +3386,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.2_N3 -->
+	<!-- &tnm;C32.2_N3 -->
 
 	<owl:Class rdf:about="&tnm;C32.2_N3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.2"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.2"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N3"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodo com mais de 6 cm em sua maior dimensão (pagina 38)</terms:description>
 	</owl:Class>
@@ -3350,10 +3402,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.2_N2c -->
+	<!-- &tnm;C32.2_N2c -->
 
 	<owl:Class rdf:about="&tnm;C32.2_N2c">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.2"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.2"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2c"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodos bilaterais ou contralaterais, nenhum deles com mais de 6 cm em sua maior dimensão (pagina 38)</terms:description>
 	</owl:Class>
@@ -3366,10 +3418,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.2_N2b -->
+	<!-- &tnm;C32.2_N2b -->
 
 	<owl:Class rdf:about="&tnm;C32.2_N2b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.2"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.2"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2b"/>
     	<terms:description xml:lang="pt"> Metástase em linfonodos homolaterais múltiplos, nenhum deles com mais de 6cm em sua maior dimensão (pagina 38)</terms:description>
 	</owl:Class>
@@ -3382,10 +3434,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.2_N2a -->
+	<!-- &tnm;C32.2_N2a -->
 
 	<owl:Class rdf:about="&tnm;C32.2_N2a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.2"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.2"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N2a"/>
     	<terms:description xml:lang="pt"> Metástase em um único linfonodo homolateral, com mais de 3 cm até 6 cm em sua maior dimensão (pagina 38)</terms:description>
 	</owl:Class>
@@ -3398,10 +3450,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.2_T2 -->
+	<!-- &tnm;C32.2_T2 -->
 
 	<owl:Class rdf:about="&tnm;C32.2_T2">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.2"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.2"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T2"/>
     	<terms:description xml:lang="pt"> Tumor que se estende à(s) corda(s) vocal(ais), com mobilidade normal ou reduzida (pagina 38)</terms:description>
 	</owl:Class>
@@ -3414,10 +3466,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.2_T3 -->
+	<!-- &tnm;C32.2_T3 -->
 
 	<owl:Class rdf:about="&tnm;C32.2_T3">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.2"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.2"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T3"/>
     	<terms:description xml:lang="pt"> Tumor limitado à laringe, com fixação da corda vocal (pagina 38)</terms:description>
 	</owl:Class>
@@ -3430,10 +3482,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.2_T1 -->
+	<!-- &tnm;C32.2_T1 -->
 
 	<owl:Class rdf:about="&tnm;C32.2_T1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.2"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.2"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T1"/>
     	<terms:description xml:lang="pt"> Tumor limitado à subglote (pagina 38)</terms:description>
 	</owl:Class>
@@ -3446,10 +3498,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.2_N1 -->
+	<!-- &tnm;C32.2_N1 -->
 
 	<owl:Class rdf:about="&tnm;C32.2_N1">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.2"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.2"/>
     	<rdfs:subClassOf rdf:resource="&tnm;N1"/>
     	<terms:description xml:lang="pt"> Metástase em um único linfonodo homolateral, com 3 cm ou menos em sua maior dimensão (pagina 38)</terms:description>
 	</owl:Class>
@@ -3462,10 +3514,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.2_T4b -->
+	<!-- &tnm;C32.2_T4b -->
 
 	<owl:Class rdf:about="&tnm;C32.2_T4b">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.2"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.2"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4b"/>
     	<terms:description xml:lang="pt"> Tumor que invade o espaço pré-vertebral, estruturas mediastinais ou adjacente a artéria carótida (pagina 38)</terms:description>
 	</owl:Class>
@@ -3478,10 +3530,10 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;:C32.2_T4a -->
+	<!-- &tnm;C32.2_T4a -->
 
 	<owl:Class rdf:about="&tnm;C32.2_T4a">
-    	<rdfs:subClassOf rdf:resource="&tnm;C32.2"/>
+    	<rdfs:subClassOf rdf:resource="&icd10;C32.2"/>
     	<rdfs:subClassOf rdf:resource="&tnm;T4a"/>
     	<terms:description xml:lang="pt"> Tumor que invade a cartilagem cricóide ou tireóide e/ou estende-se a outros tecidos além da laringe, p. ex., traquéia, partes moles do pescoço, incluindo músculos profundos/extrínsecos da língua (genioglosso, hioglosso, palatoglosso e estiloglosso), tireóide e esôfago (pagina 38)</terms:description>
 	</owl:Class>
@@ -3499,6 +3551,7 @@
 	<owl:Class rdf:about="&tnm;Supraglote"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Supraglote"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C32_1"/>
@@ -3525,6 +3578,7 @@
 	<owl:Class rdf:about="&tnm;Supraglote"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Supraglote"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C32_1"/>
@@ -3551,6 +3605,7 @@
 	<owl:Class rdf:about="&tnm;Supraglote"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Supraglote"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C32_1"/>
@@ -3577,6 +3632,7 @@
 	<owl:Class rdf:about="&tnm;Supraglote"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Supraglote"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C32_1"/>
@@ -3603,6 +3659,7 @@
 	<owl:Class rdf:about="&tnm;Supraglote"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Supraglote"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C32_1"/>
@@ -3629,6 +3686,7 @@
 	<owl:Class rdf:about="&tnm;Supraglote"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Supraglote"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C32_1"/>
@@ -3655,6 +3713,7 @@
 	<owl:Class rdf:about="&tnm;Supraglote"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Supraglote"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C32_1"/>
@@ -3681,6 +3740,7 @@
 	<owl:Class rdf:about="&tnm;Supraglote"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Supraglote"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C32_1"/>
@@ -3707,6 +3767,7 @@
 	<owl:Class rdf:about="&tnm;Supraglote"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Supraglote"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C32_1"/>
@@ -3733,6 +3794,7 @@
 	<owl:Class rdf:about="&tnm;Supraglote"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Supraglote"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C32_1"/>
@@ -3759,6 +3821,7 @@
 	<owl:Class rdf:about="&tnm;Supraglote"/>
 
 	<owl:Class>
+        <terms:description>This is an automatically generated class</terms:description>
     	<rdfs:subClassOf rdf:resource="&tnm;Supraglote"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C32_1"/>
