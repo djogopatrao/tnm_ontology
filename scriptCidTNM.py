@@ -53,7 +53,9 @@ print '''<?xml version="1.0"?>
  	xmlns:%s="%s#"
  	xmlns:%s="%s#"
  	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-	<owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_annotations"/>
+	<owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_annotations">
+        <terms:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
+	</owl:Ontology>
 	
 ''' % (prefixICD10,uriICD10,prefix,uri,prefixICD10,uriICD10,prefix,uri);
 

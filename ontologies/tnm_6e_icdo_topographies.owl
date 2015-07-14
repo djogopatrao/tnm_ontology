@@ -21,6 +21,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#">
     <owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl">
         <terms:creator xml:lang="en">Diogo Patrão (djogopatrao@gmail.com)</terms:creator>
+        <terms:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
         <skos:historyNote xml:lang="en">First version: 2015-07-08</skos:historyNote>
         <terms:description xml:lang="en">The purpose of this ontology is to represent the ICD-O 3th edition topographies, in order to allow the TNM representation. This is not an effort to completely represent the given vocabulary.
 

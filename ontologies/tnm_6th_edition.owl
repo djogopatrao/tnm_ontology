@@ -29,6 +29,7 @@
         <owl:versionInfo rdf:datatype="&xsd;string">First version: 2015-07-10</owl:versionInfo>
         <terms:creator rdf:datatype="&xsd;string">Medical Informatics - A.C.Camargo Cancer Center</terms:creator>
         <terms:description rdf:datatype="&xsd;string">TNM is a classification system for assessment of progression stage of malignant tumors. The physician, upon patient examination, classifies a tumor using three variables: T, N and M. Definitions of values for T, N and M depend on the tumor topography (or body part), specified as ICD-O codes. These values are then used to infer the Clinical Stage (CS) and reflect the disease progression, which can be 0 (no malignant tumor), IS (in situ), I, II, III, or IV. The rules for inference are different for each topography and may depend on other factors such as age. With the objective of evaluate missing CS information on A. C. Camargo Cancer Center databases, we developed an open ontology to represent TNM concepts and rules for CS inference. It was designed to be easily expansible and fast to compute.</terms:description>
+	<terms:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
         <owl:imports rdf:resource="http://cipe.accamargo.org.br/ontologies/axioms.owl"/>
         <owl:imports rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl"/>
         <owl:imports rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_annotations"/>

@@ -41,7 +41,9 @@ print '''<?xml version="1.0"?>
      	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
  	xmlns:ncit="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
      	xmlns:tnm="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#">
-    	<owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologies/axioms.owl"/>
+    	<owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologies/axioms.owl">
+        <terms:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
+	</owl:Ontology>
 
 	
 '''
