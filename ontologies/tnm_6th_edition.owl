@@ -2,6 +2,7 @@
 
 
 <!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
@@ -9,24 +10,28 @@
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY recruit "http://cipe.accamargo.org.br/ontologias/recruit.owl#" >
     <!ENTITY recruit_cid10 "http://cipe.accamargo.org.br/ontologias/recruit_cid10.owl#" >
-    <!ENTITY tnm "http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#" >
+    <!ENTITY tnm "http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#" >
 ]>
 
 
-<rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#"
-     xml:base="http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl"
+<rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#"
+     xml:base="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl"
      xmlns:recruit_cid10="http://cipe.accamargo.org.br/ontologias/recruit_cid10.owl#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:recruit="http://cipe.accamargo.org.br/ontologias/recruit.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:tnm="http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#">
-    <owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl">
-        <owl:imports rdf:resource="http://cipe.accamargo.org.br/ontologias/axiomas.owl"/>
-        <owl:imports rdf:resource="http://cipe.accamargo.org.br/ontologias/tnm_6e_icdo_topographies.owl"/>
-        <owl:imports rdf:resource="http://cipe.accamargo.org.br/ontologias/tnm_annotations"/>
+     xmlns:tnm="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#">
+    <owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl">
+        <owl:versionInfo rdf:datatype="&xsd;string">First version: 2015-07-10</owl:versionInfo>
+        <terms:creator rdf:datatype="&xsd;string">Medical Informatics - A.C.Camargo Cancer Center</terms:creator>
+        <terms:description rdf:datatype="&xsd;string">TNM is a classification system for assessment of progression stage of malignant tumors. The physician, upon patient examination, classifies a tumor using three variables: T, N and M. Definitions of values for T, N and M depend on the tumor topography (or body part), specified as ICD-O codes. These values are then used to infer the Clinical Stage (CS) and reflect the disease progression, which can be 0 (no malignant tumor), IS (in situ), I, II, III, or IV. The rules for inference are different for each topography and may depend on other factors such as age. With the objective of evaluate missing CS information on A. C. Camargo Cancer Center databases, we developed an open ontology to represent TNM concepts and rules for CS inference. It was designed to be easily expansible and fast to compute.</terms:description>
+        <owl:imports rdf:resource="http://cipe.accamargo.org.br/ontologies/axioms.owl"/>
+        <owl:imports rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl"/>
+        <owl:imports rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_annotations"/>
     </owl:Ontology>
     
 
@@ -59,7 +64,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#CavidadeNasalESeiosParanasais_EC_0 -->
 
     <owl:Class rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_0">
         <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
@@ -67,7 +72,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_I -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#CavidadeNasalESeiosParanasais_EC_I -->
 
     <owl:Class rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_I">
         <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
@@ -75,7 +80,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_II -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#CavidadeNasalESeiosParanasais_EC_II -->
 
     <owl:Class rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_II">
         <rdfs:subClassOf rdf:resource="&tnm;EC_II"/>
@@ -83,7 +88,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#CavidadeNasalESeiosParanasais_EC_III -->
 
     <owl:Class rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_III">
         <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
@@ -92,7 +97,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_IVA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#CavidadeNasalESeiosParanasais_EC_IVA -->
 
     <owl:Class rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_IVA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVA"/>
@@ -101,7 +106,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_IVB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#CavidadeNasalESeiosParanasais_EC_IVB -->
 
     <owl:Class rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_IVB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVB"/>
@@ -109,7 +114,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_IVC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#CavidadeNasalESeiosParanasais_EC_IVC -->
 
     <owl:Class rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_IVC">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVC"/>
@@ -117,7 +122,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ColonEReto_EC_0 -->
 
     <owl:Class rdf:about="&tnm;ColonEReto_EC_0">
         <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
@@ -125,7 +130,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_I -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ColonEReto_EC_I -->
 
     <owl:Class rdf:about="&tnm;ColonEReto_EC_I">
         <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
@@ -133,7 +138,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_IIA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ColonEReto_EC_IIA -->
 
     <owl:Class rdf:about="&tnm;ColonEReto_EC_IIA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIA"/>
@@ -141,7 +146,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_IIB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ColonEReto_EC_IIB -->
 
     <owl:Class rdf:about="&tnm;ColonEReto_EC_IIB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIB"/>
@@ -149,7 +154,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_IIIA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ColonEReto_EC_IIIA -->
 
     <owl:Class rdf:about="&tnm;ColonEReto_EC_IIIA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIIA"/>
@@ -157,7 +162,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_IIIB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ColonEReto_EC_IIIB -->
 
     <owl:Class rdf:about="&tnm;ColonEReto_EC_IIIB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIIB"/>
@@ -165,7 +170,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_IIIC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ColonEReto_EC_IIIC -->
 
     <owl:Class rdf:about="&tnm;ColonEReto_EC_IIIC">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIIC"/>
@@ -173,7 +178,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ColonEReto_EC_IV -->
 
     <owl:Class rdf:about="&tnm;ColonEReto_EC_IV">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
@@ -182,17 +187,17 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC -->
 
     <owl:Class rdf:about="&tnm;EC">
-        <rdfs:subClassOf rdf:resource="&tnm;TNM_6a_edicao"/>
         <skos:prefLabel xml:lang="en">Clinical Stage</skos:prefLabel>
         <skos:prefLabel xml:lang="pt">Estadio Clínico</skos:prefLabel>
+        <rdfs:subClassOf rdf:resource="&tnm;TNM_6th_edition"/>
     </owl:Class>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_0 -->
 
     <owl:Class rdf:about="&tnm;EC_0">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -201,7 +206,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_I -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_I -->
 
     <owl:Class rdf:about="&tnm;EC_I">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -209,7 +214,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_IA -->
 
     <owl:Class rdf:about="&tnm;EC_IA">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -217,7 +222,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_IB -->
 
     <owl:Class rdf:about="&tnm;EC_IB">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -225,7 +230,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_IC -->
 
     <owl:Class rdf:about="&tnm;EC_IC">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -233,7 +238,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_II -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_II -->
 
     <owl:Class rdf:about="&tnm;EC_II">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -241,7 +246,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IIA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_IIA -->
 
     <owl:Class rdf:about="&tnm;EC_IIA">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -249,7 +254,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IIB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_IIB -->
 
     <owl:Class rdf:about="&tnm;EC_IIB">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -257,7 +262,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IIC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_IIC -->
 
     <owl:Class rdf:about="&tnm;EC_IIC">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -265,7 +270,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_III -->
 
     <owl:Class rdf:about="&tnm;EC_III">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -274,7 +279,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IIIA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_IIIA -->
 
     <owl:Class rdf:about="&tnm;EC_IIIA">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -282,7 +287,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IIIB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_IIIB -->
 
     <owl:Class rdf:about="&tnm;EC_IIIB">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -290,7 +295,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IIIC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_IIIC -->
 
     <owl:Class rdf:about="&tnm;EC_IIIC">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -298,7 +303,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_IV -->
 
     <owl:Class rdf:about="&tnm;EC_IV">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -307,7 +312,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IVA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_IVA -->
 
     <owl:Class rdf:about="&tnm;EC_IVA">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -315,7 +320,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IVB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_IVB -->
 
     <owl:Class rdf:about="&tnm;EC_IVB">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -323,7 +328,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IVC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_IVC -->
 
     <owl:Class rdf:about="&tnm;EC_IVC">
         <rdfs:subClassOf rdf:resource="&tnm;EC"/>
@@ -331,7 +336,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Estomago_EC_0 -->
 
     <owl:Class rdf:about="&tnm;Estomago_EC_0">
         <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
@@ -339,7 +344,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_IA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Estomago_EC_IA -->
 
     <owl:Class rdf:about="&tnm;Estomago_EC_IA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IA"/>
@@ -347,7 +352,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_IB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Estomago_EC_IB -->
 
     <owl:Class rdf:about="&tnm;Estomago_EC_IB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IB"/>
@@ -355,7 +360,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_II -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Estomago_EC_II -->
 
     <owl:Class rdf:about="&tnm;Estomago_EC_II">
         <rdfs:subClassOf rdf:resource="&tnm;EC_II"/>
@@ -363,7 +368,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_IIIA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Estomago_EC_IIIA -->
 
     <owl:Class rdf:about="&tnm;Estomago_EC_IIIA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIIA"/>
@@ -371,7 +376,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_IIIB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Estomago_EC_IIIB -->
 
     <owl:Class rdf:about="&tnm;Estomago_EC_IIIB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIIB"/>
@@ -379,7 +384,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Estomago_EC_IV -->
 
     <owl:Class rdf:about="&tnm;Estomago_EC_IV">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
@@ -388,7 +393,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeNasofaringe_EC_0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeNasofaringe_EC_0 -->
 
     <owl:Class rdf:about="&tnm;FaringeNasofaringe_EC_0">
         <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
@@ -396,7 +401,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeNasofaringe_EC_I -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeNasofaringe_EC_I -->
 
     <owl:Class rdf:about="&tnm;FaringeNasofaringe_EC_I">
         <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
@@ -404,7 +409,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeNasofaringe_EC_IIA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeNasofaringe_EC_IIA -->
 
     <owl:Class rdf:about="&tnm;FaringeNasofaringe_EC_IIA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIA"/>
@@ -412,7 +417,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeNasofaringe_EC_IIB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeNasofaringe_EC_IIB -->
 
     <owl:Class rdf:about="&tnm;FaringeNasofaringe_EC_IIB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIB"/>
@@ -420,7 +425,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeNasofaringe_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeNasofaringe_EC_III -->
 
     <owl:Class rdf:about="&tnm;FaringeNasofaringe_EC_III">
         <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
@@ -429,7 +434,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeNasofaringe_EC_IVA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeNasofaringe_EC_IVA -->
 
     <owl:Class rdf:about="&tnm;FaringeNasofaringe_EC_IVA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVA"/>
@@ -438,7 +443,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeNasofaringe_EC_IVB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeNasofaringe_EC_IVB -->
 
     <owl:Class rdf:about="&tnm;FaringeNasofaringe_EC_IVB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVB"/>
@@ -446,7 +451,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeNasofaringe_EC_IVC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeNasofaringe_EC_IVC -->
 
     <owl:Class rdf:about="&tnm;FaringeNasofaringe_EC_IVC">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVC"/>
@@ -454,7 +459,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeOrofaringeHipofaringe_EC_0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeOrofaringeHipofaringe_EC_0 -->
 
     <owl:Class rdf:about="&tnm;FaringeOrofaringeHipofaringe_EC_0">
         <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
@@ -462,7 +467,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeOrofaringeHipofaringe_EC_I -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeOrofaringeHipofaringe_EC_I -->
 
     <owl:Class rdf:about="&tnm;FaringeOrofaringeHipofaringe_EC_I">
         <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
@@ -470,7 +475,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeOrofaringeHipofaringe_EC_II -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeOrofaringeHipofaringe_EC_II -->
 
     <owl:Class rdf:about="&tnm;FaringeOrofaringeHipofaringe_EC_II">
         <rdfs:subClassOf rdf:resource="&tnm;EC_II"/>
@@ -478,7 +483,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeOrofaringeHipofaringe_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeOrofaringeHipofaringe_EC_III -->
 
     <owl:Class rdf:about="&tnm;FaringeOrofaringeHipofaringe_EC_III">
         <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
@@ -486,7 +491,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeOrofaringeHipofaringe_EC_IVA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeOrofaringeHipofaringe_EC_IVA -->
 
     <owl:Class rdf:about="&tnm;FaringeOrofaringeHipofaringe_EC_IVA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVA"/>
@@ -495,7 +500,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeOrofaringeHipofaringe_EC_IVB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeOrofaringeHipofaringe_EC_IVB -->
 
     <owl:Class rdf:about="&tnm;FaringeOrofaringeHipofaringe_EC_IVB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVB"/>
@@ -503,7 +508,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#FaringeOrofaringeHipofaringe_EC_IVC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FaringeOrofaringeHipofaringe_EC_IVC -->
 
     <owl:Class rdf:about="&tnm;FaringeOrofaringeHipofaringe_EC_IVC">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVC"/>
@@ -511,7 +516,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulasSalivares_EC_I -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#GlandulasSalivares_EC_I -->
 
     <owl:Class rdf:about="&tnm;GlandulasSalivares_EC_I">
         <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
@@ -519,7 +524,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulasSalivares_EC_II -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#GlandulasSalivares_EC_II -->
 
     <owl:Class rdf:about="&tnm;GlandulasSalivares_EC_II">
         <rdfs:subClassOf rdf:resource="&tnm;EC_II"/>
@@ -527,7 +532,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulasSalivares_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#GlandulasSalivares_EC_III -->
 
     <owl:Class rdf:about="&tnm;GlandulasSalivares_EC_III">
         <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
@@ -536,7 +541,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulasSalivares_EC_IVA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#GlandulasSalivares_EC_IVA -->
 
     <owl:Class rdf:about="&tnm;GlandulasSalivares_EC_IVA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVA"/>
@@ -545,7 +550,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulasSalivares_EC_IVB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#GlandulasSalivares_EC_IVB -->
 
     <owl:Class rdf:about="&tnm;GlandulasSalivares_EC_IVB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVB"/>
@@ -553,7 +558,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulasSalivares_EC_IVC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#GlandulasSalivares_EC_IVC -->
 
     <owl:Class rdf:about="&tnm;GlandulasSalivares_EC_IVC">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVC"/>
@@ -561,17 +566,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GruposTopograficos -->
-
-    <owl:Class rdf:about="&tnm;GruposTopograficos">
-        <rdfs:subClassOf rdf:resource="&tnm;TNM_6a_edicao"/>
-        <skos:prefLabel xml:lang="en">Topographic groups defined in TNM 6th edition</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Grupos topográficos definidos na 6a. edição do TNM</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#LabioECavidadeOral_EC_0 -->
 
     <owl:Class rdf:about="&tnm;LabioECavidadeOral_EC_0">
         <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
@@ -579,7 +574,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_I -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#LabioECavidadeOral_EC_I -->
 
     <owl:Class rdf:about="&tnm;LabioECavidadeOral_EC_I">
         <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
@@ -587,7 +582,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_II -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#LabioECavidadeOral_EC_II -->
 
     <owl:Class rdf:about="&tnm;LabioECavidadeOral_EC_II">
         <rdfs:subClassOf rdf:resource="&tnm;EC_II"/>
@@ -595,7 +590,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#LabioECavidadeOral_EC_III -->
 
     <owl:Class rdf:about="&tnm;LabioECavidadeOral_EC_III">
         <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
@@ -604,7 +599,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_IVA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#LabioECavidadeOral_EC_IVA -->
 
     <owl:Class rdf:about="&tnm;LabioECavidadeOral_EC_IVA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVA"/>
@@ -613,7 +608,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_IVB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#LabioECavidadeOral_EC_IVB -->
 
     <owl:Class rdf:about="&tnm;LabioECavidadeOral_EC_IVB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVB"/>
@@ -621,7 +616,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_IVC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#LabioECavidadeOral_EC_IVC -->
 
     <owl:Class rdf:about="&tnm;LabioECavidadeOral_EC_IVC">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVC"/>
@@ -629,7 +624,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Laringe_EC_0 -->
 
     <owl:Class rdf:about="&tnm;Laringe_EC_0">
         <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
@@ -637,7 +632,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_I -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Laringe_EC_I -->
 
     <owl:Class rdf:about="&tnm;Laringe_EC_I">
         <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
@@ -645,7 +640,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_II -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Laringe_EC_II -->
 
     <owl:Class rdf:about="&tnm;Laringe_EC_II">
         <rdfs:subClassOf rdf:resource="&tnm;EC_II"/>
@@ -653,7 +648,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Laringe_EC_III -->
 
     <owl:Class rdf:about="&tnm;Laringe_EC_III">
         <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
@@ -662,7 +657,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_IVA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Laringe_EC_IVA -->
 
     <owl:Class rdf:about="&tnm;Laringe_EC_IVA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVA"/>
@@ -671,7 +666,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_IVB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Laringe_EC_IVB -->
 
     <owl:Class rdf:about="&tnm;Laringe_EC_IVB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVB"/>
@@ -679,7 +674,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_IVC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Laringe_EC_IVC -->
 
     <owl:Class rdf:about="&tnm;Laringe_EC_IVC">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IVC"/>
@@ -687,15 +682,15 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M -->
 
     <owl:Class rdf:about="&tnm;M">
-        <rdfs:subClassOf rdf:resource="&tnm;TNM_6a_edicao"/>
+        <rdfs:subClassOf rdf:resource="&tnm;TNM_6th_edition"/>
     </owl:Class>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0 -->
 
     <owl:Class rdf:about="&tnm;M0">
         <rdfs:subClassOf rdf:resource="&tnm;M"/>
@@ -704,7 +699,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M1 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1 -->
 
     <owl:Class rdf:about="&tnm;M1">
         <rdfs:subClassOf rdf:resource="&tnm;M"/>
@@ -713,7 +708,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M1a -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1a -->
 
     <owl:Class rdf:about="&tnm;M1a">
         <rdfs:subClassOf rdf:resource="&tnm;M1"/>
@@ -721,7 +716,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M1b -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1b -->
 
     <owl:Class rdf:about="&tnm;M1b">
         <rdfs:subClassOf rdf:resource="&tnm;M1"/>
@@ -729,7 +724,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M1c -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1c -->
 
     <owl:Class rdf:about="&tnm;M1c">
         <rdfs:subClassOf rdf:resource="&tnm;M1"/>
@@ -737,7 +732,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#MX -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#MX -->
 
     <owl:Class rdf:about="&tnm;MX">
         <rdfs:subClassOf rdf:resource="&tnm;M"/>
@@ -746,15 +741,15 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N -->
 
     <owl:Class rdf:about="&tnm;N">
-        <rdfs:subClassOf rdf:resource="&tnm;TNM_6a_edicao"/>
+        <rdfs:subClassOf rdf:resource="&tnm;TNM_6th_edition"/>
     </owl:Class>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0 -->
 
     <owl:Class rdf:about="&tnm;N0">
         <rdfs:subClassOf rdf:resource="&tnm;N"/>
@@ -763,7 +758,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N1 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1 -->
 
     <owl:Class rdf:about="&tnm;N1">
         <rdfs:subClassOf rdf:resource="&tnm;N"/>
@@ -772,7 +767,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N2 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2 -->
 
     <owl:Class rdf:about="&tnm;N2">
         <rdfs:subClassOf rdf:resource="&tnm;N"/>
@@ -781,7 +776,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N2a -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2a -->
 
     <owl:Class rdf:about="&tnm;N2a">
         <rdfs:subClassOf rdf:resource="&tnm;N2"/>
@@ -789,7 +784,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N2b -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2b -->
 
     <owl:Class rdf:about="&tnm;N2b">
         <rdfs:subClassOf rdf:resource="&tnm;N2"/>
@@ -797,7 +792,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N2c -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2c -->
 
     <owl:Class rdf:about="&tnm;N2c">
         <rdfs:subClassOf rdf:resource="&tnm;N2"/>
@@ -805,7 +800,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N3 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N3 -->
 
     <owl:Class rdf:about="&tnm;N3">
         <rdfs:subClassOf rdf:resource="&tnm;N"/>
@@ -814,7 +809,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N3a -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N3a -->
 
     <owl:Class rdf:about="&tnm;N3a">
         <rdfs:subClassOf rdf:resource="&tnm;N3"/>
@@ -822,7 +817,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N3b -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N3b -->
 
     <owl:Class rdf:about="&tnm;N3b">
         <rdfs:subClassOf rdf:resource="&tnm;N3"/>
@@ -830,7 +825,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N3c -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N3c -->
 
     <owl:Class rdf:about="&tnm;N3c">
         <rdfs:subClassOf rdf:resource="&tnm;N3"/>
@@ -838,7 +833,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Ovario_EC_IA -->
 
     <owl:Class rdf:about="&tnm;Ovario_EC_IA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IA"/>
@@ -846,7 +841,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Ovario_EC_IB -->
 
     <owl:Class rdf:about="&tnm;Ovario_EC_IB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IB"/>
@@ -854,7 +849,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Ovario_EC_IC -->
 
     <owl:Class rdf:about="&tnm;Ovario_EC_IC">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IC"/>
@@ -862,7 +857,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IIA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Ovario_EC_IIA -->
 
     <owl:Class rdf:about="&tnm;Ovario_EC_IIA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIA"/>
@@ -870,7 +865,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IIB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Ovario_EC_IIB -->
 
     <owl:Class rdf:about="&tnm;Ovario_EC_IIB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIB"/>
@@ -878,7 +873,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IIC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Ovario_EC_IIC -->
 
     <owl:Class rdf:about="&tnm;Ovario_EC_IIC">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIC"/>
@@ -886,7 +881,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IIIA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Ovario_EC_IIIA -->
 
     <owl:Class rdf:about="&tnm;Ovario_EC_IIIA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIIA"/>
@@ -894,7 +889,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IIIB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Ovario_EC_IIIB -->
 
     <owl:Class rdf:about="&tnm;Ovario_EC_IIIB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIIB"/>
@@ -902,7 +897,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IIIC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Ovario_EC_IIIC -->
 
     <owl:Class rdf:about="&tnm;Ovario_EC_IIIC">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIIC"/>
@@ -910,7 +905,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Ovario_EC_IV -->
 
     <owl:Class rdf:about="&tnm;Ovario_EC_IV">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
@@ -919,7 +914,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pancreas_EC_0 -->
 
     <owl:Class rdf:about="&tnm;Pancreas_EC_0">
         <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
@@ -927,7 +922,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_IA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pancreas_EC_IA -->
 
     <owl:Class rdf:about="&tnm;Pancreas_EC_IA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IA"/>
@@ -935,7 +930,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_IB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pancreas_EC_IB -->
 
     <owl:Class rdf:about="&tnm;Pancreas_EC_IB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IB"/>
@@ -943,7 +938,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_IIA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pancreas_EC_IIA -->
 
     <owl:Class rdf:about="&tnm;Pancreas_EC_IIA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIA"/>
@@ -951,7 +946,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_IIB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pancreas_EC_IIB -->
 
     <owl:Class rdf:about="&tnm;Pancreas_EC_IIB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIB"/>
@@ -959,7 +954,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pancreas_EC_III -->
 
     <owl:Class rdf:about="&tnm;Pancreas_EC_III">
         <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
@@ -968,7 +963,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pancreas_EC_IV -->
 
     <owl:Class rdf:about="&tnm;Pancreas_EC_IV">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
@@ -977,7 +972,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Prostata_EC_I -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Prostata_EC_I -->
 
     <owl:Class rdf:about="&tnm;Prostata_EC_I">
         <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
@@ -985,7 +980,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Prostata_EC_II -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Prostata_EC_II -->
 
     <owl:Class rdf:about="&tnm;Prostata_EC_II">
         <rdfs:subClassOf rdf:resource="&tnm;EC_II"/>
@@ -993,7 +988,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Prostata_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Prostata_EC_III -->
 
     <owl:Class rdf:about="&tnm;Prostata_EC_III">
         <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
@@ -1002,7 +997,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Prostata_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Prostata_EC_IV -->
 
     <owl:Class rdf:about="&tnm;Prostata_EC_IV">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
@@ -1011,7 +1006,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pulmao_EC_0 -->
 
     <owl:Class rdf:about="&tnm;Pulmao_EC_0">
         <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
@@ -1019,7 +1014,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_IA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pulmao_EC_IA -->
 
     <owl:Class rdf:about="&tnm;Pulmao_EC_IA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IA"/>
@@ -1027,7 +1022,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_IB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pulmao_EC_IB -->
 
     <owl:Class rdf:about="&tnm;Pulmao_EC_IB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IB"/>
@@ -1035,7 +1030,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_IIA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pulmao_EC_IIA -->
 
     <owl:Class rdf:about="&tnm;Pulmao_EC_IIA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIA"/>
@@ -1043,7 +1038,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_IIB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pulmao_EC_IIB -->
 
     <owl:Class rdf:about="&tnm;Pulmao_EC_IIB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIB"/>
@@ -1051,7 +1046,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_IIIA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pulmao_EC_IIIA -->
 
     <owl:Class rdf:about="&tnm;Pulmao_EC_IIIA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIIA"/>
@@ -1059,7 +1054,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_IIIB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pulmao_EC_IIIB -->
 
     <owl:Class rdf:about="&tnm;Pulmao_EC_IIIB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIIB"/>
@@ -1067,7 +1062,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pulmao_EC_IV -->
 
     <owl:Class rdf:about="&tnm;Pulmao_EC_IV">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
@@ -1076,7 +1071,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Rim_EC_I -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Rim_EC_I -->
 
     <owl:Class rdf:about="&tnm;Rim_EC_I">
         <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
@@ -1084,7 +1079,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Rim_EC_II -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Rim_EC_II -->
 
     <owl:Class rdf:about="&tnm;Rim_EC_II">
         <rdfs:subClassOf rdf:resource="&tnm;EC_II"/>
@@ -1092,7 +1087,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Rim_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Rim_EC_III -->
 
     <owl:Class rdf:about="&tnm;Rim_EC_III">
         <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
@@ -1101,7 +1096,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Rim_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Rim_EC_IV -->
 
     <owl:Class rdf:about="&tnm;Rim_EC_IV">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
@@ -1110,15 +1105,15 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T -->
 
     <owl:Class rdf:about="&tnm;T">
-        <rdfs:subClassOf rdf:resource="&tnm;TNM_6a_edicao"/>
+        <rdfs:subClassOf rdf:resource="&tnm;TNM_6th_edition"/>
     </owl:Class>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T0 -->
 
     <owl:Class rdf:about="&tnm;T0">
         <rdfs:subClassOf rdf:resource="&tnm;T"/>
@@ -1127,7 +1122,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T1 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1 -->
 
     <owl:Class rdf:about="&tnm;T1">
         <rdfs:subClassOf rdf:resource="&tnm;T"/>
@@ -1136,7 +1131,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T1a -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1a -->
 
     <owl:Class rdf:about="&tnm;T1a">
         <rdfs:subClassOf rdf:resource="&tnm;T1"/>
@@ -1144,7 +1139,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T1b -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1b -->
 
     <owl:Class rdf:about="&tnm;T1b">
         <rdfs:subClassOf rdf:resource="&tnm;T1"/>
@@ -1152,7 +1147,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T1c -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1c -->
 
     <owl:Class rdf:about="&tnm;T1c">
         <rdfs:subClassOf rdf:resource="&tnm;T1"/>
@@ -1160,7 +1155,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T1mic -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1mic -->
 
     <owl:Class rdf:about="&tnm;T1mic">
         <rdfs:subClassOf rdf:resource="&tnm;T1"/>
@@ -1168,7 +1163,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T2 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2 -->
 
     <owl:Class rdf:about="&tnm;T2">
         <rdfs:subClassOf rdf:resource="&tnm;T"/>
@@ -1177,7 +1172,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T2a -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2a -->
 
     <owl:Class rdf:about="&tnm;T2a">
         <rdfs:subClassOf rdf:resource="&tnm;T2"/>
@@ -1185,7 +1180,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T2b -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2b -->
 
     <owl:Class rdf:about="&tnm;T2b">
         <rdfs:subClassOf rdf:resource="&tnm;T2"/>
@@ -1193,7 +1188,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T2c -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2c -->
 
     <owl:Class rdf:about="&tnm;T2c">
         <rdfs:subClassOf rdf:resource="&tnm;T2"/>
@@ -1201,7 +1196,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T3 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3 -->
 
     <owl:Class rdf:about="&tnm;T3">
         <rdfs:subClassOf rdf:resource="&tnm;T"/>
@@ -1210,7 +1205,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T3a -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3a -->
 
     <owl:Class rdf:about="&tnm;T3a">
         <rdfs:subClassOf rdf:resource="&tnm;T3"/>
@@ -1218,7 +1213,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T3b -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3b -->
 
     <owl:Class rdf:about="&tnm;T3b">
         <rdfs:subClassOf rdf:resource="&tnm;T3"/>
@@ -1226,7 +1221,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T3c -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3c -->
 
     <owl:Class rdf:about="&tnm;T3c">
         <rdfs:subClassOf rdf:resource="&tnm;T3"/>
@@ -1234,7 +1229,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T4 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4 -->
 
     <owl:Class rdf:about="&tnm;T4">
         <rdfs:subClassOf rdf:resource="&tnm;T"/>
@@ -1243,7 +1238,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T4a -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4a -->
 
     <owl:Class rdf:about="&tnm;T4a">
         <rdfs:subClassOf rdf:resource="&tnm;T4"/>
@@ -1251,7 +1246,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T4b -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4b -->
 
     <owl:Class rdf:about="&tnm;T4b">
         <rdfs:subClassOf rdf:resource="&tnm;T4"/>
@@ -1259,7 +1254,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T4c -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4c -->
 
     <owl:Class rdf:about="&tnm;T4c">
         <rdfs:subClassOf rdf:resource="&tnm;T4"/>
@@ -1267,7 +1262,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T4d -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4d -->
 
     <owl:Class rdf:about="&tnm;T4d">
         <rdfs:subClassOf rdf:resource="&tnm;T4"/>
@@ -1275,16 +1270,16 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TNM_6a_edicao -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TNM_6th_edition -->
 
-    <owl:Class rdf:about="&tnm;TNM_6a_edicao">
+    <owl:Class rdf:about="&tnm;TNM_6th_edition">
         <skos:prefLabel xml:lang="en">TNM 6th edition</skos:prefLabel>
         <skos:prefLabel xml:lang="pt">TNM 6a edicao</skos:prefLabel>
     </owl:Class>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TX -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TX -->
 
     <owl:Class rdf:about="&tnm;TX">
         <rdfs:subClassOf rdf:resource="&tnm;T"/>
@@ -1293,7 +1288,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Tis -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tis -->
 
     <owl:Class rdf:about="&tnm;Tis">
         <rdfs:subClassOf rdf:resource="&tnm;T"/>
@@ -1302,7 +1297,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TumoresDeMama_EC_0 -->
 
     <owl:Class rdf:about="&tnm;TumoresDeMama_EC_0">
         <rdfs:subClassOf rdf:resource="&tnm;EC_0"/>
@@ -1310,7 +1305,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_I -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TumoresDeMama_EC_I -->
 
     <owl:Class rdf:about="&tnm;TumoresDeMama_EC_I">
         <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
@@ -1318,7 +1313,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_IIA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TumoresDeMama_EC_IIA -->
 
     <owl:Class rdf:about="&tnm;TumoresDeMama_EC_IIA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIA"/>
@@ -1326,7 +1321,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_IIB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TumoresDeMama_EC_IIB -->
 
     <owl:Class rdf:about="&tnm;TumoresDeMama_EC_IIB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIB"/>
@@ -1334,7 +1329,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_IIIA -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TumoresDeMama_EC_IIIA -->
 
     <owl:Class rdf:about="&tnm;TumoresDeMama_EC_IIIA">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIIA"/>
@@ -1342,7 +1337,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_IIIB -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TumoresDeMama_EC_IIIB -->
 
     <owl:Class rdf:about="&tnm;TumoresDeMama_EC_IIIB">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIIB"/>
@@ -1350,7 +1345,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_IIIC -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TumoresDeMama_EC_IIIC -->
 
     <owl:Class rdf:about="&tnm;TumoresDeMama_EC_IIIC">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IIIC"/>
@@ -1358,7 +1353,7 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TumoresDeMama_EC_IV -->
 
     <owl:Class rdf:about="&tnm;TumoresDeMama_EC_IV">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
@@ -1378,271 +1373,271 @@
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#CavidadeNasalESeiosParanasais_EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#CavidadeNasalESeiosParanasais_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#CavidadeNasalESeiosParanasais_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;CavidadeNasalESeiosParanasais_EC_IV"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ColonEReto_EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;ColonEReto_EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#ColonEReto_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ColonEReto_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;ColonEReto_EC_IV"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;EC_IV"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Estomago_EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;Estomago_EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Estomago_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Estomago_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;Estomago_EC_IV"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Faringe_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Faringe_EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;Faringe_EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Faringe_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Faringe_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;Faringe_EC_IV"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulaTireoide_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#GlandulaTireoide_EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;GlandulaTireoide_EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulaTireoide_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#GlandulaTireoide_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;GlandulaTireoide_EC_IV"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulasSalivares_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#GlandulasSalivares_EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;GlandulasSalivares_EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#GlandulasSalivares_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#GlandulasSalivares_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;GlandulasSalivares_EC_IV"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#LabioECavidadeOral_EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;LabioECavidadeOral_EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#LabioECavidadeOral_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#LabioECavidadeOral_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;LabioECavidadeOral_EC_IV"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Laringe_EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;Laringe_EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Laringe_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Laringe_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;Laringe_EC_IV"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M -->
 
     <owl:NamedIndividual rdf:about="&tnm;M"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0 -->
 
     <owl:NamedIndividual rdf:about="&tnm;M0"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#M1 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1 -->
 
     <owl:NamedIndividual rdf:about="&tnm;M1"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N -->
 
     <owl:NamedIndividual rdf:about="&tnm;N"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0 -->
 
     <owl:NamedIndividual rdf:about="&tnm;N0"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N1 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1 -->
 
     <owl:NamedIndividual rdf:about="&tnm;N1"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N2 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2 -->
 
     <owl:NamedIndividual rdf:about="&tnm;N2"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#N3 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N3 -->
 
     <owl:NamedIndividual rdf:about="&tnm;N3"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Ovario_EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;Ovario_EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Ovario_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Ovario_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;Ovario_EC_IV"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pancreas_EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;Pancreas_EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pancreas_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pancreas_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;Pancreas_EC_IV"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Prostata_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Prostata_EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;Prostata_EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Prostata_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Prostata_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;Prostata_EC_IV"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pulmao_EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;Pulmao_EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Pulmao_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Pulmao_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;Pulmao_EC_IV"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Rim_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Rim_EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;Rim_EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#Rim_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Rim_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;Rim_EC_IV"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T -->
 
     <owl:NamedIndividual rdf:about="&tnm;T"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T0 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T0 -->
 
     <owl:NamedIndividual rdf:about="&tnm;T0"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T1 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1 -->
 
     <owl:NamedIndividual rdf:about="&tnm;T1"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T2 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2 -->
 
     <owl:NamedIndividual rdf:about="&tnm;T2"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T3 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3 -->
 
     <owl:NamedIndividual rdf:about="&tnm;T3"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#T4 -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4 -->
 
     <owl:NamedIndividual rdf:about="&tnm;T4"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TNM_6a_edicao -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TNM_6th_edition -->
 
-    <owl:NamedIndividual rdf:about="&tnm;TNM_6a_edicao"/>
+    <owl:NamedIndividual rdf:about="&tnm;TNM_6th_edition"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_III -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TumoresDeMama_EC_III -->
 
     <owl:NamedIndividual rdf:about="&tnm;TumoresDeMama_EC_III"/>
     
 
 
-    <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TumoresDeMama_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TumoresDeMama_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;TumoresDeMama_EC_IV"/>
 </rdf:RDF>

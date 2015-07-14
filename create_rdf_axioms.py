@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 # Generate rdf file (ontology) of the axioms in owl extension
-# Example usage: ./create_rdf_axioms.py> ontologies/axiomas.owl
+# Example usage: ./create_rdf_axioms.py> ontologies/axioms.owl
 
 
 import math
@@ -21,27 +21,27 @@ print '''<?xml version="1.0"?>
 	<!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
     	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    	<!ENTITY recruit "http://cipe.accamargo.org.br/ontologias/recruit.owl#" >
-    	<!ENTITY recruit_cid10 "http://cipe.accamargo.org.br/ontologias/recruit_cid10.owl#" >
-    	<!ENTITY icdo "http://cipe.accamargo.org.br/ontologias/tnm_6e_icdo_topographies.owl#" >
-    	<!ENTITY tnm "http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#" >
+    	<!ENTITY recruit "http://cipe.accamargo.org.br/ontologies/recruit.owl#" >
+    	<!ENTITY recruit_cid10 "http://cipe.accamargo.org.br/ontologies/recruit_cid10.owl#" >
+    	<!ENTITY icdo "http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#" >
+    	<!ENTITY tnm "http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#" >
  	<!ENTITY ncit "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#" >
 ]>
 
-<rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologias/axiomas.owl#"
- 	xml:base="http://cipe.accamargo.org.br/ontologias/axiomas.owl"
+<rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologies/axioms.owl#"
+ 	xml:base="http://cipe.accamargo.org.br/ontologies/axioms.owl"
  	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  	xmlns:terms="http://purl.org/dc/terms/"
  	xmlns:owl="http://www.w3.org/2002/07/owl#"
  	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
  	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:recruit_cid10="http://cipe.accamargo.org.br/ontologias/recruit_cid10.owl#"
-    	xmlns:icdo="http://cipe.accamargo.org.br/ontologias/tnm_6e_icdo_topographies.owl#"
-     	xmlns:recruit="http://cipe.accamargo.org.br/ontologias/recruit.owl#"
+	xmlns:recruit_cid10="http://cipe.accamargo.org.br/ontologies/recruit_cid10.owl#"
+    	xmlns:icdo="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#"
+     	xmlns:recruit="http://cipe.accamargo.org.br/ontologies/recruit.owl#"
      	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
  	xmlns:ncit="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
-     	xmlns:tnm="http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#">
-    	<owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologias/axiomas.owl"/>
+     	xmlns:tnm="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#">
+    	<owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologies/axioms.owl"/>
 
 	
 '''

@@ -43,8 +43,8 @@ print '''<?xml version="1.0"?>
 ]>
 
 
-<rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologias/tnm_annotations#"
- 	xml:base="http://cipe.accamargo.org.br/ontologias/tnm_annotations"
+<rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologies/tnm_annotations#"
+ 	xml:base="http://cipe.accamargo.org.br/ontologies/tnm_annotations"
  	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  	xmlns:terms="http://purl.org/dc/terms/"
  	xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -53,7 +53,7 @@ print '''<?xml version="1.0"?>
  	xmlns:%s="%s#"
  	xmlns:%s="%s#"
  	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-	<owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologias/tnm_annotations"/>
+	<owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_annotations"/>
 	
 ''' % (prefixICD10,uriICD10,prefix,uri,prefixICD10,uriICD10,prefix,uri);
 
@@ -122,7 +122,7 @@ for file in sorted(os.listdir("./map/annotations")):
 
 	   else:
 		print '''	<owl:Class rdf:about="&%s;%s">
-		<rdfs:subClassOf rdf:resource="&tnm;GruposTopograficos"/>
+		<rdfs:subClassOf rdf:resource="&tnm;TopographicsGroups"/>
 	</owl:Class>
 
 	<owl:Class>
@@ -142,7 +142,7 @@ for file in sorted(os.listdir("./map/annotations")):
     	<rdfs:subClassOf rdf:resource="&%s;%s"/>
     	<rdfs:subClassOf rdf:resource="&%s;%s"/>
 	%s
-    	<terms:description xml:lang="%s">%s (pagina %s)</terms:description>
+    	<terms:description xml:lang="%s">%s (pages %s)</terms:description>
 	</owl:Class>
 
 	<owl:Class>
