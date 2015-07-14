@@ -186,7 +186,8 @@
 
     <owl:Class rdf:about="&tnm;EC">
         <rdfs:subClassOf rdf:resource="&tnm;TNM_6a_edicao"/>
-        <skos:prefLabel rdf:datatype="&xsd;string">Estadio Clínico</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Clinical Stage</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Estadio Clínico</skos:prefLabel>
     </owl:Class>
     
 
@@ -1277,7 +1278,8 @@
     <!-- http://cipe.accamargo.org.br/ontologias/tnm_6a_edicao.owl#TNM_6a_edicao -->
 
     <owl:Class rdf:about="&tnm;TNM_6a_edicao">
-        <skos:prefLabel rdf:datatype="&xsd;string">TNM 6a edicao</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">TNM 6th edition</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">TNM 6a edicao</skos:prefLabel>
     </owl:Class>
     
 
