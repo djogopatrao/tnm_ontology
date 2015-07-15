@@ -3110,105 +3110,37 @@
 
 	<!-- Prostata --> 
 
-	<!-- &tnm;C61_M1a -->
+	<!-- &tnm;C61_M1c -->
 
-	<owl:Class rdf:about="&tnm;C61_M1a">
+	<owl:Class rdf:about="&tnm;C61_M1c">
     	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
-    	<rdfs:subClassOf rdf:resource="&tnm;M1a"/>
-    	<terms:description xml:lang="pt"> Metástase em linfonodo(s) não regional(ais) (pagina 190)</terms:description>
+    	<rdfs:subClassOf rdf:resource="&tnm;M1c"/>
+    	<terms:description xml:lang="pt"> Metástase em Outra(s) localização(ões) (pagina 190)</terms:description>
 	
 	</owl:Class>
 
 	<owl:Class>
-    	<rdfs:subClassOf rdf:resource="&tnm;C61_M1a"/>
+    	<rdfs:subClassOf rdf:resource="&tnm;C61_M1c"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C61"/>
-        	<rdf:Description rdf:about="&tnm;M1a"/>
+        	<rdf:Description rdf:about="&tnm;M1c"/>
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;C61_M1b -->
+	<!-- &tnm;C61_T2a -->
 
-	<owl:Class rdf:about="&tnm;C61_M1b">
+	<owl:Class rdf:about="&tnm;C61_T2a">
     	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
-    	<rdfs:subClassOf rdf:resource="&tnm;M1b"/>
-    	<terms:description xml:lang="pt"> Metástase em Osso(s) (pagina 190)</terms:description>
+    	<rdfs:subClassOf rdf:resource="&tnm;T2a"/>
+    	<terms:description xml:lang="pt"> Tumor que envolve uma metade de um dos lobos ou menos (pagina 190)</terms:description>
 	
 	</owl:Class>
 
 	<owl:Class>
-    	<rdfs:subClassOf rdf:resource="&tnm;C61_M1b"/>
+    	<rdfs:subClassOf rdf:resource="&tnm;C61_T2a"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C61"/>
-        	<rdf:Description rdf:about="&tnm;M1b"/>
-    	</owl:intersectionOf>
-	</owl:Class>
-
-	<!-- &tnm;C61_T1b -->
-
-	<owl:Class rdf:about="&tnm;C61_T1b">
-    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
-    	<rdfs:subClassOf rdf:resource="&tnm;T1b"/>
-    	<terms:description xml:lang="pt"> Achado histológico incidental em mais de 5% de tecido ressecado (pagina 190)</terms:description>
-	
-	</owl:Class>
-
-	<owl:Class>
-    	<rdfs:subClassOf rdf:resource="&tnm;C61_T1b"/>
-    	<owl:intersectionOf rdf:parseType="Collection">
-        	<rdf:Description rdf:about="&icd10;C61"/>
-        	<rdf:Description rdf:about="&tnm;T1b"/>
-    	</owl:intersectionOf>
-	</owl:Class>
-
-	<!-- &tnm;C61_T1c -->
-
-	<owl:Class rdf:about="&tnm;C61_T1c">
-    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
-    	<rdfs:subClassOf rdf:resource="&tnm;T1c"/>
-    	<terms:description xml:lang="pt"> Tumor identificado por biópsia por agulha (p. ex., devido a PSA* elevado) (pagina 190)</terms:description>
-	
-	</owl:Class>
-
-	<owl:Class>
-    	<rdfs:subClassOf rdf:resource="&tnm;C61_T1c"/>
-    	<owl:intersectionOf rdf:parseType="Collection">
-        	<rdf:Description rdf:about="&icd10;C61"/>
-        	<rdf:Description rdf:about="&tnm;T1c"/>
-    	</owl:intersectionOf>
-	</owl:Class>
-
-	<!-- &tnm;C61_T1a -->
-
-	<owl:Class rdf:about="&tnm;C61_T1a">
-    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
-    	<rdfs:subClassOf rdf:resource="&tnm;T1a"/>
-    	<terms:description xml:lang="pt"> Achado histológico incidental em 5% ou menos de tecido ressecado (pagina 190)</terms:description>
-	
-	</owl:Class>
-
-	<owl:Class>
-    	<rdfs:subClassOf rdf:resource="&tnm;C61_T1a"/>
-    	<owl:intersectionOf rdf:parseType="Collection">
-        	<rdf:Description rdf:about="&icd10;C61"/>
-        	<rdf:Description rdf:about="&tnm;T1a"/>
-    	</owl:intersectionOf>
-	</owl:Class>
-
-	<!-- &tnm;C61_T3b -->
-
-	<owl:Class rdf:about="&tnm;C61_T3b">
-    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
-    	<rdfs:subClassOf rdf:resource="&tnm;T3b"/>
-    	<terms:description xml:lang="pt"> Tumor que invade vesícula(s) seminal(ais) (pagina 190)</terms:description>
-	
-	</owl:Class>
-
-	<owl:Class>
-    	<rdfs:subClassOf rdf:resource="&tnm;C61_T3b"/>
-    	<owl:intersectionOf rdf:parseType="Collection">
-        	<rdf:Description rdf:about="&icd10;C61"/>
-        	<rdf:Description rdf:about="&tnm;T3b"/>
+        	<rdf:Description rdf:about="&tnm;T2a"/>
     	</owl:intersectionOf>
 	</owl:Class>
 
@@ -3246,6 +3178,125 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
+	<!-- &tnm;C61_M1 -->
+
+	<owl:Class rdf:about="&tnm;C61_M1">
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
+    	<rdfs:subClassOf rdf:resource="&tnm;M1"/>
+    	<terms:description xml:lang="pt"> Metástase à distância (pagina 190)</terms:description>
+	
+	</owl:Class>
+
+	<owl:Class>
+    	<rdfs:subClassOf rdf:resource="&tnm;C61_M1"/>
+    	<owl:intersectionOf rdf:parseType="Collection">
+        	<rdf:Description rdf:about="&icd10;C61"/>
+        	<rdf:Description rdf:about="&tnm;M1"/>
+    	</owl:intersectionOf>
+	</owl:Class>
+
+	<!-- &tnm;C61_M1a -->
+
+	<owl:Class rdf:about="&tnm;C61_M1a">
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
+    	<rdfs:subClassOf rdf:resource="&tnm;M1a"/>
+    	<terms:description xml:lang="pt"> Metástase em linfonodo(s) não regional(ais) (pagina 190)</terms:description>
+	
+	</owl:Class>
+
+	<owl:Class>
+    	<rdfs:subClassOf rdf:resource="&tnm;C61_M1a"/>
+    	<owl:intersectionOf rdf:parseType="Collection">
+        	<rdf:Description rdf:about="&icd10;C61"/>
+        	<rdf:Description rdf:about="&tnm;M1a"/>
+    	</owl:intersectionOf>
+	</owl:Class>
+
+	<!-- &tnm;C61_M1b -->
+
+	<owl:Class rdf:about="&tnm;C61_M1b">
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
+    	<rdfs:subClassOf rdf:resource="&tnm;M1b"/>
+    	<terms:description xml:lang="pt"> Metástase em Osso(s) (pagina 190)</terms:description>
+	
+	</owl:Class>
+
+	<owl:Class>
+    	<rdfs:subClassOf rdf:resource="&tnm;C61_M1b"/>
+    	<owl:intersectionOf rdf:parseType="Collection">
+        	<rdf:Description rdf:about="&icd10;C61"/>
+        	<rdf:Description rdf:about="&tnm;M1b"/>
+    	</owl:intersectionOf>
+	</owl:Class>
+
+	<!-- &tnm;C61_G1 -->
+
+	<owl:Class rdf:about="&tnm;C61_G1">
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
+    	<rdfs:subClassOf rdf:resource="&tnm;G1"/>
+    	<terms:description xml:lang="pt"> Bem diferenciado (anaplasia discreta) (Gleason 2-4) (pagina 190)</terms:description>
+	
+	</owl:Class>
+
+	<owl:Class>
+    	<rdfs:subClassOf rdf:resource="&tnm;C61_G1"/>
+    	<owl:intersectionOf rdf:parseType="Collection">
+        	<rdf:Description rdf:about="&icd10;C61"/>
+        	<rdf:Description rdf:about="&tnm;G1"/>
+    	</owl:intersectionOf>
+	</owl:Class>
+
+	<!-- &tnm;C61_T1a -->
+
+	<owl:Class rdf:about="&tnm;C61_T1a">
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
+    	<rdfs:subClassOf rdf:resource="&tnm;T1a"/>
+    	<terms:description xml:lang="pt"> Achado histológico incidental em 5% ou menos de tecido ressecado (pagina 190)</terms:description>
+	
+	</owl:Class>
+
+	<owl:Class>
+    	<rdfs:subClassOf rdf:resource="&tnm;C61_T1a"/>
+    	<owl:intersectionOf rdf:parseType="Collection">
+        	<rdf:Description rdf:about="&icd10;C61"/>
+        	<rdf:Description rdf:about="&tnm;T1a"/>
+    	</owl:intersectionOf>
+	</owl:Class>
+
+	<!-- &tnm;C61_T1b -->
+
+	<owl:Class rdf:about="&tnm;C61_T1b">
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
+    	<rdfs:subClassOf rdf:resource="&tnm;T1b"/>
+    	<terms:description xml:lang="pt"> Achado histológico incidental em mais de 5% de tecido ressecado (pagina 190)</terms:description>
+	
+	</owl:Class>
+
+	<owl:Class>
+    	<rdfs:subClassOf rdf:resource="&tnm;C61_T1b"/>
+    	<owl:intersectionOf rdf:parseType="Collection">
+        	<rdf:Description rdf:about="&icd10;C61"/>
+        	<rdf:Description rdf:about="&tnm;T1b"/>
+    	</owl:intersectionOf>
+	</owl:Class>
+
+	<!-- &tnm;C61_T1c -->
+
+	<owl:Class rdf:about="&tnm;C61_T1c">
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
+    	<rdfs:subClassOf rdf:resource="&tnm;T1c"/>
+    	<terms:description xml:lang="pt"> Tumor identificado por biópsia por agulha (p. ex., devido a PSA* elevado) (pagina 190)</terms:description>
+	
+	</owl:Class>
+
+	<owl:Class>
+    	<rdfs:subClassOf rdf:resource="&tnm;C61_T1c"/>
+    	<owl:intersectionOf rdf:parseType="Collection">
+        	<rdf:Description rdf:about="&icd10;C61"/>
+        	<rdf:Description rdf:about="&tnm;T1c"/>
+    	</owl:intersectionOf>
+	</owl:Class>
+
 	<!-- &tnm;C61_T2 -->
 
 	<owl:Class rdf:about="&tnm;C61_T2">
@@ -3260,6 +3311,40 @@
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C61"/>
         	<rdf:Description rdf:about="&tnm;T2"/>
+    	</owl:intersectionOf>
+	</owl:Class>
+
+	<!-- &tnm;C61_T4 -->
+
+	<owl:Class rdf:about="&tnm;C61_T4">
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
+    	<rdfs:subClassOf rdf:resource="&tnm;T4"/>
+    	<terms:description xml:lang="pt"> Tumor está fixo ou invade outras estruturas adjacentes, que não as vesículas seminais: colo vesical, esfíncter externo, reto, músculos elevadores do ânus, ou parede pélvica (pagina 190)</terms:description>
+	
+	</owl:Class>
+
+	<owl:Class>
+    	<rdfs:subClassOf rdf:resource="&tnm;C61_T4"/>
+    	<owl:intersectionOf rdf:parseType="Collection">
+        	<rdf:Description rdf:about="&icd10;C61"/>
+        	<rdf:Description rdf:about="&tnm;T4"/>
+    	</owl:intersectionOf>
+	</owl:Class>
+
+	<!-- &tnm;C61_T3b -->
+
+	<owl:Class rdf:about="&tnm;C61_T3b">
+    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
+    	<rdfs:subClassOf rdf:resource="&tnm;T3b"/>
+    	<terms:description xml:lang="pt"> Tumor que invade vesícula(s) seminal(ais) (pagina 190)</terms:description>
+	
+	</owl:Class>
+
+	<owl:Class>
+    	<rdfs:subClassOf rdf:resource="&tnm;C61_T3b"/>
+    	<owl:intersectionOf rdf:parseType="Collection">
+        	<rdf:Description rdf:about="&icd10;C61"/>
+        	<rdf:Description rdf:about="&tnm;T3b"/>
     	</owl:intersectionOf>
 	</owl:Class>
 
@@ -3297,40 +3382,6 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;C61_T4 -->
-
-	<owl:Class rdf:about="&tnm;C61_T4">
-    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
-    	<rdfs:subClassOf rdf:resource="&tnm;T4"/>
-    	<terms:description xml:lang="pt"> Tumor está fixo ou invade outras estruturas adjacentes, que não as vesículas seminais: colo vesical, esfíncter externo, reto, músculos elevadores do ânus, ou parede pélvica (pagina 190)</terms:description>
-	
-	</owl:Class>
-
-	<owl:Class>
-    	<rdfs:subClassOf rdf:resource="&tnm;C61_T4"/>
-    	<owl:intersectionOf rdf:parseType="Collection">
-        	<rdf:Description rdf:about="&icd10;C61"/>
-        	<rdf:Description rdf:about="&tnm;T4"/>
-    	</owl:intersectionOf>
-	</owl:Class>
-
-	<!-- &tnm;C61_T2a -->
-
-	<owl:Class rdf:about="&tnm;C61_T2a">
-    	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
-    	<rdfs:subClassOf rdf:resource="&tnm;T2a"/>
-    	<terms:description xml:lang="pt"> Tumor que envolve uma metade de um dos lobos ou menos (pagina 190)</terms:description>
-	
-	</owl:Class>
-
-	<owl:Class>
-    	<rdfs:subClassOf rdf:resource="&tnm;C61_T2a"/>
-    	<owl:intersectionOf rdf:parseType="Collection">
-        	<rdf:Description rdf:about="&icd10;C61"/>
-        	<rdf:Description rdf:about="&tnm;T2a"/>
-    	</owl:intersectionOf>
-	</owl:Class>
-
 	<!-- &tnm;C61_T3a -->
 
 	<owl:Class rdf:about="&tnm;C61_T3a">
@@ -3348,37 +3399,37 @@
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;C61_M1 -->
+	<!-- &tnm;C61_G2 -->
 
-	<owl:Class rdf:about="&tnm;C61_M1">
+	<owl:Class rdf:about="&tnm;C61_G2">
     	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
-    	<rdfs:subClassOf rdf:resource="&tnm;M1"/>
-    	<terms:description xml:lang="pt"> Metástase à distância (pagina 190)</terms:description>
+    	<rdfs:subClassOf rdf:resource="&tnm;G2"/>
+    	<terms:description xml:lang="pt"> Moderadamente diferenciado (anaplasia moderada) (Gleason 5-6) (pagina 190)</terms:description>
 	
 	</owl:Class>
 
 	<owl:Class>
-    	<rdfs:subClassOf rdf:resource="&tnm;C61_M1"/>
+    	<rdfs:subClassOf rdf:resource="&tnm;C61_G2"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C61"/>
-        	<rdf:Description rdf:about="&tnm;M1"/>
+        	<rdf:Description rdf:about="&tnm;G2"/>
     	</owl:intersectionOf>
 	</owl:Class>
 
-	<!-- &tnm;C61_M1c -->
+	<!-- &tnm;C61_G3-4 -->
 
-	<owl:Class rdf:about="&tnm;C61_M1c">
+	<owl:Class rdf:about="&tnm;C61_G3-4">
     	<rdfs:subClassOf rdf:resource="&icd10;C61"/>
-    	<rdfs:subClassOf rdf:resource="&tnm;M1c"/>
-    	<terms:description xml:lang="pt"> Metástase em Outra(s) localização(ões) (pagina 190)</terms:description>
+    	<rdfs:subClassOf rdf:resource="&tnm;G3-4"/>
+    	<terms:description xml:lang="pt"> Pouco diferenciado/indiferenciado (anaplasia acentuada) (Gleason 7-10) (pagina 190)</terms:description>
 	
 	</owl:Class>
 
 	<owl:Class>
-    	<rdfs:subClassOf rdf:resource="&tnm;C61_M1c"/>
+    	<rdfs:subClassOf rdf:resource="&tnm;C61_G3-4"/>
     	<owl:intersectionOf rdf:parseType="Collection">
         	<rdf:Description rdf:about="&icd10;C61"/>
-        	<rdf:Description rdf:about="&tnm;M1c"/>
+        	<rdf:Description rdf:about="&tnm;G3-4"/>
     	</owl:intersectionOf>
 	</owl:Class>
 

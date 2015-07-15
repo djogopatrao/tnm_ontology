@@ -4637,6 +4637,7 @@
             <rdf:Description rdf:about="&tnm;T1a"/>
             <rdf:Description rdf:about="&tnm;N0"/>
             <rdf:Description rdf:about="&tnm;M0"/>
+            <rdf:Description rdf:about="&tnm;G1"/>
         </owl:intersectionOf>
      </owl:Class>
 <!-- Prostata_EC_II( C61 ) -->
@@ -4647,6 +4648,7 @@
             <rdf:Description rdf:about="&tnm;T1a"/>
             <rdf:Description rdf:about="&tnm;N0"/>
             <rdf:Description rdf:about="&tnm;M0"/>
+            <rdf:Description rdf:about="&tnm;G2-4"/>
         </owl:intersectionOf>
      </owl:Class>
      <owl:Class>
