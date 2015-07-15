@@ -29,10 +29,10 @@
         <owl:versionInfo rdf:datatype="&xsd;string">First version: 2015-07-10</owl:versionInfo>
         <terms:creator rdf:datatype="&xsd;string">Medical Informatics - A.C.Camargo Cancer Center</terms:creator>
         <terms:description rdf:datatype="&xsd;string">TNM is a classification system for assessment of progression stage of malignant tumors. The physician, upon patient examination, classifies a tumor using three variables: T, N and M. Definitions of values for T, N and M depend on the tumor topography (or body part), specified as ICD-O codes. These values are then used to infer the Clinical Stage (CS) and reflect the disease progression, which can be 0 (no malignant tumor), IS (in situ), I, II, III, or IV. The rules for inference are different for each topography and may depend on other factors such as age. With the objective of evaluate missing CS information on A. C. Camargo Cancer Center databases, we developed an open ontology to represent TNM concepts and rules for CS inference. It was designed to be easily expansible and fast to compute.</terms:description>
-	<terms:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
         <owl:imports rdf:resource="http://cipe.accamargo.org.br/ontologies/axioms.owl"/>
         <owl:imports rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl"/>
         <owl:imports rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_annotations"/>
+        <terms:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
     </owl:Ontology>
     
 
@@ -62,6 +62,22 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Age45OrMore -->
+
+    <rdf:Description rdf:about="&tnm;Age45OrMore">
+        <rdfs:subClassOf rdf:resource="&tnm;Patient"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#AgeLessThan45 -->
+
+    <rdf:Description rdf:about="&tnm;AgeLessThan45">
+        <rdfs:subClassOf rdf:resource="&tnm;Patient"/>
+    </rdf:Description>
     
 
 
@@ -191,9 +207,9 @@
     <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC -->
 
     <owl:Class rdf:about="&tnm;EC">
+        <rdfs:subClassOf rdf:resource="&tnm;TNM_6th_edition"/>
         <skos:prefLabel xml:lang="en">Clinical Stage</skos:prefLabel>
         <skos:prefLabel xml:lang="pt">Estadio Clínico</skos:prefLabel>
-        <rdfs:subClassOf rdf:resource="&tnm;TNM_6th_edition"/>
     </owl:Class>
     
 
@@ -517,6 +533,74 @@
     
 
 
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#FollicularCarcinoma -->
+
+    <owl:Class rdf:about="&tnm;FollicularCarcinoma">
+        <rdfs:subClassOf rdf:resource="&tnm;PapillaryOrFollicularCarcinoma"/>
+        <owl:disjointWith rdf:resource="&tnm;PapillaryCarcinoma"/>
+        <skos:prefLabel xml:lang="en">Follicular Carcinoma</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Carcinoma folicular</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G -->
+
+    <owl:Class rdf:about="&tnm;G">
+        <rdfs:subClassOf rdf:resource="&tnm;TNM_6th_edition"/>
+        <skos:prefLabel xml:lang="pt">Graduação Histopatológica</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G1 -->
+
+    <owl:Class rdf:about="&tnm;G1">
+        <rdfs:subClassOf rdf:resource="&tnm;G"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G2 -->
+
+    <owl:Class rdf:about="&tnm;G2">
+        <rdfs:subClassOf rdf:resource="&tnm;G2-4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G2-4 -->
+
+    <owl:Class rdf:about="&tnm;G2-4">
+        <rdfs:subClassOf rdf:resource="&tnm;G"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G3 -->
+
+    <owl:Class rdf:about="&tnm;G3">
+        <rdfs:subClassOf rdf:resource="&tnm;G3-4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G3-4 -->
+
+    <owl:Class rdf:about="&tnm;G3-4">
+        <rdfs:subClassOf rdf:resource="&tnm;G2-4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G4 -->
+
+    <owl:Class rdf:about="&tnm;G4">
+        <rdfs:subClassOf rdf:resource="&tnm;G3-4"/>
+    </owl:Class>
+    
+
+
     <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#GlandulasSalivares_EC_I -->
 
     <owl:Class rdf:about="&tnm;GlandulasSalivares_EC_I">
@@ -742,6 +826,26 @@
     
 
 
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#MedullaryCarcinoma -->
+
+    <owl:Class rdf:about="&tnm;MedullaryCarcinoma">
+        <rdfs:subClassOf rdf:resource="&tnm;Morphologies"/>
+        <owl:disjointWith rdf:resource="&tnm;PapillaryOrFollicularCarcinoma"/>
+        <skos:prefLabel xml:lang="en">Medullary Carcinoma</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Carcinoma medular</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Morphologies -->
+
+    <owl:Class rdf:about="&tnm;Morphologies">
+        <skos:prefLabel xml:lang="en">Morphologies</skos:prefLabel>
+        <terms:description xml:lang="en">Those are morphologies as defined on TNM 6th editions. There is no reference to ICD-O Morphologic codes.</terms:description>
+    </owl:Class>
+    
+
+
     <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N -->
 
     <owl:Class rdf:about="&tnm;N">
@@ -764,6 +868,22 @@
     <owl:Class rdf:about="&tnm;N1">
         <rdfs:subClassOf rdf:resource="&tnm;N"/>
         <skos:prefLabel rdf:datatype="&xsd;string">N1</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1a -->
+
+    <owl:Class rdf:about="&tnm;N1a">
+        <rdfs:subClassOf rdf:resource="&tnm;N1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1b -->
+
+    <owl:Class rdf:about="&tnm;N1b">
+        <rdfs:subClassOf rdf:resource="&tnm;N1"/>
     </owl:Class>
     
 
@@ -970,6 +1090,31 @@
         <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
         <skos:prefLabel rdf:datatype="&xsd;string">Pâncreas EC IV</skos:prefLabel>
     </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PapillaryCarcinoma -->
+
+    <owl:Class rdf:about="&tnm;PapillaryCarcinoma">
+        <rdfs:subClassOf rdf:resource="&tnm;PapillaryOrFollicularCarcinoma"/>
+        <skos:prefLabel xml:lang="en">Papillary Carcinoma</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Carcinoma papilar</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PapillaryOrFollicularCarcinoma -->
+
+    <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma">
+        <rdfs:subClassOf rdf:resource="&tnm;Morphologies"/>
+        <owl:disjointWith rdf:resource="&tnm;UndifferentiatedOrAnaplasicCarcinoma"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Patient -->
+
+    <owl:Class rdf:about="&tnm;Patient"/>
     
 
 
@@ -1289,6 +1434,54 @@
     
 
 
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tireoide_EC_I -->
+
+    <rdf:Description rdf:about="&tnm;Tireoide_EC_I">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_I"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tireoide_EC_II -->
+
+    <rdf:Description rdf:about="&tnm;Tireoide_EC_II">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_II"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tireoide_EC_III -->
+
+    <rdf:Description rdf:about="&tnm;Tireoide_EC_III">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_III"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tireoide_EC_IVa -->
+
+    <rdf:Description rdf:about="&tnm;Tireoide_EC_IVa">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IVA"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tireoide_EC_IVb -->
+
+    <rdf:Description rdf:about="&tnm;Tireoide_EC_IVb">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IVB"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tireoide_EC_IVc -->
+
+    <rdf:Description rdf:about="&tnm;Tireoide_EC_IVc">
+        <rdfs:subClassOf rdf:resource="&tnm;EC_IVC"/>
+    </rdf:Description>
+    
+
+
     <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tis -->
 
     <owl:Class rdf:about="&tnm;Tis">
@@ -1359,6 +1552,16 @@
     <owl:Class rdf:about="&tnm;TumoresDeMama_EC_IV">
         <rdfs:subClassOf rdf:resource="&tnm;EC_IV"/>
         <skos:prefLabel rdf:datatype="&xsd;string">Tumores de Mama EC IV</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#UndifferentiatedOrAnaplasicCarcinoma -->
+
+    <owl:Class rdf:about="&tnm;UndifferentiatedOrAnaplasicCarcinoma">
+        <rdfs:subClassOf rdf:resource="&tnm;Morphologies"/>
+        <skos:prefLabel xml:lang="en">Undifferentiated or anaplasic carcinoma</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Carcinoma indiferenciado ou anaplásico</skos:prefLabel>
     </owl:Class>
     
 
@@ -1641,6 +1844,21 @@
     <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TumoresDeMama_EC_IV -->
 
     <owl:NamedIndividual rdf:about="&tnm;TumoresDeMama_EC_IV"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&tnm;TopographicsGroups">
+        <terms:description xml:lang="en">Those are topographic groups as defined on TNM 6th edition</terms:description>
+        <skos:prefLabel xml:lang="en">Topographic groups</skos:prefLabel>
+    </rdf:Description>
 </rdf:RDF>
 
 

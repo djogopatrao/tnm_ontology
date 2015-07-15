@@ -85,7 +85,8 @@ for file in sorted(os.listdir("./map")):
             <rdf:Description rdf:about="&icdo;%s"/>''' % (ClassName,cid)
                 x = axioma.split(" ");
                 for tnm in x:
-                        print '            <rdf:Description rdf:about="&tnm;%s"/>' % (tnm)
+			if tnm	:
+	                        print '            <rdf:Description rdf:about="&tnm;%s"/>' % (tnm)
 
                 print '''        </owl:intersectionOf>
      </owl:Class>'''

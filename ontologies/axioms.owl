@@ -4934,5 +4934,195 @@
             <rdf:Description rdf:about="&tnm;M1"/>
         </owl:intersectionOf>
      </owl:Class>
+<!-- Tireoide_EC_I( C73 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_I"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;AgeLessThan45"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_I"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <rdf:Description rdf:about="&tnm;T1"/>
+            <rdf:Description rdf:about="&tnm;N0"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+<!-- Tireoide_EC_II( C73 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_II"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;AgeLessThan45"/>
+            <rdf:Description rdf:about="&tnm;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_II"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <rdf:Description rdf:about="&tnm;T2"/>
+            <rdf:Description rdf:about="&tnm;N0"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+<!-- Tireoide_EC_III( C73 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <rdf:Description rdf:about="&tnm;T3"/>
+            <rdf:Description rdf:about="&tnm;N0"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <rdf:Description rdf:about="&tnm;T1"/>
+            <rdf:Description rdf:about="&tnm;N1a"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <rdf:Description rdf:about="&tnm;T2"/>
+            <rdf:Description rdf:about="&tnm;N1a"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_III"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <rdf:Description rdf:about="&tnm;T3"/>
+            <rdf:Description rdf:about="&tnm;N1a"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+<!-- Tireoide_EC_IVa( C73 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_IVa"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <rdf:Description rdf:about="&tnm;T1"/>
+            <rdf:Description rdf:about="&tnm;N1b"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_IVa"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <rdf:Description rdf:about="&tnm;T2"/>
+            <rdf:Description rdf:about="&tnm;N1b"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_IVa"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <rdf:Description rdf:about="&tnm;T3"/>
+            <rdf:Description rdf:about="&tnm;N1b"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_IVa"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <rdf:Description rdf:about="&tnm;T4a"/>
+            <rdf:Description rdf:about="&tnm;N0"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_IVa"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <rdf:Description rdf:about="&tnm;T4a"/>
+            <rdf:Description rdf:about="&tnm;N1"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_IVa"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;UndifferentiatedOrAnaplasicCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;T4a"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+<!-- Tireoide_EC_IVb( C73 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_IVb"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <rdf:Description rdf:about="&tnm;T4b"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_IVb"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;UndifferentiatedOrAnaplasicCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;T4b"/>
+            <rdf:Description rdf:about="&tnm;M0"/>
+        </owl:intersectionOf>
+     </owl:Class>
+<!-- Tireoide_EC_IVc( C73 ) -->
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_IVc"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <rdf:Description rdf:about="&tnm;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
+     <owl:Class>
+        <rdfs:subClassOf rdf:resource="&tnm;Tireoide_EC_IVc"/>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="&icdo;C73"/>
+            <rdf:Description rdf:about="&tnm;UndifferentiatedOrAnaplasicCarcinoma"/>
+            <rdf:Description rdf:about="&tnm;M1"/>
+        </owl:intersectionOf>
+     </owl:Class>
 
 </rdf:RDF>
