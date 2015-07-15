@@ -1,0 +1,7 @@
+######### RUN
+# Example: dir='/home/users/your.user/TNM/map'
+#	   output='tnm_tests'
+#
+# The output file already has the rdf format
+
+php genareteTests.php dir="directory with .map archives" output="name of outuput file"

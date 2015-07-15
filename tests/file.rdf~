@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#"
+     xml:base="http://cipe.accamargo.org.br/ontologies/tnm_test"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test"/>
+    
+
+
+  <!-- ///////////////////////////////////////////////////////////////////////////////////////
+       //
+       // Individuals
+       //
+       ///////////////////////////////////////////////////////////////////////////////////////
+  -->
+
+<!-- Tireoide_EC_IVc --> 
+<!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest1 --> 
+<owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest1">
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C73" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PapillaryOrFollicularCarcinoma" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Age45OrMore" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+</owl:NamedIndividual>
+
+<!-- Tireoide_EC_IVc --> 
+<!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest2 --> 
+<owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest2">
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C73" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#UndifferentiatedOrAnaplasicCarcinoma" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+</owl:NamedIndividual>
+
