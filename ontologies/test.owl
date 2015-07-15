@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#"
+     xml:base="http://cipe.accamargo.org.br/ontologies/tnm_test"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#C50 -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C50">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#CID10"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#CID10 -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#CID10"/>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TNM_6th_edition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ECI -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ECI">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ECII -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ECII">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ECIII -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ECIII">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ECIV -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#ECIV">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TNM_6th_edition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0 -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1 -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TNM_6th_edition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0 -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1 -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2 -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N3 -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N3">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Patient -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TNM_6th_edition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T0 -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T0">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1 -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2 -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3 -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4 -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4">
+        <rdfs:subClassOf rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TNM_6th_edition -->
+
+    <owl:Class rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#TNM_6th_edition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#IndividuoX -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#IndividuoX">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C50"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
