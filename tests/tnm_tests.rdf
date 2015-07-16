@@ -1616,7 +1616,7 @@
 <!-- LabioECavidadeOral_EC_II --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest161 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest161">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />
@@ -1676,7 +1676,7 @@
 <!-- LabioECavidadeOral_EC_I --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest167 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest167">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />
@@ -1736,7 +1736,7 @@
 <!-- LabioECavidadeOral_EC_0 --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest173 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest173">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tis" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />
@@ -1788,7 +1788,7 @@
 <!-- LabioECavidadeOral_EC_IVC --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest179 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest179">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
 </owl:NamedIndividual>
@@ -1876,7 +1876,7 @@
 <!-- LabioECavidadeOral_EC_IVB --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest189 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest189">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4b" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
@@ -1885,7 +1885,7 @@
 <!-- LabioECavidadeOral_EC_IVB --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest190 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest190">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N3" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
@@ -2152,7 +2152,7 @@
 <!-- LabioECavidadeOral_EC_IVA --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest217 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest217">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />
@@ -2162,7 +2162,7 @@
 <!-- LabioECavidadeOral_EC_IVA --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest218 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest218">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />
@@ -2172,7 +2172,7 @@
 <!-- LabioECavidadeOral_EC_IVA --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest219 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest219">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />
@@ -2182,7 +2182,7 @@
 <!-- LabioECavidadeOral_EC_IVA --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest220 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest220">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4a" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />
@@ -2192,7 +2192,7 @@
 <!-- LabioECavidadeOral_EC_IVA --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest221 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest221">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4a" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />
@@ -2202,7 +2202,7 @@
 <!-- LabioECavidadeOral_EC_IVA --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest222 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest222">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4a" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />
@@ -2432,7 +2432,7 @@
 <!-- LabioECavidadeOral_EC_III --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest245 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest245">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />
@@ -2442,7 +2442,7 @@
 <!-- LabioECavidadeOral_EC_III --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest246 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest246">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />
@@ -2452,7 +2452,7 @@
 <!-- LabioECavidadeOral_EC_III --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest247 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest247">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />
@@ -2462,7 +2462,7 @@
 <!-- LabioECavidadeOral_EC_III --> 
 <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest248 --> 
 <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest248">
-	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05" />
+	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C05_0" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1" />
 	<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0" />

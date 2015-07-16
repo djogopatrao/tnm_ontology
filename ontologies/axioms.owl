@@ -2838,7 +2838,7 @@
             <rdf:Description rdf:about="&tnm;M1"/>
         </owl:intersectionOf>
      </owl:Class>
-<!-- LabioECavidadeOral_EC_III( C00 C02 C03 C04 C05 C06 ) -->
+<!-- LabioECavidadeOral_EC_III( C00 C02 C03 C04 C05_0 C06 ) -->
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_III"/>
         <owl:intersectionOf rdf:parseType="Collection">
@@ -2986,7 +2986,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_III"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;T1"/>
             <rdf:Description rdf:about="&tnm;N1"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -2995,7 +2995,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_III"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;T2"/>
             <rdf:Description rdf:about="&tnm;N1"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -3004,7 +3004,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_III"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;T3"/>
             <rdf:Description rdf:about="&tnm;N0"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -3013,7 +3013,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_III"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;T3"/>
             <rdf:Description rdf:about="&tnm;N1"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -3055,7 +3055,7 @@
             <rdf:Description rdf:about="&tnm;M0"/>
         </owl:intersectionOf>
      </owl:Class>
-<!-- LabioECavidadeOral_EC_IVA( C00 C02 C03 C04 C05 C06 ) -->
+<!-- LabioECavidadeOral_EC_IVA( C00 C02 C03 C04 C05_0 C06 ) -->
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_IVA"/>
         <owl:intersectionOf rdf:parseType="Collection">
@@ -3275,7 +3275,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_IVA"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;T1"/>
             <rdf:Description rdf:about="&tnm;N2"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -3284,7 +3284,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_IVA"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;T2"/>
             <rdf:Description rdf:about="&tnm;N2"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -3293,7 +3293,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_IVA"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;T3"/>
             <rdf:Description rdf:about="&tnm;N2"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -3302,7 +3302,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_IVA"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;T4a"/>
             <rdf:Description rdf:about="&tnm;N0"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -3311,7 +3311,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_IVA"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;T4a"/>
             <rdf:Description rdf:about="&tnm;N1"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -3320,7 +3320,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_IVA"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;T4a"/>
             <rdf:Description rdf:about="&tnm;N2"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -3380,7 +3380,7 @@
             <rdf:Description rdf:about="&tnm;M0"/>
         </owl:intersectionOf>
      </owl:Class>
-<!-- LabioECavidadeOral_EC_IVB( C00 C02 C03 C04 C05 C06 ) -->
+<!-- LabioECavidadeOral_EC_IVB( C00 C02 C03 C04 C05_0 C06 ) -->
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_IVB"/>
         <owl:intersectionOf rdf:parseType="Collection">
@@ -3448,7 +3448,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_IVB"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;T4b"/>
             <rdf:Description rdf:about="&tnm;M0"/>
         </owl:intersectionOf>
@@ -3456,7 +3456,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_IVB"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;N3"/>
             <rdf:Description rdf:about="&tnm;M0"/>
         </owl:intersectionOf>
@@ -3477,7 +3477,7 @@
             <rdf:Description rdf:about="&tnm;M0"/>
         </owl:intersectionOf>
      </owl:Class>
-<!-- LabioECavidadeOral_EC_IVC( C00 C02 C03 C04 C05 C06 ) -->
+<!-- LabioECavidadeOral_EC_IVC( C00 C02 C03 C04 C05_0 C06 ) -->
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_IVC"/>
         <owl:intersectionOf rdf:parseType="Collection">
@@ -3509,7 +3509,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_IVC"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;M1"/>
         </owl:intersectionOf>
      </owl:Class>
@@ -3520,7 +3520,7 @@
             <rdf:Description rdf:about="&tnm;M1"/>
         </owl:intersectionOf>
      </owl:Class>
-<!-- LabioECavidadeOral_EC_0( C00 C02 C03 C04 C05 C06 ) -->
+<!-- LabioECavidadeOral_EC_0( C00 C02 C03 C04 C05_0 C06 ) -->
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_0"/>
         <owl:intersectionOf rdf:parseType="Collection">
@@ -3560,7 +3560,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_0"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;Tis"/>
             <rdf:Description rdf:about="&tnm;N0"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -3575,7 +3575,7 @@
             <rdf:Description rdf:about="&tnm;M0"/>
         </owl:intersectionOf>
      </owl:Class>
-<!-- LabioECavidadeOral_EC_I( C00 C02 C03 C04 C05 C06 ) -->
+<!-- LabioECavidadeOral_EC_I( C00 C02 C03 C04 C05_0 C06 ) -->
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_I"/>
         <owl:intersectionOf rdf:parseType="Collection">
@@ -3615,7 +3615,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_I"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;T1"/>
             <rdf:Description rdf:about="&tnm;N0"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -3630,7 +3630,7 @@
             <rdf:Description rdf:about="&tnm;M0"/>
         </owl:intersectionOf>
      </owl:Class>
-<!-- LabioECavidadeOral_EC_II( C00 C02 C03 C04 C05 C06 ) -->
+<!-- LabioECavidadeOral_EC_II( C00 C02 C03 C04 C05_0 C06 ) -->
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_II"/>
         <owl:intersectionOf rdf:parseType="Collection">
@@ -3670,7 +3670,7 @@
      <owl:Class>
         <rdfs:subClassOf rdf:resource="&tnm;LabioECavidadeOral_EC_II"/>
         <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="&icdo;C05"/>
+            <rdf:Description rdf:about="&icdo;C05_0"/>
             <rdf:Description rdf:about="&tnm;T2"/>
             <rdf:Description rdf:about="&tnm;N0"/>
             <rdf:Description rdf:about="&tnm;M0"/>
