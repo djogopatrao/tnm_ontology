@@ -216,19 +216,575 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+<!-- TumoresDeMama_EC_0-->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatienteTest00100 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest00100">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C50"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tis"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- TumoresDeMama_EC_I -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatienteTest00101 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest00101">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C50"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+   
+<!-- TumoresDeMama_EC_IIA -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatienteTest0010210 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest0010210">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C50"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1mic"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- TumoresDeMama_EC_IIB -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatienteTest0010220 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest0010220">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C50"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- TumoresDeMama_EC_IIIA -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatienteTest0010310 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest0010310">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C50"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+<!-- TumoresDeMama_EC_IIIB -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatienteTest0010320 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest0010320">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C50"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- TumoresDeMama_EC_IIIC -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatienteTest0010330 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest0010330">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C50"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N3"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
 
 
-    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#IndividuoX -->
+<!-- TumoresDeMama_EC_IV -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatienteTest00104 -->
 
-    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#IndividuoX">
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest00104">
         <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C50"/>
         <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1"/>
         <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
     </owl:NamedIndividual>
+
+
+<!-- Tireoide_EC_I -->
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatienteTest00200 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest00200">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C73"/>
+       <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PapillaryOrFollicularCarcinoma"/>
+       <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#AgeLessThan45"/>
+       <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+
+
+<!-- Tireoide_EC_II -->
+   <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest00201 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest00201">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C73"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PapillaryOrFollicularCarcinoma"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#AgeLessThan45"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Tireoide_EC_III -->
+   <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest0020200 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest0020200">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C73"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PapillaryOrFollicularCarcinoma"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Age45OrMore"/>
+       <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3"/>
+       <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1a"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Tireoide_EC_IVa -->
+   <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest0020310 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest0020310">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C73"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#UndifferentiatedOrAnaplasicCarcinoma"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4a"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Tireoide_EC_IVb -->
+   <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest0020320 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest0020320">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C73"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#UndifferentiatedOrAnaplasicCarcinoma"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Age45OrMore"/>
+       <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4b"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+
+<!-- Tireoide_EC_IVc -->
+   <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatienteTest003 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest003">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C73"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#UndifferentiatedOrAnaplasicCarcinoma"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- CavidadeNasalESeiosParanasais_EC_0 -->
+<!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest004 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest004">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C30_0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tis"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- ColonEReto_EC_0  -->
+<!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest005010 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest005010">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C18"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tis"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- ColonEReto_EC_I  -->
+<!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest005020 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest005020">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C18"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Estomago_EC_IIIA  -->
+<!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest006 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest006">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C16"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2a"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+
+<!-- FaringeNasofaringe_EC_III -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest007 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest007">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C11"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2b"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- FaringeOrofaringeHipofaringe_EC_IVB -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest008 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest008">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C13"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N3"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- GlandulasSalivares_EC_IVA -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest009 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest009">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C07"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4a"/>
+         <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N2"/>
+       <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+
+<!-- Rim_EC_IV -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest20 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest20">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C64"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+
+<!-- Rim_EC_III -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest21 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest21">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C64"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Rim_EC_II -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest22 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest22">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C64"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Rim_EC_I -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest23 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest23">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C64"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pulmao_EC_IV -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest24 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest24">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C34"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pulmao_EC_IIIB-->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest25 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest25">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C34"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N3"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pulmao_EC_IIIA -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest26 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest26">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C34"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pulmao_EC_IIB -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest27 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest27">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C34"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pulmao_EC_IIA -->
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest28 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest28">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C34"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pulmao_EC_IB -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest29 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest29">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C34"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pulmao_EC_IA -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest30 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest30">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C34"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pulmao_EC_0 -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest31 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest31">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C34"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tis"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Prostata_EC_IV -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest32 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest32">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C61"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Prostata_EC_III -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest33 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest33">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C61"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Prostata_EC_II -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest34 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest34">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C61"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1b"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Prostata_EC_I -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest35 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest35">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C61"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1a"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+         <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pancreas_EC_IV -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest36 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest36">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C25"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pancreas_EC_III -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest37 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest37">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C25"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T4"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pancreas_EC_IIB -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest38 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest38">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C25"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pancreas_EC_IIA -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest39 -->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest39">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C25"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pancreas_EC_IB -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest40-->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest40">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C25"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pancreas_EC_IA -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest401-->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest401">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C25"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Pancreas_EC_0 -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest41-->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest41">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C25"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tis"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Ovario_EC_IV -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest42-->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest42">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C56"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M1"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Ovario_EC_IIIC -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest43-->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest43">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C56"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3c"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Ovario_EC_IIIB -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest44-->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest44">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C56"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3b"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Ovario_EC_IIIA -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest45-->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest45">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C56"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T3a"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Ovario_EC_IIC -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest46-->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest46">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C56"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2c"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+<!-- Ovario_EC_IIB -->
+
+ <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest47-->
+
+    <owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest47">
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#C56"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T2b"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#N0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#M0"/>
+        <rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>
+    </owl:NamedIndividual>
+
+
 </rdf:RDF>
-
-
 
 <!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 
