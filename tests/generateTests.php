@@ -97,9 +97,10 @@ foreach($files as $file) {
 					}
 
 					$footer = "\t" . '<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>' . "\n";
+					$expectedCs = "\t" . '<rdfs:comment rdf:datatype="&xsd;string">Expected CS: ' . $description . '</rdfs:comment>' . "\n";
 					$owlFooter = '</owl:NamedIndividual>' . "\n\n";
 
-					$rdf = $comment . $owlHeder . $topography . $categories . $footer . $owlFooter;
+					$rdf = $comment . $owlHeder . $topography . $categories . $footer . $expectedCs . $owlFooter;
 					fwrite($outFile, utf8_encode($rdf));
 	
 					$i++;
