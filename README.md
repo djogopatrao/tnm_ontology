@@ -1,7 +1,7 @@
 ### Creating the axioms.
 -----------------------
 
-    $ ./create_rdf_axioms.py> ontologies/axioms.owl
+    $ ./create_rdf_axioms.py > ontologies/axioms.owl
 
 ### Creating the annotations.
 ---------------------------
