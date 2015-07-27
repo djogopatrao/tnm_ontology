@@ -9,7 +9,7 @@ $files = scandir($dir, 1);
 
 // Abro o arquivo rdf de saída, cujo nome foi definido pela linha de comando
 // Opens the ouputFile, whose name was defined by the command line
-$outFile = fopen($_GET['output'] . '.rdf',"a");
+$outFile = fopen($_GET['output'] . '.rdf',"w");
 
 // Header do arquivo rdf
 // Header of the rdf file
