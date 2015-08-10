@@ -57,6 +57,26 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#hasTumor -->
+
+    <owl:ObjectProperty rdf:about="&tnm;hasTumor">
+        <rdfs:domain rdf:resource="&tnm;Patient"/>
+        <rdfs:range rdf:resource="&tnm;Tumor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -1488,6 +1508,12 @@
         <rdfs:subClassOf rdf:resource="&tnm;T"/>
         <skos:prefLabel rdf:datatype="&xsd;string">Tis</skos:prefLabel>
     </owl:Class>
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Tumor -->
+
+    <owl:Class rdf:about="&tnm;Tumor"/>
     
 
 
