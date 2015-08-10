@@ -96,7 +96,7 @@ foreach($files as $file) {
 						$categories .= "\t" . '<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#'.  $category . '" />'. "\n";
 					}
 
-					$footer = "\t" . '<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#Patient"/>' . "\n";
+					$footer = "\t" . '<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Patient"/>' . "\n";
 					$expectedCs = "\t" . '<rdfs:comment rdf:datatype="&xsd;string">Expected CS: ' . $description . '</rdfs:comment>' . "\n";
 					$owlFooter = '</owl:NamedIndividual>' . "\n\n";
 
