@@ -6,26 +6,26 @@ $config = array(
 //MAP_TNM_G
 //MAP_G1
                 array(
-                        'sql' => 'select RGH_MV from bancos_clinicos.RHC where G=1',
-                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest{RGH_MV}> a <http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G1 .
+                        'sql' => "select ID from bancos_clinicos.RHC where G='1'",
+                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest{ID}> a <http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G1> .
 '
                 ),
 //MAP_G2
                 array(
-                        'sql' => 'select RGH_MV from bancos_clinicos.RHC where G=2',
-                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest{RGH_MV}> a <http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G2 .
+                        'sql' => "select ID from bancos_clinicos.RHC where G='2'",
+                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest{ID}> a <http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G2> .
 '
                 ),
 //MAP_G3
                 array(
-                        'sql' => 'select RGH_MV from bancos_clinicos.RHC where G=3',
-                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest{RGH_MV}> a <http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G3 .
+                        'sql' => "select ID from bancos_clinicos.RHC where G='3'",
+                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest{ID}> a <http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G3> .
 '
                 ),
 //MAP_G4
                 array(
-                        'sql' => 'select RGH_MV from bancos_clinicos.RHC where G=4',
-                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest{RGH_MV}> a <http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G4 .
+                        'sql' => "select ID from bancos_clinicos.RHC where G='4'",
+                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest{ID}> a <http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#G4> .
 '
                 ),
         )

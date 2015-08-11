@@ -21,17 +21,35 @@ $rdfHeader = '<?xml version="1.0"?>
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY tnm_test "http://cipe.accamargo.org.br/ontologies/tnm_test#" >
+    <!ENTITY tnm "http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#" > 
 ]>
 
 
 <rdf:RDF xmlns="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#"
      xml:base="http://cipe.accamargo.org.br/ontologies/tnm_test"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:tnm_test="http://cipe.accamargo.org.br/ontologies/tnm_test#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:tnm="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#" >
     <owl:Ontology rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test"/>
     
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cipe.accamargo.org.br/ontologies/tnm_test#hasTumor -->
+
+    <owl:ObjectProperty rdf:about="&tnm_test;hasTumor"/>
 
 
   <!-- ///////////////////////////////////////////////////////////////////////////////////////
@@ -86,17 +104,24 @@ foreach($files as $file) {
 					$commentPatient .=  "<!-- http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#PatientTest" . $i . " --> \n";
 					$commentTumor =  "<!-- http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest". $i . '_Tumor"' . " --> \n";
 
-					$owlHeder = '<owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest'. $i . '">' . "\n";
-					$owlHederTumor = '<owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest'. $i . '_Tumor">' . "\n";
+					$owlHeader = '<owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest'. $i . '">' . "\n";
+					$owlHeaderTumor = '<owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest'. $i . '_Tumor">' . "\n";
 					$topography = "\t" . '<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#'. $topo . '" />'. "\n";
-					$hasTumor = "\t" . '<hasTumor rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest'. $i . '_Tumor">' . "\n";
+					$hasTumor = "\t" . '<tnm_test:hasTumor rdf:resource="&tnm_test;PatientTest'. $i . '_Tumor"/>' . "\n";
 					$data = preg_split('/\s+/', $tnm);
-					$categories = null;
+					$categoriesTumor = null;
+					$categoriesPatient = null;
 
 					// Para cada categoria como T, N, M ou, por exemplo, Age45OrMore escrevo uma linha no teste
 					// Writes a line in the test for each category, such as T, N, M or, for example, Age45OrMore
 					foreach($data as $category) {
-						$categories .= "\t" . '<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#'.  $category . '" />'. "\n";
+						if (strpos($category,'Age') !== false) {
+						   $categoriesPatient .= "\t" . '<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#'.  $category . '" />'. "\n";
+						}else
+						{
+						$categoriesTumor .= "\t" . '<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#'.  $category . '" />'. "\n";
+						}
+						
 					}
 
 					$footer = "\t" . '<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#Patient"/>' . "\n";
@@ -104,10 +129,10 @@ foreach($files as $file) {
 					$expectedCs = "\t" . '<rdfs:comment rdf:datatype="&xsd;string">Expected CS: ' . $description . '</rdfs:comment>' . "\n";
 					$owlFooter = '</owl:NamedIndividual>' . "\n\n";
 
-					$rdfPatient = $commentPatient . $owlHeder . $hasTumor . $footer . $expectedCs . $owlFooter;
+					$rdfPatient = $commentPatient . $owlHeader . $footer . $expectedCs . $categoriesPatient . $hasTumor . $owlFooter;
 					fwrite($outFile, utf8_encode($rdfPatient));
 	
-					$rdfTumor = $commentTumor . $owlHederTumor . $topography . $categories . $footerTumor . $owlFooter;
+					$rdfTumor = $commentTumor . $owlHeaderTumor . $topography . $categoriesTumor . $footerTumor . $owlFooter;
 					fwrite($outFile, utf8_encode($rdfTumor));
 
 					$i++;
