@@ -4940,7 +4940,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;AgeLessThan45"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;AgeLessThan45"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;M0"/>
         </owl:intersectionOf>
      </owl:Class>
@@ -4949,7 +4956,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;Age45OrMore"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;T1"/>
             <rdf:Description rdf:about="&tnm;N0"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -4961,7 +4975,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;AgeLessThan45"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;AgeLessThan45"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;M1"/>
         </owl:intersectionOf>
      </owl:Class>
@@ -4970,7 +4991,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;Age45OrMore"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;T2"/>
             <rdf:Description rdf:about="&tnm;N0"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -4982,7 +5010,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;Age45OrMore"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;T3"/>
             <rdf:Description rdf:about="&tnm;N0"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -4993,7 +5028,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;Age45OrMore"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;T1"/>
             <rdf:Description rdf:about="&tnm;N1a"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -5004,7 +5046,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;Age45OrMore"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;T2"/>
             <rdf:Description rdf:about="&tnm;N1a"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -5015,7 +5064,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;Age45OrMore"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;T3"/>
             <rdf:Description rdf:about="&tnm;N1a"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -5027,7 +5083,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;Age45OrMore"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;T1"/>
             <rdf:Description rdf:about="&tnm;N1b"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -5038,7 +5101,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;Age45OrMore"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;T2"/>
             <rdf:Description rdf:about="&tnm;N1b"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -5049,7 +5119,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;Age45OrMore"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;T3"/>
             <rdf:Description rdf:about="&tnm;N1b"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -5060,7 +5137,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;Age45OrMore"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;T4a"/>
             <rdf:Description rdf:about="&tnm;N0"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -5071,7 +5155,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;Age45OrMore"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;T4a"/>
             <rdf:Description rdf:about="&tnm;N1"/>
             <rdf:Description rdf:about="&tnm;M0"/>
@@ -5092,7 +5183,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;Age45OrMore"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;T4b"/>
             <rdf:Description rdf:about="&tnm;M0"/>
         </owl:intersectionOf>
@@ -5112,7 +5210,14 @@
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="&icdo;C73"/>
             <rdf:Description rdf:about="&tnm;PapillaryOrFollicularCarcinoma"/>
-            <rdf:Description rdf:about="&tnm;Age45OrMore"/>
+            <owl:Restriction>
+                <owl:onProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>
+                    </rdf:Description>
+                </owl:onProperty>
+                <owl:someValuesFrom rdf:resource="&tnm;Age45OrMore"/>
+            </owl:Restriction>
             <rdf:Description rdf:about="&tnm;M1"/>
         </owl:intersectionOf>
      </owl:Class>

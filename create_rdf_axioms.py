@@ -86,7 +86,18 @@ for file in sorted(os.listdir("./map")):
                 x = axioma.split(" ");
                 for tnm in x:
 			if tnm	:
-	                        print '            <rdf:Description rdf:about="&tnm;%s"/>' % (tnm)
+				m = re.compile('^patient->(.*)$').match(tnm)
+				if m:
+		                        print '            <owl:Restriction>'
+		                        print '                <owl:onProperty>'
+		                        print '                    <rdf:Description>'
+		                        print '                        <owl:inverseOf rdf:resource="&tnm;hasTumor"/>'
+		                        print '                    </rdf:Description>'
+		                        print '                </owl:onProperty>'
+		                        print '                <owl:someValuesFrom rdf:resource="&tnm;%s"/>' % (m.group(1))
+		                        print '            </owl:Restriction>'
+				else:
+		                        print '            <rdf:Description rdf:about="&tnm;%s"/>' % (tnm)
 
                 print '''        </owl:intersectionOf>
      </owl:Class>'''
