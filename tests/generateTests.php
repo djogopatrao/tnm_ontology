@@ -85,17 +85,24 @@ foreach($files as $file) {
 		// Descrição do arquivo .map, exemplo: Tireoide_EC_IVC
 		// Description of the .map file, example: Tireoide_EC_IVC
 		$description = $line[0];
+		unset($line[0]);
 		
 		// Topografias no arquivo
 		// Topographies in the file
-		$topos = preg_split('/\s+/', $line[1]);
+		
+		if (strpos($line[1],'ncit') !== false) {	
+			$topos = preg_split('/\s+/', $line[2]);
+			unset($line[1]);
+			unset($line[2]);
+		} else {
+			$topos = preg_split('/\s+/', $line[1]);
+			unset($line[1]);
+		}
+		
 
 		// Para cada topografia escrevo um teste
 		// Writes a test for each topography
 		foreach($topos as $topo) {
-			unset($line[0]);
-			unset($line[1]);
-
 			// Escreve um teste para cada combinação do TNM
 			// Writes a test for each combination of TNM
 			foreach($line as $tnm) {
@@ -107,7 +114,7 @@ foreach($files as $file) {
 					$owlHeader = '<owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest'. $i . '">' . "\n";
 					$owlHeaderTumor = '<owl:NamedIndividual rdf:about="http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest'. $i . '_Tumor">' . "\n";
 					$topography = "\t" . '<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6e_icdo_topographies.owl#'. $topo . '" />'. "\n";
-					$hasTumor = "\t" . '<tnm_test:hasTumor rdf:resource="&tnm_test;PatientTest'. $i . '_Tumor"/>' . "\n";
+					$hasTumor = "\t" . '<tnm:hasTumor rdf:resource="&tnm_test;PatientTest'. $i . '_Tumor"/>' . "\n";
 					$data = preg_split('/\s+/', $tnm);
 					$categoriesTumor = null;
 					$categoriesPatient = null;
