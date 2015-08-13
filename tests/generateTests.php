@@ -44,8 +44,6 @@ $rdfHeader = '<?xml version="1.0"?>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
 
     <!-- http://cipe.accamargo.org.br/ontologies/tnm_test#hasTumor -->
 
@@ -122,11 +120,11 @@ foreach($files as $file) {
 					// Para cada categoria como T, N, M ou, por exemplo, Age45OrMore escrevo uma linha no teste
 					// Writes a line in the test for each category, such as T, N, M or, for example, Age45OrMore
 					foreach($data as $category) {
-						if (strpos($category,'Age') !== false) {
-						   $categoriesPatient .= "\t" . '<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#'.  $category . '" />'. "\n";
-						}else
-						{
-						$categoriesTumor .= "\t" . '<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#'.  $category . '" />'. "\n";
+						if (strpos($category,'patient->') !== false) {
+							$category = str_replace('patient->','',$category);
+							$categoriesPatient .= "\t" . '<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#'.  $category . '" />'. "\n";
+						} else {
+							$categoriesTumor .= "\t" . '<rdf:type rdf:resource="http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#'.  $category . '" />'. "\n";
 						}
 						
 					}
