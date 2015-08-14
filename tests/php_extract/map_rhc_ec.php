@@ -22,15 +22,14 @@ $config = array(
 //MAP_EC_IVB
 //MAP_EC_IVC
                 array(
-                        'sql' => "SELECT ID, if(char_length(TOPO)=4, concat(substring( TOPO,1,3),'_',substring(TOPO,4,4)),substring_index( TOPO,'','1')) as cd_cid, DSCTOPO, ec  FROM bancos_clinicos.RHC",
-                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest{ID}> <http://www.w3.org/2000/01/rdf-schema#comment> "Expected CS: {cd_cid}={DSCTOPO} - EC_{ec}"^^xsd:string .
+                        'sql' => "SELECT RHC, if(char_length(TOPO)=4, concat(substring( TOPO,1,3),'_',substring(TOPO,4,4)),substring_index( TOPO,'','1')) as cd_cid, DSCTOPO, ec  FROM bancos_clinicos.RHC",
+                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest{RHC}> <http://www.w3.org/2000/01/rdf-schema#comment> "Expected CS: {cd_cid}={DSCTOPO} - EC_{ec}"^^xsd:string .
 '
                 ),
                 array(
-                        'sql' => "SELECT ID, ec  FROM bancos_clinicos.RHC",
-                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest{ID}> a <http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_{ec}> .
+                        'sql' => "SELECT RHC, ec  FROM bancos_clinicos.RHC",
+                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest{RHC}> a <http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#EC_{ec}> .
 '
                 ),
-
         )
 );
