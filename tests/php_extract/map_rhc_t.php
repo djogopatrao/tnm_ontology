@@ -3,11 +3,15 @@
 $config = array(
         'mysqli' => array('192.18.0.146','infomed','lbc02bio','bancos_clinicos'),
         'maps'=>array(
+                array(
+                        'sql' => "select ID,RHC from bancos_clinicos.RHC",
+                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest{RHC}> :hasTumor <http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTestTumor{ID}> .
+'
 //MAP_TNM
 //MAP_T""
                 array(
                         'sql' => "select ID from bancos_clinicos.RHC where T='0'",
-                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTest{ID}> a <http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T0> .
+                        'rdf' => '<http://cipe.accamargo.org.br/ontologies/tnm_test#PatientTestTumor{ID}> a <http://cipe.accamargo.org.br/ontologies/tnm_6th_edition.owl#T0> .
 '
                 ),
 //MAP_T1 
